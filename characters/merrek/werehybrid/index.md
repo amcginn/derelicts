@@ -5,7 +5,11 @@ player: Jordan
 character: true
 ---
 
-- [Merrek](../)
+<div class="character-links subcharacter">
+  <ul>
+    <li><a href="../">Merrek</a></li>
+  </ul>
+</div>
 
 {% assign character = site.data.merrekhybrid %}
 {% include character.html %}

@@ -10,14 +10,32 @@
     box-sizing: border-box;
 }
 
-#main_content > ul, #main_content > ul ul, #main_content > ul li {
+.character-links * {
   list-style: none;
+  font-weight: bold;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.character-links li:not(:has(> a))::before {
+  content: ' ';
+  margin-right: .5em;
+}
+
+.character-links li:has(> a)::before {
+  content: '\21B3';
+  margin-right: .5em;
+}
+
+.character-links.subcharacter li:has(> a):not(.subcharacter-links)::before {
+  content: '\21B4';
+  display: inline-block;
+  margin-right: .5em;
+  transform: rotate(180deg);
 }
 
 .column {
@@ -76,12 +94,17 @@
 
 .character .hp {
   font-size: large;
+  font-weight: bold;
 }
 
 .hp::before {
   content: '\2764:';
   font-family: "Twemoji Mozilla", Apple Color Emoji, "Segoe UI Emoji", "Noto Color Emoji", "EmojiOne Color";
   margin-right: .25em;
+}
+
+.hp.over-health {
+  color: green;
 }
 
 .character .photo {
@@ -101,4 +124,4 @@ img {
 .icon-dragon-orb { background-image: url(../img/dragon-orb.png);}
 .icon-bear-head { background-image: url(../img/bear-head.png);}
 .icon-knapsack { background-image: url(../img/knapsack.png);}
-
+.icon-vampire-time { background-image: url(../img/vampire-time.png);}

@@ -5,9 +5,13 @@ player: Jordan
 character: true
 ---
 
-- [Fenrir](./fenrir)
-- [Werehybrid](./werehybrid)
-- [Wereowl](./wereowl)
+<div class="character-links">
+  <ul>
+    <li><a href="./fenrir">Fenrir</a></li>
+    <li><a href="./werehybrid">Werehybrid</a></li>
+    <li><a href="./wereowl">Wereowl</a></li>
+  </ul>
+</div>
 
 {% assign character = site.data.myra %}
 {% include character.html %}

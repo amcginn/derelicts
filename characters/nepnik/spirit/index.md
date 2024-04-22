@@ -5,7 +5,11 @@ player: David
 character: true
 ---
 
-- [Nepnik](../)
+<div class="character-links subcharacter">
+  <ul>
+    <li><a href="../">Nepnik</a></li>
+  </ul>
+</div>
 
 {% assign character = site.data.nepnikspirit %}
 {% include character.html %}

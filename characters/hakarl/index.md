@@ -5,7 +5,11 @@ player: Stephen
 character: true
 ---
 
-- [Kashi](./kashi)
+<div class="character-links">
+  <ul>
+    <li><a href="./kashi">Kashi</a></li>
+  </ul>
+</div>
 
 {% assign character = site.data.hakarlyakovna %}
 {% include character.html %}

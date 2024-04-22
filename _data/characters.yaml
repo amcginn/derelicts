@@ -1,7 +1,7 @@
 - name: Mogli
   path: mogli/
   icon: minotaur
-- name: Nep Nik
+- name: Nepnik
   path: nepnik/
   icon: squirrel
 - name: Myra
@@ -16,6 +16,9 @@
 - name: Merrek
   path: merrek/
   icon: bear-head
+- name: Elrick
+  path: elrick/
+  icon: vampire-time
 - name: '???'
   path: bag/
   icon: knapsack

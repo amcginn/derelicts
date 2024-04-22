@@ -5,7 +5,11 @@ player: Jacob
 character: true
 ---
 
-- [Mogli](../)
+<div class="character-links subcharacter">
+  <ul>
+    <li><a href="../">Mogli</a></li>
+  </ul>
+</div>
 
 {% assign character = site.data.corrosis %}
 {% include character.html %}

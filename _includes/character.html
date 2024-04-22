@@ -10,7 +10,7 @@
           </div>
           <div class="sub-title">
             <span class="player">{{ page.player }}</span>
-            <span class="hp">{{ attributes.hp.value }}/{{ attributes.hp.baseMax }}</span>
+            <span class="hp {% if attributes.hp.value > attributes.hp.baseMax %}over-health{% endif %}">{{ attributes.hp.value }}/{{ attributes.hp.baseMax }}</span>
           </div>
         </div>
         <div class="photo">

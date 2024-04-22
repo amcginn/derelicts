@@ -1,3 +1,73 @@
 ul.page-links, ul.page-links li, ul.page-links ul {
   list-style: none;
 }
+
+.page-links {
+  display: flex;
+  flex-direction: column;
+}
+
+section ul, section li {
+  list-style: none;
+  padding: initial;
+}
+
+article {
+  background-color: white;
+  border: dimgrey solid 1px;
+  border-radius: 4px;
+  box-shadow: darkgrey 1px 2px 2px;
+  transition: all .2s ease-in-out;
+  width: fit-content;
+  margin: .5rem 1rem;
+}
+
+article:hover {
+  box-shadow: rgba(0, 0, 205, .5) 1px -1px 2px,
+              rgba(0, 0, 205, .5) 1px 1px 2px,
+              rgba(0, 0, 205, .5) -1px -1px 2px,
+              rgba(0, 0, 205, .5) -1px 1px 2px;
+  transform: scale(1.05); 
+}
+
+article a {
+  display: flex;
+  min-width: 15rem;
+  padding: .5rem 1rem;
+  height: fit-content;
+}
+
+article .icon {
+  float: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: mediumblue;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 4px;
+  width: 2.5em;
+  height: 2.5em;
+  align-self: center;
+  box-shadow: rgba(0, 0, 205, .5) -1px 1px 1px, 
+              rgba(0, 0, 205, .5) -1px -1px 1px,
+              rgba(0, 0, 205, .5) 1px 1px 1px,
+              rgba(0, 0, 205, .5) 1px -1px 1px;
+}
+
+.link {
+  align-items: center;
+}
+
+.title {
+  align-self: center;
+  color: darkblue;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0.5rem auto .5rem .5rem;
+  text-shadow: .25px .25px 1px #896639;
+}
+
+.icon-players { background-image: url(../img/tabletop-players.png);}
+.icon-notebook { background-image: url(../img/notebook.png);}
+.icon-mute { background-image: url(../img/mute.png);}
+.icon-calendar { background-image: url(../img/calendar.png);}
