@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/characters.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+
+{% seo %}
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        </header>
+        {% include breadcrumbs.html %}
+
+        <div class="characters-row">
+          <div class="characters-list">
+            <ul class="characters">
+            {% for character in site.data.characters %}
+              <li>
+                  <a href="{{ site.baseurl }}/characters/{{ character.path }}">
+                    <div class="character-info">
+                      <div class="character-icon icon-{{ character.icon }}"></div>
+                      <h3 class="character-name">{{ character.name }}</h3>
+                    </div>
+                  </a>
+              </li>
+            {% endfor %}
+            </ul>
+          </div>
+          <div class="characters-description">
+            <h2>GebKasarty</h2>
+            <p>The World of GebKasarty has been turned upside down. Can the Derelicts stand against the nightmares continuously entering their universe through the world portal?</p>
+          </div>
+        </div>
+
+        <footer>
+        {% if site.github.is_project_page %}
+          {{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
+        {% endif %}
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

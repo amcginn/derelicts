@@ -1,0 +1,44 @@
+{% assign attributes = character.system.attributes %}
+{% assign details = character.system.details %}
+<div class="character container">
+    <div class="column">
+      <div class="info">
+        <div style="display: flex; justify-content: space-between;">
+          <div class="title" style="width: 50%;">
+            <span class="name">{{ character.name }}</span>
+            <div class="level"><span>{{ details.level }}</span></div>
+          </div>
+          <div class="sub-title">
+            <span class="player">{{ page.player }}</span>
+            <span class="hp">{{ attributes.hp.value }}/{{ attributes.hp.baseMax }}</span>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="{{ character.img }}">
+        </div>
+        
+      </div>
+      <div class="details">
+        <div class="creature-types"></div>
+        <div class="languages"></div>
+      </div>
+      <div class="attributes">
+        <div class="movements"></div>
+        <div class="resistances"></div>
+        <div class="immunities"></div>
+      </div>
+    </div>
+    <div class="column">
+      2
+    </div>
+</div>
+
+
+<!-- <div class="characters-row">
+  <div class="characters-list">
+    
+  </div>
+  <div class="characters-description">
+    <h2>GebKasarty</h2>
+  </div>
+</div> -->

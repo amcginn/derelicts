@@ -1,0 +1,21 @@
+- name: Mogli
+  path: mogli/
+  icon: minotaur
+- name: Nep Nik
+  path: nepnik/
+  icon: squirrel
+- name: Myra
+  path: myra/
+  icon: barn-owl
+- name: Hákarl
+  path: hakarl/
+  icon: shark-jaws
+- name: Gróa
+  path: groa/
+  icon: dragon-orb
+- name: Merrek
+  path: merrek/
+  icon: bear-head
+- name: '???'
+  path: bag/
+  icon: knapsack

@@ -1,0 +1,3440 @@
+{
+  "folder": "l1H3QfFWMav6Q35q",
+  "name": "Myra - Wereowl",
+  "type": "character",
+  "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Wereowl.jpg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "dex": {
+        "value": 17,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "con": {
+        "value": 12,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "concentrationBonus": "",
+          "bonus": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "wis": {
+        "value": 12,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "cha": {
+        "value": 11,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      }
+    },
+    "schemaVersion": {
+      "version": 0.016,
+      "lastMigration": {
+        "version": {
+          "schema": 0.015,
+          "foundry": "11.315",
+          "system": "0.17.33"
+        }
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "cul": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "eng": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "his": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "proficient": 1,
+        "specialties": [
+          "farsight",
+          "scent"
+        ],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 4
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "proficient": 1,
+        "specialties": [
+          "camouflage"
+        ],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      }
+    },
+    "spellResources": {
+      "slots": {
+        "1": {
+          "current": 0,
+          "max": 0
+        },
+        "2": {
+          "current": 0,
+          "max": 0
+        },
+        "3": {
+          "current": 0,
+          "max": 0
+        },
+        "4": {
+          "current": 0,
+          "max": 0
+        },
+        "5": {
+          "current": 0,
+          "max": 0
+        },
+        "6": {
+          "current": 0,
+          "max": 0
+        },
+        "7": {
+          "current": 0,
+          "max": 0
+        },
+        "8": {
+          "current": 0,
+          "max": 0
+        },
+        "9": {
+          "current": 0,
+          "max": 0
+        }
+      },
+      "points": {
+        "current": 0,
+        "max": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "baseFormula": "10 + @dex.mod + @str.mod",
+        "value": 0
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "hp": {
+        "value": 33,
+        "baseMax": 33,
+        "temp": 0,
+        "bonus": 0
+      },
+      "hitDice": {
+        "d6": {
+          "current": 0,
+          "total": 0
+        },
+        "d8": {
+          "current": 0,
+          "total": 0
+        },
+        "d10": {
+          "current": 0,
+          "total": 0
+        },
+        "d12": {
+          "current": 0,
+          "total": 0
+        },
+        "d4": {
+          "current": 0,
+          "total": 0
+        }
+      },
+      "initiative": {
+        "ability": "dex",
+        "bonus": "",
+        "expertiseDice": 0
+      },
+      "movement": {
+        "burrow": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "climb": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "fly": {
+          "distance": 60,
+          "unit": "feet"
+        },
+        "swim": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "walk": {
+          "distance": 10,
+          "unit": "feet"
+        },
+        "traits": {
+          "hover": false
+        }
+      },
+      "senses": {
+        "blindsight": {
+          "distance": 0,
+          "unit": "feet",
+          "otherwiseBlind": false
+        },
+        "darkvision": {
+          "distance": 30,
+          "unit": "feet"
+        },
+        "tremorsense": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "truesight": {
+          "distance": 0,
+          "unit": "feet"
+        }
+      },
+      "inspiration": false,
+      "fatigue": 0,
+      "strife": 0,
+      "spellcasting": "wis",
+      "attunement": {
+        "current": 0,
+        "max": 3
+      },
+      "exertion": {
+        "current": 0,
+        "max": 0,
+        "recoverOnRest": true
+      }
+    },
+    "bonuses": {
+      "maneuverDC": "",
+      "meleeSpellAttack": "",
+      "meleeWeaponAttack": "",
+      "rangedSpellAttack": "",
+      "rangedWeaponAttack": "",
+      "spellDC": "",
+      "abilities": {},
+      "damage": {},
+      "healing": {},
+      "skills": {
+        "1hZXUWPK29BJMtrU": {
+          "context": {
+            "skills": [
+              "prc"
+            ],
+            "passiveOnly": true,
+            "requiresProficiency": false
+          },
+          "formula": "4",
+          "label": "Passive Bonus",
+          "default": true,
+          "img": "icons/svg/upgrade.svg"
+        }
+      },
+      "attacks": {},
+      "initiative": {},
+      "movement": {},
+      "senses": {}
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "details": {
+      "bio": "",
+      "creatureTypes": [
+        "beast"
+      ],
+      "isSwarm": false,
+      "age": "",
+      "appearance": "",
+      "background": "",
+      "classes": "",
+      "culture": "",
+      "destiny": "",
+      "eyeColor": "",
+      "gender": "",
+      "hairColor": "",
+      "heritage": "",
+      "height": "",
+      "level": 3,
+      "notes": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">When you transform into your full <strong>Owl Form,</strong> your arms and wings become one, and <strong>Summoned Arrows</strong> become <strong>Summoned Bombs</strong> you can drop on your allies/enemies.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">Your <strong>Primeval Boons</strong> are active.</li>\n<li dir=\"ltr\" aria-level=\"2\"><strong id=\"docs-internal-guid-db13692e-7fff-f714-8268-75a5520a1f82\">Primeval Awareness</strong> is passive</li>\n<li>Additionally you lose access to most ranger abilities, spells, spell slots, and all weapons.\n<ul>\n<li>Ranger abilities that remain are <strong id=\"docs-internal-guid-fc70b09f-7fff-b795-2262-d66d7a4521d7\">Spiritual Bond</strong>, <strong>Natural Explorer Favored Terrains, Favored Enemies.</strong></li>\n</ul>\n</li>\n</ul>",
+      "prestige": 1,
+      "skinColor": "",
+      "weight": "",
+      "xp": 0,
+      "archetype": ""
+    },
+    "proficiencies": {
+      "armor": [],
+      "languages": [
+        "Owl",
+        "Understands Myra's Known Languages"
+      ],
+      "tools": [],
+      "weapons": [],
+      "traditions": []
+    },
+    "resources": {
+      "primary": {
+        "label": "Summoned Bombs",
+        "value": 3,
+        "max": "3",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "secondary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "tertiary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "quaternary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      }
+    },
+    "source": {
+      "name": "",
+      "link": "",
+      "publisher": ""
+    },
+    "traits": {
+      "size": "lg",
+      "conditionImmunities": [],
+      "damageImmunities": [
+        "Damage from nonmagical, non-silvered weapons"
+      ],
+      "damageResistances": [],
+      "damageVulnerabilities": [
+        "Silvered Weapons",
+        "Magical Weapons",
+        "Wolfsbane Laced Weapons"
+      ],
+      "alignment": []
+    },
+    "supply": 0,
+    "spellBooks": {
+      "EpiYd00Vg922E5tX": {
+        "_id": "EpiYd00Vg922E5tX",
+        "name": "New Spell Book",
+        "img": "icons/svg/book.svg",
+        "ability": "default",
+        "disableSpellConsumers": false,
+        "showSpellPoints": false,
+        "showSpellSlots": true
+      }
+    },
+    "grants": {}
+  },
+  "prototypeToken": {
+    "name": "Merrek - Wearbear",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Myra%20-%20Owl%20Flight%202.png",
+      "scaleX": 2.3,
+      "scaleY": 2.3,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "sight": {
+      "enabled": true,
+      "range": 60,
+      "angle": 185,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "tagger": {
+        "tags": ""
+      },
+      "mountup": {
+        "isamount": false,
+        "lockrider": false,
+        "iconhud": "0"
+      },
+      "wall-height": {
+        "tokenHeight": 5
+      },
+      "token-z": {
+        "zIndex": 0
+      },
+      "core": {
+        "occlusionRadius": null
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "LocknKey": {
+        "LPFormulaFlag": "",
+        "LPFormulaOverrideFlag": false,
+        "LBFormulaFlag": "",
+        "LBFormulaOverrideFlag": false,
+        "PickPocketFormulaFlag": "",
+        "PickPocketFormulaOverrideFlag": false,
+        "PickPocketDCFlag": 15,
+        "MATTTriggerTileFlag": "",
+        "MATTTriggerConditionsFlag": {
+          "LockuseKey": "never",
+          "LockusePasskey": "never",
+          "LockusePick": "never",
+          "LockuseBreak": "never",
+          "LockuseFree": "never",
+          "UsePickPocket": "never"
+        }
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "UseRidingHeightFlag": true,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "PilotedbyDefaultFlag": false
+      }
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Grapple",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "wOKLPnhKpnhU1kEj": {
+            "name": "Grapple",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "5nrDtksc3KPCbcJd": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "B9sbtgKAz5GLtsp3": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {
+              "GjyfHt0lKnETufaD": {
+                "type": "damage",
+                "default": true,
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "canCrit": false
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li>If you are able to make multiple attacks with the Attack action, this maneuver replaces one of them.</li>\n<li>You can use the <strong>Grapple </strong>maneuver to grab or wrestle a creature<br>\n<ul>\n<li>You must have at least one free hand to attempt a grapple, your target must be within your reach, and the target must be no more than one size category larger than you.\n<ul>\n<li>The target makes a Strength or Dexterity saving throw against your maneuver DC.\n<ul>\n<li>On a failure, you deal basic melee damage and the target becomes grappled.\n<ul>\n<li>In addition to things that end the condition, you can release the target at any time (no action required).</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Escaping a <strong>Grapple</strong>\n<ul>\n<li>While grappled, a creature can use its action to attempt to escape. It must succeed on a Strength or Dexterity saving throw against your maneuver DC.</li>\n</ul>\n</li>\n<li><strong>Moving a Grappled Creature</strong>\n<ul>\n<li>When you move, you can drag or carry the grappled creature with you.\n<ul>\n<li>When you do so, your Speed is halved, unless the creature's weight is within your carrying capacity and you are not encumbered by bulky items.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Freeing a Grappled Creature</strong>\n<ul>\n<li>You can use the <strong>Grapple</strong> maneuver to try to free another grappled or restrained creature.\n<ul>\n<li>The creature grappling or restraining the target makes a Strength saving throw against your maneuver DC.\n<ul>\n<li>If it fails the saving throw, the grappled or restrained creature is freed.</li>\n<li>Additionally, you may move the freed creature 5 feet in any direction.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "yX6RPCYSC2waBfWf",
+      "sort": 2,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262955608,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Grab On",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/hand-grip-staff-teal.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "dZElCBOd3yoRyDcB": {
+            "name": "Grab On",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "x479yGm9lUjVLHDy": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "duRNu9hfiRNwhtCq": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {
+              "pzopjF1frh4UfKvT": {
+                "type": "damage",
+                "default": true,
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "canCrit": false
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li>While you cannot grapple a creature two or more size categories larger than you, you can grab onto it.\n<ul>\n<li>By jumping onto its back or climbing up a limb, you can make a Strength or Dexterity saving throw against the creature's maneuver DC to cling to or balance upon its body.\n<ul>\n<li>On a success, you move into the creature's space and can move upon its body as if it is difficult terrain.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>While grabbing onto a larger creature, you gain advantage on attack rolls against it.\n<ul>\n<li>The larger creature may be able to attack you as normal, depending on its limbs or attacks.\n<ul>\n<li>It can also use an action or replace one of its attacks on its turn to try to dislodge you, such as shaking you loose or bashing you against a wall, forcing you to make a Strength or Dexterity saving throw against its maneuver DC or fall prone into the nearest space adjacent to the creature, taking its basic melee damage in the process.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>If the creature chooses to roll over in order to dislodge you, it becomes prone, but you have disadvantage on the saving throw to hang on.</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "NYfU0gTAPC0r5LgA",
+      "sort": 1,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262472560,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Disarm",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/sword-damaged-broken-glow-red.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "xN5ZLHIjo9cHRWrK": {
+            "name": "Disarm",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "dFgwvnjjgmzR7vlN": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "rolls": {
+              "FDMYIPcl2LveduMw": {
+                "canCrit": false,
+                "damageType": "",
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "type": "damage"
+              }
+            },
+            "prompts": {
+              "xs1KlWtLXswqrVKY": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {}
+          }
+        },
+        "description": "<ul>\n<li>If you are able to make multiple attacks with the Attack action, this maneuver replaces one of them.</li>\n<li>You may use your&nbsp;<strong>Disarm </strong>maneuver to attempt to knock an item or weapon from a creature's hand.\n<ul>\n<li>The target must be within your reach and be holding an item (either carried or wielded).\n<ul>\n<li>The target makes a Strength or Dexterity saving throw against your maneuver DC.\n<ul>\n<li>The target has advantage if it is larger than you or holding the item with two or more hands</li>\n<li>Alternatively, a target smaller than you has disadvantage.\n<ul>\n<li>On a failure, you deal basic melee damage and the target drops the item in its space.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "UdrZMtxe9eILcsnA",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262816425,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Knockdown",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/control/silhouette-fall-slip-prone.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "wfzmnudl6tfhZk4v": {
+            "name": "Knockdown",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "NbOuce8AtLVjDeeL": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "L65ZmTO0KcmeQ2EQ": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {
+              "Wgx2bdExxjzRu7nR": {
+                "type": "damage",
+                "default": true,
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "canCrit": false
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li>If you are able to make multiple attacks with the Attack action, this maneuver replaces one of them.</li>\n<li>You can use the <strong>Knockdown </strong>maneuver to trip or push a creature down.\n<ul>\n<li>The target must be within your reach and be no more than one size category larger than you.</li>\n<li>The target makes a Strength saving throw against your maneuver DC.\n<ul>\n<li>On a failure, you deal basic melee damage and knock the target prone.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "WCJIpa4N1bNFRGPs",
+      "sort": 3,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262707895,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Overrun",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/shield-damaged-broken-blue.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "kBUgwxtsHQqPa1DV": {
+            "name": "Overrun",
+            "activation": {
+              "cost": 1,
+              "type": "special",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "VAh3uPOJAaI5ShrA": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "bvFJU6hHDstCwg1b": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {
+              "ezzGenCLYoqg37hI": {
+                "type": "damage",
+                "default": true,
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "canCrit": false
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li>You can use an action or bonus action to make an <strong>Overrun </strong>maneuver to move through a hostile creature's space by forcing your way past.\n<ul>\n<li>Make a Strength saving throw against the target's maneuver DC.\n<ul>\n<li>On a success, you deal basic melee damage and can move through the hostile creature's space once this turn.</li>\n<li>The creature can choose to let you pass instead of rolling.</li>\n<li>You have advantage if you are larger than the target, or disadvantage if you are smaller.</li>\n<li>If you are two or more sizes smaller than the target, you can move through the hostile creature's space without making a save.</li>\n<li>You still provoke opportunity attacks if you move beyond a creature's reach.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "LXGwZFcdd1FwTl8O",
+      "sort": 4,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262921915,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Shove",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/shield-block-bash-yellow.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "uvkBwwL7OQopMMHB": {
+            "name": "Shove",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "j7yuRUD8cu1y0Jia": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": null,
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "rolls": {
+              "TcI6WmWSAy0EAxg9": {
+                "canCrit": false,
+                "damageType": "",
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "type": "damage"
+              }
+            },
+            "prompts": {
+              "UVu9ZVC0beiWNgAV": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {}
+          }
+        },
+        "description": "<ul>\n<li>If you are able to make multiple attacks with the <strong>Attack</strong> action, this maneuver replaces one of them.</li>\n<li>You can use the <strong>Shove</strong> maneuver to push a creature away.\n<ul>\n<li>The target must be within your reach and be no more than one size category larger than you.\n<ul>\n<li>The target makes a Strength saving throw against your maneuver DC.\n<ul>\n<li>On a failure, you deal basic melee damage and push the target a number of feet away from you equal to 5 + 5 for every 5 points it failed its saving throw by.\n<ul>\n<li>You can move the creature in any direction away from you (to the side, forward, or diagonally away).</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>A creature that is shoved off of a precipice is propelled off of whatever it is standing on -- it does not receive any saving throw or ability check to grab onto something to avoid falling down below.</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "ALKkJLAl1vulvZ2t",
+      "sort": 5,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691263098911,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Dwarven Resilience",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Advantage on poison saves and poison resistance.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "heritage",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "9O9dhQDN1qJSD6Z1",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Necromancer_11.png",
+      "effects": [],
+      "folder": null,
+      "sort": 1,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691195741522,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "ZlawE6AiaZqHFt69",
+      "name": "Silverbane",
+      "type": "feature",
+      "img": "icons/weapons/ammunition/shot-round-lead.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 13,
+      "flags": {},
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "yMsJL03bD6HItESa": {
+            "name": "Silver Damage",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "NWhqg8yZ0ZwFbSlo": {
+                "type": "damage",
+                "default": true,
+                "label": "Silver Damage",
+                "formula": "1d6",
+                "canCrit": false
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "eUUYax1ZvBKZuXC2": {
+                "range": "self"
+              }
+            },
+            "target": {
+              "type": "self",
+              "quantity": 1
+            },
+            "description": "<p>Remember to roll with advantage (Roll x 2)</p>"
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Lycanthropes are vulnerable to <strong>Silvered</strong> Weapons.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">If a <strong>Silvered</strong> weapon/projectile remains in you at the beginning of your turn, you take 1d6 damage that cannot be reduced in any way.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691255046003,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "d87dXAc1b7GrE5aA",
+      "name": "Pack Tactics",
+      "type": "feature",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/GreenAbility_15.png",
+      "effects": [],
+      "folder": null,
+      "sort": 10,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.forge-vtt-shared-compendiums-a5e-creature-features.item-1-monster-features.CVfmopBXNXNThu3F"
+        }
+      },
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li>If you have a non-incapacitated ally within 5-feet of a creature, you have advantage on attack rolls.</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691186396806,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Primeval Boons",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">At 3rd level, your fully transformed <strong>Wereform</strong> has begun to evolve in a myriad of ways.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You may choose 2 <strong>Primeval Boons</strong> you meet the prerequisites for, which you gain the benefits of while fully transformed<strong>.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Primeval Boons Found Here:</strong> <a href=\"https://docs.google.com/document/d/1yEGmcsh9pnk_vBs0Awk5ivGsQWtU-VsP-C96SXvJSqI/edit?usp=sharing\"><span data-rich-links=\"{&quot;fple-t&quot;:&quot;Merrek &amp; Myrra Primeval Boons&quot;,&quot;fple-u&quot;:&quot;https://docs.google.com/document/d/1yEGmcsh9pnk_vBs0Awk5ivGsQWtU-VsP-C96SXvJSqI/edit?usp=sharing&quot;,&quot;fple-mt&quot;:&quot;application/vnd.google-apps.kix&quot;,&quot;type&quot;:&quot;first-party-link&quot;}\">Merrek &amp; Myrra Primeval Boons</span></a></p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">You gain additional <strong>Primeval Boons </strong>as you gain levels in this class, as shown below:</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">3rd Level, 2 <strong>Primeval Boons</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">5th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">7th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">9th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">11th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">15th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">18th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">20th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">These <strong>Primeval Boons </strong>are only active while fully transformed.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Choose wisely, because you can&rsquo;t devolve a <strong>Primeval Boons</strong>.</p>\n</li>\n</ul>\n</ul>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "boon",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "uCCOJilImoEZRgaL",
+      "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 12,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1692751178754,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "J2k1XSd9ANxA1bmk",
+      "name": "Keen Hearing and Sight",
+      "type": "feature",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Nature_6.png",
+      "effects": [],
+      "folder": null,
+      "sort": 5,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.forge-vtt-shared-compendiums-a5e-creature-features.item-1-monster-features.G6ZUR5lBdpNHCx0O"
+        }
+      },
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Advantage on Wisdom (Perception) checks that rely on hearing or sight.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691186398898,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "pTZAKHz8HuFeMWmO",
+      "name": "Owl Therianthrope Defense",
+      "type": "feature",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/GreenAbility_22.png",
+      "effects": [],
+      "folder": null,
+      "sort": 9,
+      "flags": {},
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "PiaxaGASAuqynFPE": {
+            "name": "Bear Therianthrope Healing",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "H1cI5gysixBScDg2": {
+                "type": "damage",
+                "default": true,
+                "label": "Bear Therianthrope Healing",
+                "formula": "1d10",
+                "canCrit": false
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "TctNC45Up3OGv2yj": {
+                "range": "self"
+              }
+            },
+            "target": {
+              "type": "self",
+              "quantity": 1
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">At the start of each of your turns, you recover 1d10 HP in your <strong>Owl </strong>form.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Provided you have 1 or more HP and you have not suffered damage from a <strong>Silvered</strong> or <strong>Wolfsbane</strong> laced weapon since the start of your last turn.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">If you are not in initiative, this healing does not function.</p>\n</li>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691255046003,
+        "modifiedTime": 1695321558146,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Wedding Band of Order",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">A set of wedding bands was given to Merrek and Myra as a marriage gift, giving them the ability to call forth their summonable items, including clothing.</p>\n</li>\n</ul>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Used to call forth <strong>Summoned Arrows&nbsp;</strong>into your bow during your <strong>Dwarvenguard/Hybrid form.</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Used to call forth your <strong>Collision Crystal Sniper Rifle</strong> in your <strong>Dwarvenguard/Hybrid form.</strong></p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "destiny",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Ring_9.png",
+      "effects": [],
+      "folder": "CnqQsEuGo1dOawuJ",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1692660985842,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      },
+      "_id": "uYXDdjhjBHQaBsXx",
+      "sort": 17,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      }
+    },
+    {
+      "name": "Summoned Bombs",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "DHGceK5D7in9rFIY": {
+            "name": "Summoned Arrow Short Rest",
+            "activation": {},
+            "consumers": {
+              "EnCHSJ4VZpSJbrOZ": {
+                "type": "resource",
+                "default": true,
+                "resource": "primaryResource",
+                "quantity": -2
+              }
+            },
+            "rolls": {},
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Starting at 2nd level, you have a maximum number of <strong>Summoned Bombs </strong>you can summon equal to your Ranger level.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Firing a <strong>Summoned Bombs</strong>&nbsp;counts as an attack, even if they are being fired at your allies to bolster them.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Myra cannot fire these arrows into herself.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You recover a number of <strong>Summoned Bombs</strong> equal to half your maximum number of arrows, not to exceed your max, after a short rest.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">For example, if you have a max of 12 and you&rsquo;ve used 5, you gain 6 during a short rest bringing you to 11.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Alternatively, If you were at 10, you only gain 2, bringing you to the max of 12.</p>\n</li>\n</ul>\n</ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You recover all <strong>Summoned Bombs</strong> after a long rest.</p>\n</li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "destiny",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "Xc1eYtqHKR6OzKMP",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Hunter_18.png",
+      "effects": [],
+      "folder": null,
+      "sort": 15,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691175188985,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Energizing Arrow (Summoned Bomb)",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "8MrZdPi03me7yE7Q": {
+            "name": "Energizing Arrow",
+            "consumers": {
+              "DoT5nL8SCxevtCul": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              },
+              "gHM3rPpjR3W7uL64": {
+                "type": "resource",
+                "default": true,
+                "resource": "primaryResource",
+                "quantity": 1
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "7cQl4G0TpQetY1Jj": {
+                "range": "long"
+              }
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            },
+            "rolls": {},
+            "prompts": {}
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">At 2nd level, you may summon an <strong>Energizing Bomb</strong> from your <strong>Wedding Band of Order</strong> and shoot it at an ally to give them back some of their primary energy source used for abilities, spells, etc&hellip;</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Merrek +2 <strong>Ki</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Nep Nik +2 <strong>Charges</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Teresa +2 <strong>Sorcery</strong> <strong>Points</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">Mogli +1 <strong>Spell Slots</strong></li>\n<li>H&aacute;karl +5 <strong>Agony Pool</strong></li>\n<li dir=\"ltr\" aria-level=\"3\">??? +5&nbsp;<strong>Blood Pool</strong></li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "Summoned Arrows",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "xZYELWiTwTWmfZXW",
+      "img": "icons/magic/light/beam-rays-teal-purple-small.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1691608057750,
+        "modifiedTime": 1693339945382,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "PB - FLIGHT - Boons 1 and 2 - 20ft",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Your <strong>Wereform</strong> gains a flying speed of +20-feet.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "boon",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "effects": [
+        {
+          "icon": "icons/creatures/mammals/wolf-shadow-black.webp",
+          "origin": "Actor.zlZiexi9kcezijen.Item.gL1WlO0LFukF4IQj",
+          "flags": {
+            "a5e": {
+              "sort": 0,
+              "transferType": "passive"
+            }
+          },
+          "transfer": false,
+          "name": "PB - Flight X 2",
+          "_id": "xMW24LrMDSCfIG7Y",
+          "changes": [
+            {
+              "key": "system.attributes.movement.fly.distance",
+              "mode": 2,
+              "value": "20",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "folder": "ZjQP5CqmVg6BJJQ8",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691613428357,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      },
+      "_id": "gL1WlO0LFukF4IQj",
+      "sort": 11,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      }
+    },
+    {
+      "name": "Flyby",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You don't provoke opportunity attacks when you fly out of an enemies reach.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "VofToRk3DfjuZc68",
+      "img": "icons/creatures/birds/birds-flock-fly-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 4,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1693344987131,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Transformation - Owl",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Myra can attempt shifting back into her <strong>Dwarvenguard Form</strong> after she's been transformed for at least one turn.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\"><strong>Roll 1d20</strong>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>1-4:</strong> You remain as you are.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>5-12:</strong> You transform into your <strong>Hybrid Form</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>13-20:</strong> You transform into your <strong>Dwarvenguard Form </strong>or may choose&nbsp;to transform into your <strong>Hybrid Form</strong> as a Free Action.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "1 Turn Has Passed Since Last Transformation",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "enfEzrbUpPJw6lWj",
+      "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 16,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691245545585,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Eagle Eyed",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You can see up to 1 mile away with no difficulty, able to discern fine detail as if you were within 5-feet of what you are observing.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "48W0LBOp9YvTxuUj",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Holy_14.png",
+      "effects": [],
+      "folder": null,
+      "sort": 2,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1693344987131,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Dive",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">For every 2 feet you fly downwards, you only need to expend 1 foot of movement.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "OUZoQ6iEhu8H7YXG",
+      "img": "icons/creatures/abilities/wings-birdlike-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1693345515899,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Mimicry",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "evN7eSGxMnNloVaa": {
+            "name": "Mimicry",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {},
+            "prompts": {
+              "Z1YK6E18JsghqNNl": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "wis",
+                "saveDC": {
+                  "type": "dex"
+                },
+                "onSave": "They're not tricked by your Mimicry",
+                "label": "Mimicry Save"
+              }
+            },
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            },
+            "ranges": {}
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You can mimic sounds you have heard, such as animal noises or words someone has spoken.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">A creature can tell that they are imitations by succeeding on a Wisdom check against your Dexterity Modifier.</p>\n</li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "jxcHZ4moE5pVWA9Q",
+      "img": "icons/creatures/birds/corvid-call-sound-glowing.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 6,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1693344987131,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Shred",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "03PRrAHmfaGIMlEK": {
+            "name": "Shred",
+            "consumers": {
+              "ZqyZ9B1whhKQbJcQ": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            },
+            "ranges": {
+              "8usR0u3YeXf27YHh": {
+                "range": "fiveFeet"
+              }
+            },
+            "rolls": {
+              "AYw31ILL8L6YKRQv": {
+                "type": "damage",
+                "default": true,
+                "label": "Shred Damage",
+                "formula": "1d8 + @str.mod + @prof",
+                "damageType": "slashing"
+              },
+              "NvmJ05Nff1lBAlUh": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "dex",
+                "label": "Attack Roll"
+              }
+            },
+            "prompts": {
+              "RyUQaKuCIJ7c5D9H": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "dex",
+                "saveDC": {
+                  "type": "dex"
+                },
+                "onSave": "Half Damage"
+              }
+            },
+            "description": ""
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Weapon Type</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">Natural Melee</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Reach</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">5 ft.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Targets</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">1</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Hit</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">1d8 + Proficiency + Dexterity Modifier</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Damage</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">Slashing</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"6\"><strong>Description</strong>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">You swoop down and shred an opponent with your talons.</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "beastUnity",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "9KWHVvxlwombTOBJ",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Shred.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1691186596737,
+        "modifiedTime": 1693425031983,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Gouge",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "03PRrAHmfaGIMlEK": {
+            "name": "Gouge",
+            "consumers": {
+              "ZqyZ9B1whhKQbJcQ": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            },
+            "ranges": {
+              "8usR0u3YeXf27YHh": {
+                "range": "fiveFeet"
+              }
+            },
+            "rolls": {
+              "AYw31ILL8L6YKRQv": {
+                "type": "damage",
+                "default": true,
+                "label": "Gouge Damage and Blind",
+                "formula": "1d6 + @dex.mod",
+                "damageType": "slashing"
+              },
+              "NvmJ05Nff1lBAlUh": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "dex",
+                "label": "Attack Roll"
+              }
+            },
+            "prompts": {
+              "RyUQaKuCIJ7c5D9H": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "dex",
+                "saveDC": {
+                  "type": "dex"
+                },
+                "onSave": "They don't go blind"
+              }
+            },
+            "description": ""
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Weapon Type</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Natural Melee</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Reach</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">5ft</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Target</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">One</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Hit</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">1d6 + Forms Dexterity Modifier Piercing Damage.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Attempt to Blind Them until your next turn.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Description</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">You attempt to peck or dig your talons into their face to temporarily blind them.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">If they succeed on a Dexterity Save the target is not blinded, but still takes the full damage.</p>\n</li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "beastUnity",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "hP9vp98VV0dRZQmy",
+      "img": "icons/creatures/eyes/slime-single-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1691186596737,
+        "modifiedTime": 1693425033978,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Disengage",
+      "type": "maneuver",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "actions": {
+          "wfzmnudl6tfhZk4v": {
+            "name": "Disengage",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "NbOuce8AtLVjDeeL": {
+                "range": "self"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "L65ZmTO0KcmeQ2EQ": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {},
+            "descriptionOutputs": [
+              "action"
+            ]
+          }
+        },
+        "description": "<ul>\n<li>Allows a character to evade opportunity attacks for the rest of their turn.\n<ul>\n<li>It&rsquo;s a defensive tactic used when you want to safely move away from an enemy without risking a free swing.</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": "ti98wkysdak0X8tq",
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1693710519715,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      },
+      "_id": "DwbGYq4j8Un4lM7o",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      }
+    },
+    {
+      "name": "Primeval Awareness - Owl",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "OAbYwLyizGIUC1on": {
+            "name": "Hybrid Primeval Awareness",
+            "consumers": {
+              "XwECU0L92LsS0XAL": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "minute",
+              "value": 1
+            },
+            "ranges": {
+              "Qk2wp8yW2jRTBjR5": {
+                "range": 1,
+                "unit": "miles"
+              },
+              "jAU20cdimFL1sY12": {
+                "range": "6 Miles when in Favored Terrain"
+              }
+            },
+            "target": {
+              "type": "self",
+              "quantity": 1
+            },
+            "descriptionOutputs": [
+              "action"
+            ]
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Beginning at 3rd level, in <strong>Owl Form </strong>you are passively aware of your&nbsp;<strong>Favored Enemies</strong> within a mile of you.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">This is increased to 6 miles in your <strong>Favored Terrains</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">This doesn&rsquo;t reveal where they are exactly, but will give you a general direction to hunt in.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "beastUnity",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "m511mkn03T5873nI",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/GreenAbility_8.png",
+      "effects": [],
+      "folder": null,
+      "sort": 8,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.xVBotxRSXdS0JYxY.Item.cMz5c0I5xVluQ6Jg"
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.19",
+        "coreVersion": "11.309",
+        "createdTime": 1691188499500,
+        "modifiedTime": 1695302878684,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Favored Enemy: Undead",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "1kzbrj7zRgKQ7zps": {
+            "name": "+2 Unavoidable Damage - Undead",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "qcJxqnXbUGxcxStY": {
+                "type": "damage",
+                "default": true,
+                "formula": "2",
+                "canCrit": false,
+                "label": "Unavoidable Damage"
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "description": "<p>+2 Unavoidable Damage</p>",
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">You have significant experience studying, tracking, hunting, and even talking to undead creatures.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You have advantage on Wisdom (Survival) checks to track this <strong>Favored Enemy,</strong> as well as on Intelligence checks to recall information about them.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">When you gain this feature, you also become an expert in the languages of your choice that are spoken by this <strong>Favored Enemy</strong>, if they speak one at all.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">In this case the Necromancer&rsquo;s undead language: <strong id=\"docs-internal-guid-ed7d28b7-7fff-06c7-1837-dbfb52bd4c8d\">Necron</strong></p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">When rolling damage against this <strong>Favored Enemy</strong> you may add +2 unavoidable damage to the roll.</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "class",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "XmZZ01JO5K6tnfcd",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/RedAbility_13.png",
+      "effects": [],
+      "folder": null,
+      "sort": 3,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691174965825,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Natural Explorer: Forests",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">You are particularly familiar with Forests and are adept at traveling and surviving in such regions.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you&rsquo;re proficient in.</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">While traveling in this favored terrain, you gain the following benefits:</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Nonmagical difficult terrain doesn&rsquo;t slow your group&rsquo;s travel outside of combat.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">You ignore nonmagical difficult terrain in and out of combat.</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Your group can&rsquo;t become lost except by magical means.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">If you are traveling alone, you can move stealthily at a normal pace.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">When you forage, you find twice as much food as you normally would.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">While tracking other creatures, you learn their exact number, their sizes, and how long ago they passed through the area.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You choose additional favored terrain types at 6th and 10th level.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">You have advantage on initiative rolls.</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">In combat, you have advantage when rolling toward creatures who haven't yet acted.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">This applies when rolling toward your party members and your enemies.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "class",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "rSVGr2iM1C8qHHC5",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Druid_13.png",
+      "effects": [],
+      "folder": null,
+      "sort": 7,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691174677866,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Natural Explorer: Mountains",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">You are particularly familiar with Mountains and are adept at traveling and surviving in such regions.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">When you make an Intelligence or Wisdom check related to this favored terrain, your proficiency bonus is doubled if you are using a skill that you&rsquo;re proficient in.</li>\n<li>\n<p dir=\"ltr\" role=\"presentation\">While traveling in this favored terrain, you gain the following benefits:</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Nonmagical difficult terrain doesn&rsquo;t slow your group&rsquo;s travel outside of combat.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">You ignore nonmagical difficult terrain in and out of combat.</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Your group can&rsquo;t become lost except by magical means.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">If you are traveling alone, you can move stealthily at a normal pace.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">When you forage, you find twice as much food as you normally would.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">While tracking other creatures, you learn their exact number, their sizes, and how long ago they passed through the area.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You choose additional favored terrain types at 6th and 10th level.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">You have advantage on initiative rolls.</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">In combat, you have advantage when rolling toward creatures who haven't yet acted.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">This applies when rolling toward your party members and your enemies.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "class",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "dxPzVA1OLWWx527k",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/RedAbility_23.png",
+      "effects": [],
+      "folder": null,
+      "sort": 8,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691174677866,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Spiritual Bond (Fenrir)",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">During their initiative, <strong>Myra</strong> can speak directly into <strong>Fenrir's</strong> mind through their <strong>Spiritual Bond</strong> to give <strong>Fenrir</strong> commands.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Fenrir</strong> takes his turn during <strong>Myra&rsquo;s</strong> initiative, before or after she takes her turn.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You choose each turn who goes first in order to set up combinations between the two of you.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">You can also speak in this way to suggest it to <strong>Attack, Dash, Disengage, or Help Another</strong>.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Fenrir</strong> never requires your command to use its reaction, such as when making an opportunity attack.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Once you have the <strong>Extra Attack</strong> feature, you can make one weapon attack yourself while commanding <strong>Fenrir</strong> to take your <strong>Attack</strong> action.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">If you don&rsquo;t issue a request, <strong>Fenrir</strong> takes the <strong>Dodge</strong> action.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">If you are incapacitated or absent, the beast acts on its own, focusing on protecting you and itself.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">While traveling through your <strong>Favored Terrain</strong> with <strong>Fenrir,</strong> you can move stealthily at a normal pace.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">If <strong>Fenrir</strong> dies, you may obtain another <strong>Spiritual Bond</strong> with a creature by spending 8 hours in the forest tracking down and magically bonding to it as long as it isn&rsquo;t hostile to you.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">This will either be the same type of beast as before or a different one.</p>\n</li>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "class",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "8zA1RrLRTFoiEVAp",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Nature_7.png",
+      "effects": [],
+      "folder": null,
+      "sort": 14,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691187784058,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "CrvjVNihPYnQEFJ7",
+      "name": "Wolfsbane",
+      "type": "feature",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Wolfsbane.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 18,
+      "flags": {},
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "yMsJL03bD6HItESa": {
+            "name": "Roll for Poison Save",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "DrIOMRaUjMnUnREE": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "con",
+                "label": "Poison Save"
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "eUUYax1ZvBKZuXC2": {
+                "range": "self"
+              }
+            },
+            "target": {
+              "type": "self",
+              "quantity": 1
+            },
+            "description": "<p>Remember to roll with advantage (Roll x 2)</p>"
+          },
+          "4QJJBNMKlgQNsXz8": {
+            "name": "Wolfsbane Turn Damage",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "anyXYfaXZkdFvex0": {
+                "type": "damage",
+                "default": true,
+                "label": "Wolfsbane Damage",
+                "formula": "1d6",
+                "canCrit": false
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "pxbIaY8p1yOcPkxW": {
+                "range": "self"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Lycanthropes are repelled by the <strong>Wolfsbane</strong> flower.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">A lycanthrope in hybrid or beast form is poisoned while within 10 feet of a living or dried <strong>Wolfsbane </strong>flower that it can smell.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">If <strong>Wolfsbane</strong> is applied to a weapon or ammunition, lycanthropes are damaged by the weapon as if it were <strong>Silvered</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">A successful application of <strong>Wolfsbane </strong>lasts for 1 hour.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">If <strong>Wolfsbane </strong>remains ingested or a <strong>Wolfsbane&nbsp;</strong>laced weapon/projectile remains inside you at the start of your turn, you take 1d6 damage that cannot be reduced in any way.</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"4\"><strong>GM Notes: Remember to roll twice as you have advantage on all poison saves as a Mountain Dwarvenguard</strong></li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691255046003,
+        "modifiedTime": 1695321558658,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "icon": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "origin": "Actor.zlZiexi9kcezijen.Item.gL1WlO0LFukF4IQj",
+      "flags": {
+        "a5e": {
+          "sort": 0,
+          "transferType": "passive"
+        }
+      },
+      "transfer": false,
+      "name": "PB - Flight X 2",
+      "_id": "oeEATNpH5xUNV2X5",
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly.distance",
+          "mode": 2,
+          "value": "20",
+          "priority": 0
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 61800,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "statuses": []
+    }
+  ],
+  "flags": {
+    "a5e": {
+      "sheetIsLocked": false,
+      "currentTab": "effects",
+      "sortMode": {},
+      "trackInventoryWeight": false,
+      "showXP": false,
+      "filters": {}
+    },
+    "sequencer": {
+      "effects": []
+    },
+    "exportSource": {
+      "world": "gebkasarty",
+      "system": "a5e",
+      "coreVersion": "11.315",
+      "systemVersion": "0.17.33"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.17.33",
+    "coreVersion": "11.315",
+    "createdTime": 1691613428357,
+    "modifiedTime": 1713364100311,
+    "lastModifiedBy": "3DfqsEukuWkekm50"
+  }
+}

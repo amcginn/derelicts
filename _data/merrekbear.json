@@ -1,0 +1,2910 @@
+{
+  "folder": "l1H3QfFWMav6Q35q",
+  "name": "Merrek - Werebear",
+  "type": "character",
+  "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Werebear%20Polar%20Merrek.jpg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "dex": {
+        "value": 14,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "con": {
+        "value": 15,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "concentrationBonus": "",
+          "bonus": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "wis": {
+        "value": 12,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "cha": {
+        "value": 7,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      }
+    },
+    "schemaVersion": {
+      "version": 0.016,
+      "lastMigration": {
+        "version": {
+          "schema": 0.015,
+          "foundry": "11.315",
+          "system": "0.17.33"
+        }
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "cul": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "eng": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "his": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "proficient": 1,
+        "specialties": [
+          "scent"
+        ],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 4
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      }
+    },
+    "spellResources": {
+      "slots": {
+        "1": {
+          "current": 0,
+          "max": 0
+        },
+        "2": {
+          "current": 0,
+          "max": 0
+        },
+        "3": {
+          "current": 0,
+          "max": 0
+        },
+        "4": {
+          "current": 0,
+          "max": 0
+        },
+        "5": {
+          "current": 0,
+          "max": 0
+        },
+        "6": {
+          "current": 0,
+          "max": 0
+        },
+        "7": {
+          "current": 0,
+          "max": 0
+        },
+        "8": {
+          "current": 0,
+          "max": 0
+        },
+        "9": {
+          "current": 0,
+          "max": 0
+        }
+      },
+      "points": {
+        "current": 0,
+        "max": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "baseFormula": "12 + @dex.mod + @str.mod",
+        "value": 0
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "hp": {
+        "value": 33,
+        "baseMax": 33,
+        "temp": 0,
+        "bonus": 0
+      },
+      "hitDice": {
+        "d6": {
+          "current": 0,
+          "total": 0
+        },
+        "d8": {
+          "current": 0,
+          "total": 0
+        },
+        "d10": {
+          "current": 0,
+          "total": 0
+        },
+        "d12": {
+          "current": 0,
+          "total": 0
+        },
+        "d4": {
+          "current": 0,
+          "total": 0
+        }
+      },
+      "initiative": {
+        "ability": "dex",
+        "bonus": "",
+        "expertiseDice": 0
+      },
+      "movement": {
+        "burrow": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "climb": {
+          "distance": 30,
+          "unit": "feet"
+        },
+        "fly": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "swim": {
+          "distance": 25,
+          "unit": "feet"
+        },
+        "walk": {
+          "distance": 40,
+          "unit": "feet"
+        },
+        "traits": {
+          "hover": false
+        }
+      },
+      "senses": {
+        "blindsight": {
+          "distance": 0,
+          "unit": "feet",
+          "otherwiseBlind": false
+        },
+        "darkvision": {
+          "distance": 30,
+          "unit": "feet"
+        },
+        "tremorsense": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "truesight": {
+          "distance": 0,
+          "unit": "feet"
+        }
+      },
+      "inspiration": false,
+      "fatigue": 0,
+      "strife": 0,
+      "spellcasting": "int",
+      "attunement": {
+        "current": 0,
+        "max": 3
+      },
+      "exertion": {
+        "current": 0,
+        "max": 0,
+        "recoverOnRest": true
+      }
+    },
+    "bonuses": {
+      "maneuverDC": "",
+      "meleeSpellAttack": "",
+      "meleeWeaponAttack": "",
+      "rangedSpellAttack": "",
+      "rangedWeaponAttack": "",
+      "spellDC": "",
+      "abilities": {},
+      "damage": {},
+      "healing": {},
+      "skills": {
+        "x56KkbdG31jiEDzR": {
+          "context": {
+            "skills": [
+              "prc"
+            ],
+            "passiveOnly": true,
+            "requiresProficiency": false
+          },
+          "formula": "4",
+          "label": "Passive Bonus",
+          "default": true,
+          "img": "icons/svg/upgrade.svg"
+        }
+      },
+      "attacks": {},
+      "initiative": {},
+      "movement": {},
+      "senses": {}
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "details": {
+      "bio": "",
+      "creatureTypes": [
+        "beast"
+      ],
+      "isSwarm": false,
+      "age": "",
+      "appearance": "",
+      "background": "",
+      "classes": "",
+      "culture": "",
+      "destiny": "",
+      "eyeColor": "",
+      "gender": "",
+      "hairColor": "",
+      "heritage": "",
+      "height": "",
+      "level": 3,
+      "notes": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">You lose access to your <strong>Ki</strong> abilities and Elemental spells, abilities, and cantrips.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Additionally, you no longer have access to the <strong>Gatling</strong> and other weapons.</p>\n</li>\n<li>Your <strong>Primeval Boons</strong> are active.</li>\n</ul>\n<p>&nbsp;</p>",
+      "prestige": 1,
+      "skinColor": "",
+      "weight": "",
+      "xp": 0,
+      "archetype": ""
+    },
+    "proficiencies": {
+      "armor": [],
+      "languages": [
+        "Bear",
+        "Understands Merrek's Known Languages"
+      ],
+      "tools": [],
+      "weapons": [],
+      "traditions": []
+    },
+    "resources": {
+      "primary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "secondary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "tertiary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "quaternary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      }
+    },
+    "source": {
+      "name": "",
+      "link": "",
+      "publisher": ""
+    },
+    "traits": {
+      "size": "lg",
+      "conditionImmunities": [],
+      "damageImmunities": [
+        "Damage from nonmagical, non-silvered weapons"
+      ],
+      "damageResistances": [],
+      "damageVulnerabilities": [
+        "Silvered Weapons",
+        "Magical Weapons",
+        "Wolfsbane Laced Weapons"
+      ],
+      "alignment": []
+    },
+    "supply": 0,
+    "spellBooks": {
+      "fTkWfJKwf5mwIXSN": {
+        "_id": "fTkWfJKwf5mwIXSN",
+        "name": "New Spell Book",
+        "img": "icons/svg/book.svg",
+        "ability": "default",
+        "disableSpellConsumers": false,
+        "showSpellPoints": false,
+        "showSpellSlots": true
+      }
+    },
+    "grants": {}
+  },
+  "prototypeToken": {
+    "name": "Merrek - Wearbear",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Merrek%20-%20Bear%20Form%201.png",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 3,
+    "height": 3,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "sight": {
+      "enabled": true,
+      "range": 60,
+      "angle": 185,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "tagger": {
+        "tags": ""
+      },
+      "mountup": {
+        "isamount": false,
+        "lockrider": false,
+        "iconhud": "0"
+      },
+      "wall-height": {
+        "tokenHeight": 8
+      },
+      "token-z": {
+        "zIndex": 0
+      },
+      "core": {
+        "occlusionRadius": null
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "PilotedbyDefaultFlag": false
+      },
+      "LocknKey": {
+        "LPFormulaFlag": "",
+        "LPFormulaOverrideFlag": false,
+        "LBFormulaFlag": "",
+        "LBFormulaOverrideFlag": false,
+        "PickPocketFormulaFlag": "",
+        "PickPocketFormulaOverrideFlag": false,
+        "PickPocketDCFlag": 15,
+        "MATTTriggerTileFlag": "",
+        "MATTTriggerConditionsFlag": {
+          "LockuseKey": "never",
+          "LockusePasskey": "never",
+          "LockusePick": "never",
+          "LockuseBreak": "never",
+          "LockuseFree": "never",
+          "UsePickPocket": "never"
+        }
+      }
+    },
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Grapple",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/unarmed-punch-fist.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "wOKLPnhKpnhU1kEj": {
+            "name": "Grapple",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "5nrDtksc3KPCbcJd": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "B9sbtgKAz5GLtsp3": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {
+              "GjyfHt0lKnETufaD": {
+                "type": "damage",
+                "default": true,
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "canCrit": false
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li>If you are able to make multiple attacks with the Attack action, this maneuver replaces one of them.</li>\n<li>You can use the <strong>Grapple </strong>maneuver to grab or wrestle a creature<br>\n<ul>\n<li>You must have at least one free hand to attempt a grapple, your target must be within your reach, and the target must be no more than one size category larger than you.\n<ul>\n<li>The target makes a Strength or Dexterity saving throw against your maneuver DC.\n<ul>\n<li>On a failure, you deal basic melee damage and the target becomes grappled.\n<ul>\n<li>In addition to things that end the condition, you can release the target at any time (no action required).</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Escaping a <strong>Grapple</strong>\n<ul>\n<li>While grappled, a creature can use its action to attempt to escape. It must succeed on a Strength or Dexterity saving throw against your maneuver DC.</li>\n</ul>\n</li>\n<li><strong>Moving a Grappled Creature</strong>\n<ul>\n<li>When you move, you can drag or carry the grappled creature with you.\n<ul>\n<li>When you do so, your Speed is halved, unless the creature's weight is within your carrying capacity and you are not encumbered by bulky items.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><strong>Freeing a Grappled Creature</strong>\n<ul>\n<li>You can use the <strong>Grapple</strong> maneuver to try to free another grappled or restrained creature.\n<ul>\n<li>The creature grappling or restraining the target makes a Strength saving throw against your maneuver DC.\n<ul>\n<li>If it fails the saving throw, the grappled or restrained creature is freed.</li>\n<li>Additionally, you may move the freed creature 5 feet in any direction.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "yX6RPCYSC2waBfWf",
+      "sort": 2,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262955608,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Grab On",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/hand-grip-staff-teal.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "dZElCBOd3yoRyDcB": {
+            "name": "Grab On",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "x479yGm9lUjVLHDy": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "duRNu9hfiRNwhtCq": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {
+              "pzopjF1frh4UfKvT": {
+                "type": "damage",
+                "default": true,
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "canCrit": false
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li>While you cannot grapple a creature two or more size categories larger than you, you can grab onto it.\n<ul>\n<li>By jumping onto its back or climbing up a limb, you can make a Strength or Dexterity saving throw against the creature's maneuver DC to cling to or balance upon its body.\n<ul>\n<li>On a success, you move into the creature's space and can move upon its body as if it is difficult terrain.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>While grabbing onto a larger creature, you gain advantage on attack rolls against it.\n<ul>\n<li>The larger creature may be able to attack you as normal, depending on its limbs or attacks.\n<ul>\n<li>It can also use an action or replace one of its attacks on its turn to try to dislodge you, such as shaking you loose or bashing you against a wall, forcing you to make a Strength or Dexterity saving throw against its maneuver DC or fall prone into the nearest space adjacent to the creature, taking its basic melee damage in the process.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>If the creature chooses to roll over in order to dislodge you, it becomes prone, but you have disadvantage on the saving throw to hang on.</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "NYfU0gTAPC0r5LgA",
+      "sort": 1,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262472560,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Disarm",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/sword-damaged-broken-glow-red.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "xN5ZLHIjo9cHRWrK": {
+            "name": "Disarm",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "dFgwvnjjgmzR7vlN": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "rolls": {
+              "FDMYIPcl2LveduMw": {
+                "canCrit": false,
+                "damageType": "",
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "type": "damage"
+              }
+            },
+            "prompts": {
+              "xs1KlWtLXswqrVKY": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {}
+          }
+        },
+        "description": "<ul>\n<li>If you are able to make multiple attacks with the Attack action, this maneuver replaces one of them.</li>\n<li>You may use your&nbsp;<strong>Disarm </strong>maneuver to attempt to knock an item or weapon from a creature's hand.\n<ul>\n<li>The target must be within your reach and be holding an item (either carried or wielded).\n<ul>\n<li>The target makes a Strength or Dexterity saving throw against your maneuver DC.\n<ul>\n<li>The target has advantage if it is larger than you or holding the item with two or more hands</li>\n<li>Alternatively, a target smaller than you has disadvantage.\n<ul>\n<li>On a failure, you deal basic melee damage and the target drops the item in its space.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "UdrZMtxe9eILcsnA",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262816425,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Knockdown",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/control/silhouette-fall-slip-prone.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "wfzmnudl6tfhZk4v": {
+            "name": "Knockdown",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "NbOuce8AtLVjDeeL": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "L65ZmTO0KcmeQ2EQ": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {
+              "Wgx2bdExxjzRu7nR": {
+                "type": "damage",
+                "default": true,
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "canCrit": false
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li>If you are able to make multiple attacks with the Attack action, this maneuver replaces one of them.</li>\n<li>You can use the <strong>Knockdown </strong>maneuver to trip or push a creature down.\n<ul>\n<li>The target must be within your reach and be no more than one size category larger than you.</li>\n<li>The target makes a Strength saving throw against your maneuver DC.\n<ul>\n<li>On a failure, you deal basic melee damage and knock the target prone.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "WCJIpa4N1bNFRGPs",
+      "sort": 3,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262707895,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Overrun",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/shield-damaged-broken-blue.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "kBUgwxtsHQqPa1DV": {
+            "name": "Overrun",
+            "activation": {
+              "cost": 1,
+              "type": "special",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "VAh3uPOJAaI5ShrA": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "bvFJU6hHDstCwg1b": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {
+              "ezzGenCLYoqg37hI": {
+                "type": "damage",
+                "default": true,
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "canCrit": false
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li>You can use an action or bonus action to make an <strong>Overrun </strong>maneuver to move through a hostile creature's space by forcing your way past.\n<ul>\n<li>Make a Strength saving throw against the target's maneuver DC.\n<ul>\n<li>On a success, you deal basic melee damage and can move through the hostile creature's space once this turn.</li>\n<li>The creature can choose to let you pass instead of rolling.</li>\n<li>You have advantage if you are larger than the target, or disadvantage if you are smaller.</li>\n<li>If you are two or more sizes smaller than the target, you can move through the hostile creature's space without making a save.</li>\n<li>You still provoke opportunity attacks if you move beyond a creature's reach.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "LXGwZFcdd1FwTl8O",
+      "sort": 4,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691262921915,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Shove",
+      "type": "maneuver",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/shield-block-bash-yellow.webp",
+      "effects": [],
+      "flags": {},
+      "system": {
+        "actions": {
+          "uvkBwwL7OQopMMHB": {
+            "name": "Shove",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "j7yuRUD8cu1y0Jia": {
+                "range": "fiveFeet"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": null,
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "rolls": {
+              "TcI6WmWSAy0EAxg9": {
+                "canCrit": false,
+                "damageType": "",
+                "formula": "1 + @str.mod",
+                "label": "Basic Melee Damage",
+                "type": "damage"
+              }
+            },
+            "prompts": {
+              "UVu9ZVC0beiWNgAV": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {}
+          }
+        },
+        "description": "<ul>\n<li>If you are able to make multiple attacks with the <strong>Attack</strong> action, this maneuver replaces one of them.</li>\n<li>You can use the <strong>Shove</strong> maneuver to push a creature away.\n<ul>\n<li>The target must be within your reach and be no more than one size category larger than you.\n<ul>\n<li>The target makes a Strength saving throw against your maneuver DC.\n<ul>\n<li>On a failure, you deal basic melee damage and push the target a number of feet away from you equal to 5 + 5 for every 5 points it failed its saving throw by.\n<ul>\n<li>You can move the creature in any direction away from you (to the side, forward, or diagonally away).</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>A creature that is shoved off of a precipice is propelled off of whatever it is standing on -- it does not receive any saving throw or ability check to grab onto something to avoid falling down below.</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "_id": "ALKkJLAl1vulvZ2t",
+      "sort": 5,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.5",
+        "coreVersion": "11.307",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1691263098911,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "duLF2UNnFTdZxyqp",
+      "name": "Keen Smell",
+      "type": "feature",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Nature_6.png",
+      "effects": [],
+      "folder": null,
+      "sort": 2,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.forge-vtt-shared-compendiums-a5e-creature-features.item-1-monster-features.G6ZUR5lBdpNHCx0O"
+        }
+      },
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Advantage on Wisdom (Perception) checks that rely on smell.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691186398898,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Beastial Maul - Werebear",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "5J4KrEUwDktRE63x": {
+            "name": "Beastial Maul",
+            "consumers": {
+              "ZqyZ9B1whhKQbJcQ": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creatureObject",
+              "quantity": 1
+            },
+            "ranges": {
+              "8usR0u3YeXf27YHh": {
+                "range": 8,
+                "unit": "feet"
+              }
+            },
+            "rolls": {
+              "NvmJ05Nff1lBAlUh": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "str",
+                "label": "Attack Roll"
+              },
+              "9HtdXSKQOpwWGHIk": {
+                "type": "damage",
+                "default": true,
+                "label": "Beastial Maul",
+                "damageType": "slashing",
+                "formula": "1d10 + @str.mod + @prof"
+              }
+            },
+            "prompts": {
+              "RyUQaKuCIJ7c5D9H": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "dex",
+                "saveDC": {
+                  "type": "dex"
+                },
+                "onSave": "Half Damage",
+                "label": "Beastial Maul Save"
+              }
+            }
+          },
+          "LMwgedDBbQwHalgN": {
+            "name": "Retribution",
+            "consumers": {
+              "ZqyZ9B1whhKQbJcQ": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "special",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creatureObject",
+              "quantity": 1
+            },
+            "ranges": {
+              "8usR0u3YeXf27YHh": {
+                "range": 8,
+                "unit": "feet"
+              }
+            },
+            "rolls": {
+              "NvmJ05Nff1lBAlUh": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "str",
+                "label": "Attack Roll"
+              },
+              "9HtdXSKQOpwWGHIk": {
+                "type": "damage",
+                "default": true,
+                "label": "Beastial Maul",
+                "damageType": "slashing",
+                "formula": "1d10 + @str.mod + @prof"
+              }
+            },
+            "prompts": {
+              "RyUQaKuCIJ7c5D9H": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "dex",
+                "saveDC": {
+                  "type": "dex"
+                },
+                "onSave": "Half Damage",
+                "label": "Beastial Maul Save"
+              }
+            },
+            "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">When a creature within 5-feet of you hits you with a melee attack, you may make a <strong>Beastial Maul</strong> attack against them.</p>\n</li>\n</ul>"
+          },
+          "Eyr3PkWtV2q2U6tH": {
+            "name": "Charge Beastial Maul",
+            "consumers": {
+              "ZqyZ9B1whhKQbJcQ": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creatureObject",
+              "quantity": 1
+            },
+            "ranges": {
+              "8usR0u3YeXf27YHh": {
+                "range": 8,
+                "unit": "feet"
+              }
+            },
+            "rolls": {
+              "NvmJ05Nff1lBAlUh": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "str",
+                "label": "Attack Roll"
+              },
+              "9HtdXSKQOpwWGHIk": {
+                "type": "damage",
+                "default": true,
+                "label": "Beastial Maul",
+                "damageType": "slashing",
+                "formula": "1d10 + @str.mod + @prof"
+              },
+              "t4VCb3n6AA8uYOwq": {
+                "type": "damage",
+                "default": true,
+                "canCrit": false,
+                "formula": "1d6",
+                "damageType": "slashing",
+                "label": "Charge Damage"
+              }
+            },
+            "prompts": {
+              "RyUQaKuCIJ7c5D9H": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "dex",
+                "saveDC": {
+                  "type": "dex"
+                },
+                "onSave": "Half Damage",
+                "label": "Beastial Maul Save"
+              },
+              "Li1pHivNixo5Vl1T": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "str",
+                "saveDC": {
+                  "type": "str"
+                },
+                "label": "Charge Prone Save",
+                "onSave": "Don't fall prone"
+              }
+            },
+            "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
+            "description": "<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">If you move at least 20 feet in a straight line towards a target and then hit them with a <strong>Beastial Maul</strong> attack on the same turn, the target suffers an additional 1d6 Slashing Damage and must succeed on a Strength saving throw or fall prone.</p>\n</li>\n</ul>"
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Attack Type</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Natural Melee</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Reach</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">8ft.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Target</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">One</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Hit</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">1d10 + Proficiency Bonus + Forms Strength Modifier.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Damage Type</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Slashing damage</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Notes</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">If the target is a creature, it must succeed on a Dexterity save to take half damage.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "beastUnity",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "2SPIq6sPMgdpvqaR",
+      "img": "icons/creatures/claws/claw-bear-paw-swipe-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1691186596737,
+        "modifiedTime": 1693706520661,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Dwarven Resilience",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Advantage on poison saves and poison resistance.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "heritage",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "9O9dhQDN1qJSD6Z1",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Necromancer_11.png",
+      "effects": [],
+      "folder": null,
+      "sort": 1,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691195741522,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Horrific Roar",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "qNFS4IOs9W181xwb": {
+            "name": "Horrific Roar",
+            "consumers": {
+              "3udyQSmnjkY9CveR": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "F1Ukzk7sqCKzdep4": {
+                "range": "Can be heard up to 300 Feet Away"
+              }
+            },
+            "area": {
+              "shape": "circle",
+              "quantity": 1,
+              "radius": 60,
+              "placeTemplate": true
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            },
+            "rolls": {},
+            "prompts": {
+              "bQFTdEjaHqvqSbo0": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "wis",
+                "saveDC": {
+                  "type": "str"
+                },
+                "label": "Horrific Roar Fear Save",
+                "onSave": "Not fearful of Merrek"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">As an action, you may let out a chilling roar that can be heard out to 300-feet away from you.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">All creatures of your choice within 60-feet of you who could hear the roar must succeed on a Wisdom saving throw against your Strength or become frightened of you until the end of your next turn.</p>\n</li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "beastUnity",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "OFi4jnXxAQkEupkQ",
+      "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1691265143674,
+        "modifiedTime": 1693707063350,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "ZlawE6AiaZqHFt69",
+      "name": "Silverbane",
+      "type": "feature",
+      "img": "icons/weapons/ammunition/shot-round-lead.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 6,
+      "flags": {},
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "yMsJL03bD6HItESa": {
+            "name": "Silver Damage",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "NWhqg8yZ0ZwFbSlo": {
+                "type": "damage",
+                "default": true,
+                "label": "Silver Damage",
+                "formula": "1d6",
+                "canCrit": false
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "eUUYax1ZvBKZuXC2": {
+                "range": "self"
+              }
+            },
+            "target": {
+              "type": "self",
+              "quantity": 1
+            },
+            "description": "<p>Remember to roll with advantage (Roll x 2)</p>"
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Lycanthropes are vulnerable to <strong>Silvered</strong> Weapons.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">If a <strong>Silvered</strong> weapon/projectile remains in you at the beginning of your turn, you take 1d6 damage that cannot be reduced in any way.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691255046003,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Tranformation - Bear",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Myra has taught Merrek how to attempt shifting back into his <strong>Dwarvenguard Form</strong>&nbsp;after he's been transformed for at least one turn.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\"><strong>Roll 1d20</strong>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>1-4:</strong> You remain as you are.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>5-12:</strong> You transform into your <strong>Hybrid Form</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>13-20:</strong> You transform into your <strong>Dwarvenguard Form&nbsp;</strong>or you may choose to transform into your&nbsp;<strong>Hybrid Form</strong> as a Free Action.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "1 Turn Has Passed Since Last Transformation",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "JGHwE4HvnfO1aklp",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Nature_4.png",
+      "effects": [],
+      "folder": null,
+      "sort": 7,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691245545585,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "PB - COLOSSUS - Boons 1 & 2 - Gargantuan",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Your <strong>Wereform&rsquo;s</strong> size category increases by 1 (from Large to Huge for example) growing appropriately to match its new size.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">For every size above medium you are, your forms melee weapon attacks deal an additional 1d6 damage, and its reach is increased by 5-feet.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You may select this <strong>Boon</strong> twice, increasing your form&rsquo;s size appropriately.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "boon",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "CIyGXQq5jyt3GZ8j",
+      "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "effects": [
+        {
+          "icon": "icons/creatures/mammals/wolf-shadow-black.webp",
+          "origin": "Actor.oBV4upGFiJfLGJiv.Item.CIyGXQq5jyt3GZ8j",
+          "flags": {
+            "a5e": {
+              "sort": 0,
+              "transferType": "passive"
+            }
+          },
+          "transfer": false,
+          "name": "COLOSSUS - GARGANTUAN",
+          "_id": "rUbXWCg8nL73mF2J",
+          "changes": [
+            {
+              "key": "system.traits.size",
+              "mode": 6,
+              "value": "grg",
+              "priority": 1
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "folder": null,
+      "sort": 4,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691613428357,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Primeval Boons",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">At 3rd level, your fully transformed <strong>Wereform</strong> has begun to evolve in a myriad of ways.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You may choose 2 <strong>Primeval Boons</strong> you meet the prerequisites for, which you gain the benefits of while fully transformed<strong>.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Primeval Boons Found Here:</strong> <a href=\"https://docs.google.com/document/d/1yEGmcsh9pnk_vBs0Awk5ivGsQWtU-VsP-C96SXvJSqI/edit?usp=sharing\"><span data-rich-links=\"{&quot;fple-t&quot;:&quot;Merrek &amp; Myrra Primeval Boons&quot;,&quot;fple-u&quot;:&quot;https://docs.google.com/document/d/1yEGmcsh9pnk_vBs0Awk5ivGsQWtU-VsP-C96SXvJSqI/edit?usp=sharing&quot;,&quot;fple-mt&quot;:&quot;application/vnd.google-apps.kix&quot;,&quot;type&quot;:&quot;first-party-link&quot;}\">Merrek &amp; Myrra Primeval Boons</span></a></p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">You gain additional <strong>Primeval Boons </strong>as you gain levels in this class, as shown below:</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">3rd Level, 2 <strong>Primeval Boons</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">5th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">7th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">9th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">11th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">15th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">18th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">20th Level, 1 <strong>Primeval Boon</strong></p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">These <strong>Primeval Boons </strong>are only active while fully transformed.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Choose wisely, because you can&rsquo;t devolve a <strong>Primeval Boons</strong>.</p>\n</li>\n</ul>\n</ul>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "boon",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "uCCOJilImoEZRgaL",
+      "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 5,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1692751178754,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "WtLuTxjD3D2Ko65S",
+      "name": "Bear Therianthrope Defense",
+      "type": "feature",
+      "img": "icons/creatures/abilities/paw-print-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "PiaxaGASAuqynFPE": {
+            "name": "Bear Therianthrope Healing",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "H1cI5gysixBScDg2": {
+                "type": "damage",
+                "default": true,
+                "label": "Bear Therianthrope Healing",
+                "formula": "1d10",
+                "canCrit": false
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "TctNC45Up3OGv2yj": {
+                "range": "self"
+              }
+            },
+            "target": {
+              "type": "self",
+              "quantity": 1
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">At the start of each of your turns, you recover 1d10 HP in your <strong>Bear </strong>form.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Provided you have 1 or more HP and you have not suffered damage from a <strong>Silvered</strong> or <strong>Wolfsbane</strong> laced weapon since the start of your last turn.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">If you are not in initiative, this healing does not function.</p>\n</li>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691255046003,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "5NCPDe8kdDTfQVCB",
+      "name": "Pack Tactics",
+      "type": "feature",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/GreenAbility_15.png",
+      "effects": [],
+      "folder": null,
+      "sort": 3,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.forge-vtt-shared-compendiums-a5e-creature-features.item-1-monster-features.CVfmopBXNXNThu3F"
+        }
+      },
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li>If you have a non-incapacitated ally within 5-feet of a creature, you have advantage on attack rolls.</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691186396806,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Bite - Werebear",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "5J4KrEUwDktRE63x": {
+            "name": "Bite",
+            "consumers": {
+              "ZqyZ9B1whhKQbJcQ": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              },
+              "VXNpehe0MFbooZxx": {
+                "type": "itemUses",
+                "default": true,
+                "quantity": 1,
+                "label": "Bite Usage"
+              }
+            },
+            "descriptionOutputs": [
+              "action",
+              "item"
+            ],
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creatureObject",
+              "quantity": 1
+            },
+            "ranges": {
+              "8usR0u3YeXf27YHh": {
+                "range": 8,
+                "unit": "feet"
+              }
+            },
+            "rolls": {
+              "AYw31ILL8L6YKRQv": {
+                "type": "damage",
+                "default": true,
+                "label": "Bite Damage",
+                "formula": "1d12 + @str.mod + @prof",
+                "damageType": "piercing"
+              },
+              "NvmJ05Nff1lBAlUh": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "str",
+                "label": "Attack Roll"
+              }
+            },
+            "prompts": {
+              "RyUQaKuCIJ7c5D9H": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "str",
+                "saveDC": {
+                  "type": "str"
+                },
+                "onSave": "Negates Bleeding",
+                "label": "Bleed Save"
+              }
+            }
+          },
+          "03PRrAHmfaGIMlEK": {
+            "name": "Frenzied Bite",
+            "consumers": {
+              "ZqyZ9B1whhKQbJcQ": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              },
+              "5ujs0P1VfKbABaii": {
+                "type": "itemUses",
+                "default": true,
+                "quantity": 1,
+                "label": "Bite Usage"
+              }
+            },
+            "descriptionOutputs": [
+              "action",
+              "item"
+            ],
+            "activation": {
+              "type": "bonusAction",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creatureObject",
+              "quantity": 1
+            },
+            "ranges": {
+              "8usR0u3YeXf27YHh": {
+                "range": 8,
+                "unit": "feet"
+              }
+            },
+            "rolls": {
+              "AYw31ILL8L6YKRQv": {
+                "type": "damage",
+                "default": true,
+                "label": "Bite Damage",
+                "formula": "1d12 + @str.mod + @prof",
+                "damageType": "piercing"
+              },
+              "NvmJ05Nff1lBAlUh": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "str",
+                "label": "Attack Roll"
+              }
+            },
+            "prompts": {
+              "RyUQaKuCIJ7c5D9H": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "str",
+                "saveDC": {
+                  "type": "str"
+                },
+                "onSave": "Negates Bleeding",
+                "label": "Bleed Save"
+              }
+            },
+            "description": "<p>While Bloodied in Were/Hybrid Form you can make a <strong>Bite</strong> attack as a Bonus Action</p>"
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Attack Type</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Natural Melee</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Reach</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">8ft</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Target</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">One</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Hit</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">1d12 + Proficiency Bonus + Strength Modifier</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Damage Type</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Piercing Damage</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rules</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Regardless of how many attacks you can normally make in your original form, you may only make one <strong>Bite</strong> attack per turn.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">If they fail a Strength Save, they bleed.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Frenzied Bite</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">If bloodied in your <strong>Were/Hybrid Form</strong> you may make a <strong>Bite</strong> attack as a bonus action.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": "round",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "beastUnity",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Nature_9.png",
+      "effects": [],
+      "folder": "zXDMROijUpKD0mYT",
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1691186596737,
+        "modifiedTime": 1693706308019,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      },
+      "_id": "OK4SXKEnjZf8JaSp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      }
+    },
+    {
+      "name": "Disengage",
+      "type": "maneuver",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "actions": {
+          "wfzmnudl6tfhZk4v": {
+            "name": "Disengage",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": null
+            },
+            "ranges": {
+              "NbOuce8AtLVjDeeL": {
+                "range": "self"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "creature",
+              "shape": "",
+              "size": ""
+            },
+            "prompts": {
+              "L65ZmTO0KcmeQ2EQ": {
+                "ability": "str",
+                "onSave": "",
+                "saveDC": {
+                  "type": "custom",
+                  "bonus": "@maneuverDC"
+                },
+                "type": "savingThrow"
+              }
+            },
+            "consumers": {},
+            "rolls": {},
+            "descriptionOutputs": [
+              "action"
+            ]
+          }
+        },
+        "description": "<ul>\n<li>Allows a character to evade opportunity attacks for the rest of their turn.\n<ul>\n<li>It&rsquo;s a defensive tactic used when you want to safely move away from an enemy without risking a free swing.</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "folder": "ti98wkysdak0X8tq",
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1691254952935,
+        "modifiedTime": 1693710469163,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      },
+      "_id": "Gq4Nv5c54Rg8GY37",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      }
+    },
+    {
+      "name": "Wedding Band of Chaos",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">A set of wedding bands was given to Merrek and Myra as a marriage gift, giving them the ability to call forth their summonable items, including clothing.</p>\n</li>\n</ul>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Used to call forth your <strong>Collision Crystal Gatling</strong> in <strong>Dwarvengaurd/Hybrid Form.</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Used to call forth your <strong>Magnetic Maul</strong> in <strong>Hybrid Form.</strong></p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "destiny",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "2PD6w5P0Vwx6I5Pd",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Ring_9.png",
+      "effects": [],
+      "folder": null,
+      "sort": 8,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.7If3Q5Ap7OwTisqJ.Item.3O6nFYKw0CK8Znfn"
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1692660985842,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "_id": "Z33xjXUrkAG67E4H",
+      "name": "Wolfsbane",
+      "type": "feature",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Wolfsbane.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 9,
+      "flags": {},
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {
+          "yMsJL03bD6HItESa": {
+            "name": "Roll for Poison Save",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "DrIOMRaUjMnUnREE": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "con",
+                "label": "Poison Save"
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "eUUYax1ZvBKZuXC2": {
+                "range": "self"
+              }
+            },
+            "target": {
+              "type": "self",
+              "quantity": 1
+            },
+            "description": "<p>Remember to roll with advantage (Roll x 2)</p>"
+          },
+          "4QJJBNMKlgQNsXz8": {
+            "name": "Wolfsbane Turn Damage",
+            "activation": {
+              "type": "special"
+            },
+            "consumers": {},
+            "rolls": {
+              "anyXYfaXZkdFvex0": {
+                "type": "damage",
+                "default": true,
+                "label": "Wolfsbane Damage",
+                "formula": "1d6",
+                "canCrit": false
+              }
+            },
+            "prompts": {},
+            "uses": {
+              "value": 0,
+              "max": "",
+              "per": "",
+              "recharge": {
+                "formula": "1d6",
+                "threshold": 6
+              }
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "pxbIaY8p1yOcPkxW": {
+                "range": "self"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Lycanthropes are repelled by the <strong>Wolfsbane</strong> flower.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">A lycanthrope in hybrid or beast form is poisoned while within 10 feet of a living or dried <strong>Wolfsbane </strong>flower that it can smell.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">If <strong>Wolfsbane</strong> is applied to a weapon or ammunition, lycanthropes are damaged by the weapon as if it were <strong>Silvered</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">A successful application of <strong>Wolfsbane </strong>lasts for 1 hour.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">If <strong>Wolfsbane </strong>remains ingested or a <strong>Wolfsbane&nbsp;</strong>laced weapon/projectile remains inside you at the start of your turn, you take 1d6 damage that cannot be reduced in any way.</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"4\"><strong>GM Notes: Remember to roll twice as you have advantage on all poison saves as a Mountain Dwarvenguard</strong></li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.20",
+        "coreVersion": "11.309",
+        "createdTime": 1691255046003,
+        "modifiedTime": 1695321577296,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "icon": "icons/creatures/mammals/wolf-shadow-black.webp",
+      "origin": "Actor.oBV4upGFiJfLGJiv.Item.CIyGXQq5jyt3GZ8j",
+      "flags": {
+        "a5e": {
+          "sort": 0,
+          "transferType": "passive"
+        }
+      },
+      "transfer": false,
+      "name": "COLOSSUS - GARGANTUAN",
+      "_id": "aXNKSwvCPQcSkTjm",
+      "changes": [
+        {
+          "key": "system.traits.size",
+          "mode": 6,
+          "value": "grg",
+          "priority": 6
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 61800,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "statuses": []
+    }
+  ],
+  "flags": {
+    "a5e": {
+      "sheetIsLocked": true,
+      "currentTab": "maneuvers",
+      "sortMode": {},
+      "trackInventoryWeight": false,
+      "showXP": false,
+      "filters": {}
+    },
+    "warpgate": {
+      "control": {
+        "user": "3DfqsEukuWkekm50"
+      }
+    },
+    "sequencer": {
+      "effects": []
+    },
+    "exportSource": {
+      "world": "gebkasarty",
+      "system": "a5e",
+      "coreVersion": "11.315",
+      "systemVersion": "0.17.33"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.17.33",
+    "coreVersion": "11.315",
+    "createdTime": 1691265143674,
+    "modifiedTime": 1713364067203,
+    "lastModifiedBy": "3DfqsEukuWkekm50"
+  }
+}

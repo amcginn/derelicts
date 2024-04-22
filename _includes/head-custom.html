@@ -1,0 +1,19 @@
+<!-- start custom head snippets -->
+
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
+<link rel="apple-touch-icon" href="{{ '/favicon.png' | relative_url }}">
+
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/site.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/breadcrumbs.css' | relative_url }}">
+{% if page.session %}
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/sessions.css' | relative_url }}">
+{% endif %}
+{% if page.home %}
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/home.css' | relative_url }}">
+{% endif %}
+
+<script type="text/javascript" src="{{ '/assets/js/jquery/jquery.min.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/site.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/toc.js' | relative_url }}"></script>
+
+<!-- end custom head snippets -->

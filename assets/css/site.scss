@@ -1,0 +1,72 @@
+---
+---
+
+body {
+  background-color: dimgrey;
+  background-image: url("{{ '/assets/img/background.png' | relative_url }}");
+  background-repeat: repeat;
+  background-blend-mode: overlay;
+}
+
+#container {
+  background-image: none;
+}
+
+footer {
+  font-size: small;
+  font-variant: small-caps;
+  margin-top: auto;
+  width: 100%
+}
+
+#top-link-container {
+  width: 32px;
+  height: 32px;
+  background-color: ivory;
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 32px;
+  right: 30%;
+  box-sizing: border-box;
+  padding: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+#top-link {
+  background-image: url("{{ '/assets/img/top-arrow.png' | relative_url }}");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.toc ul, .toc li {
+  list-style-type: none;
+}
+
+.toc li > ul {
+  margin-bottom: 4px;
+}
+
+blockquote {
+  font-size: 1.2em;
+}
+
+p {
+  max-width: 40em;
+}
+
+:root {
+  --color-bag: #7980ff;
+  --color-elrick: #00ffee;
+  --color-fenrir: #666666;
+  --color-fiioria: #008800;
+  --color-groa: #ff6600;
+  --color-hakarl: #ff0000;
+  --color-merrek: #663300;
+  --color-mogli: #9900cc;
+  --color-myra: #cc6633;
+  --color-nepnik: #ff41dc;
+}

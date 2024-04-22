@@ -1,0 +1,94 @@
+.inner {
+    padding: 0 1rem;
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 60rem;
+    max-width: 95%;
+    box-sizing: border-box;
+}
+
+.characters-row {
+  display: flex;
+}
+
+.characters-list, .characters-description {
+  width: 50%;
+  background-color: #fdfdfd;
+  border-width: 2px;
+  border-style: solid;
+  border-color: whitesmoke;
+}
+
+.characters-list {
+  border-right: whitesmoke;
+}
+
+.characters-description {
+  border-lef: whitesmoke;
+  border-radius: 2px;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
+ul.characters, ul.characters li {
+  list-style: none;
+}
+
+ul.characters li {
+  padding-right: 20px;
+}
+
+.character-info {
+  display: flex;
+  margin: .5rem 0;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: slategrey 1px 2px 2px;
+  transition: all .2s ease-in-out; 
+}
+
+.character-info:hover {
+  box-shadow: rgba(0, 0, 205, .5) 1px -1px 2px,
+              rgba(0, 0, 205, .5) 1px 1px 2px,
+              rgba(0, 0, 205, .5) -1px -1px 2px,
+              rgba(0, 0, 205, .5) -1px 1px 2px;
+  transform: scale(1.05); 
+}
+
+.character-name {
+  align-self: center;
+  color: darkblue;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0.5rem auto .5rem .5rem;
+  text-shadow: .25px .25px 1px #896639;
+}
+
+.character-icon {
+  float: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: mediumblue;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 4px;
+  width: 2.5em;
+  height: 2.5em;
+  align-self: center;
+  box-shadow: rgba(0, 0, 205, .5) -1px 1px 1px, 
+              rgba(0, 0, 205, .5) -1px -1px 1px,
+              rgba(0, 0, 205, .5) 1px 1px 1px,
+              rgba(0, 0, 205, .5) 1px -1px 1px;
+}
+
+.icon-minotaur { background-image: url(../img/minotaur.png);}
+.icon-squirrel { background-image: url(../img/squirrel.png);}
+.icon-barn-owl { background-image: url(../img/barn-owl.png);}
+.icon-shark-jaws { background-image: url(../img/shark-jaws.png);}
+.icon-dragon-orb { background-image: url(../img/dragon-orb.png);}
+.icon-bear-head { background-image: url(../img/bear-head.png);}
+.icon-knapsack { background-image: url(../img/knapsack.png);}
+

@@ -1,0 +1,746 @@
+{
+  "folder": "zN5okF7NM5gf1ZQm",
+  "name": "Corrosis",
+  "type": "character",
+  "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Corrosis%20Image.jpeg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "dex": {
+        "value": 10,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "con": {
+        "value": 10,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "concentrationBonus": "",
+          "bonus": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      }
+    },
+    "schemaVersion": {
+      "version": 0.016,
+      "lastMigration": {
+        "version": {
+          "schema": 0.015,
+          "foundry": "11.315",
+          "system": "0.17.33"
+        }
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "cul": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "eng": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "his": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      }
+    },
+    "spellResources": {
+      "slots": {
+        "1": {
+          "current": 0,
+          "max": 0
+        },
+        "2": {
+          "current": 0,
+          "max": 0
+        },
+        "3": {
+          "current": 0,
+          "max": 0
+        },
+        "4": {
+          "current": 0,
+          "max": 0
+        },
+        "5": {
+          "current": 0,
+          "max": 0
+        },
+        "6": {
+          "current": 0,
+          "max": 0
+        },
+        "7": {
+          "current": 0,
+          "max": 0
+        },
+        "8": {
+          "current": 0,
+          "max": 0
+        },
+        "9": {
+          "current": 0,
+          "max": 0
+        }
+      },
+      "points": {
+        "current": 0,
+        "max": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "baseFormula": "10",
+        "value": 0
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "hp": {
+        "value": 10,
+        "baseMax": 10,
+        "temp": 0,
+        "bonus": null
+      },
+      "hitDice": {
+        "d6": {
+          "current": 0,
+          "total": 0
+        },
+        "d8": {
+          "current": 0,
+          "total": 0
+        },
+        "d10": {
+          "current": 0,
+          "total": 0
+        },
+        "d12": {
+          "current": 0,
+          "total": 0
+        },
+        "d4": {
+          "current": 0,
+          "total": 0
+        }
+      },
+      "initiative": {
+        "ability": "dex",
+        "bonus": "",
+        "expertiseDice": 0
+      },
+      "movement": {
+        "burrow": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "climb": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "fly": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "swim": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "walk": {
+          "distance": 30,
+          "unit": "feet"
+        },
+        "traits": {
+          "hover": false
+        }
+      },
+      "senses": {
+        "blindsight": {
+          "distance": 0,
+          "unit": "feet",
+          "otherwiseBlind": false
+        },
+        "darkvision": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "tremorsense": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "truesight": {
+          "distance": 0,
+          "unit": "feet"
+        }
+      },
+      "inspiration": false,
+      "fatigue": 0,
+      "strife": 0,
+      "spellcasting": "int",
+      "attunement": {
+        "current": 0,
+        "max": 3
+      },
+      "exertion": {
+        "current": 0,
+        "max": 0,
+        "recoverOnRest": true
+      }
+    },
+    "bonuses": {
+      "maneuverDC": "",
+      "meleeSpellAttack": "",
+      "meleeWeaponAttack": "",
+      "rangedSpellAttack": "",
+      "rangedWeaponAttack": "",
+      "spellDC": "",
+      "abilities": {},
+      "damage": {},
+      "healing": {},
+      "attacks": {},
+      "initiative": {},
+      "movement": {},
+      "senses": {},
+      "skills": {}
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "details": {
+      "bio": "",
+      "creatureTypes": [],
+      "isSwarm": false,
+      "age": "",
+      "appearance": "",
+      "background": "",
+      "classes": "",
+      "culture": "",
+      "destiny": "",
+      "eyeColor": "",
+      "gender": "",
+      "hairColor": "",
+      "heritage": "",
+      "height": "",
+      "level": 0,
+      "notes": "",
+      "prestige": 1,
+      "skinColor": "",
+      "weight": "",
+      "xp": 0,
+      "archetype": ""
+    },
+    "proficiencies": {
+      "armor": [],
+      "languages": [],
+      "tools": [],
+      "weapons": [],
+      "traditions": []
+    },
+    "resources": {
+      "primary": {
+        "label": "",
+        "value": 0,
+        "max": "0",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "secondary": {
+        "label": "",
+        "value": 0,
+        "max": "0",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "tertiary": {
+        "label": "",
+        "value": 0,
+        "max": "0",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "quaternary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      }
+    },
+    "source": {
+      "name": "",
+      "link": "",
+      "publisher": ""
+    },
+    "traits": {
+      "size": "med",
+      "conditionImmunities": [],
+      "damageImmunities": [],
+      "damageResistances": [],
+      "damageVulnerabilities": [],
+      "alignment": []
+    },
+    "supply": 0,
+    "spellBooks": {
+      "BgYB2OLPIFCXtAQX": {
+        "_id": "BgYB2OLPIFCXtAQX",
+        "name": "New Spell Book",
+        "img": "icons/svg/book.svg",
+        "ability": "default",
+        "disableSpellConsumers": false,
+        "showSpellPoints": false,
+        "showSpellSlots": true
+      }
+    },
+    "grants": {}
+  },
+  "prototypeToken": {
+    "name": "Corrosis",
+    "displayName": 30,
+    "actorLink": true,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Corrosis%20Main.png",
+      "scaleX": 2,
+      "scaleY": 2,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 10,
+      "color": "#e60000",
+      "coloration": 1,
+      "dim": 20,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "emanation",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 60,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "token-z": {
+        "zIndex": 0
+      },
+      "mountup": {
+        "isamount": false,
+        "lockrider": false,
+        "iconhud": "0"
+      },
+      "tagger": {},
+      "wall-height": {
+        "tokenHeight": 12
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "core": {
+        "occlusionRadius": null
+      },
+      "LocknKey": {
+        "LPFormulaFlag": "",
+        "LPFormulaOverrideFlag": false,
+        "LBFormulaFlag": "",
+        "LBFormulaOverrideFlag": false,
+        "PickPocketFormulaFlag": "",
+        "PickPocketFormulaOverrideFlag": false,
+        "PickPocketDCFlag": 15,
+        "MATTTriggerTileFlag": "",
+        "MATTTriggerConditionsFlag": {
+          "LockuseKey": "never",
+          "LockusePasskey": "never",
+          "LockusePick": "never",
+          "LockuseBreak": "never",
+          "LockuseFree": "never",
+          "UsePickPocket": "never"
+        }
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "UseRidingHeightFlag": true,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "PilotedbyDefaultFlag": false
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "mountup": {
+      "isamount": false,
+      "lockrider": false,
+      "iconhud": "0"
+    },
+    "introduce-me": {
+      "flavor": "Minotaur Demonic Demigod",
+      "introduction-duration": "2",
+      "introduction-colors": {
+        "background": "#060505",
+        "text": "#8f0f0f",
+        "clip": true,
+        "template": null
+      }
+    },
+    "a5e": {
+      "trackInventoryWeight": false,
+      "showXP": false,
+      "sortMode": {},
+      "filters": {}
+    },
+    "exportSource": {
+      "world": "gebkasarty",
+      "system": "a5e",
+      "coreVersion": "11.315",
+      "systemVersion": "0.17.33"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.17.33",
+    "coreVersion": "11.315",
+    "createdTime": 1682890878178,
+    "modifiedTime": 1713364195954,
+    "lastModifiedBy": "3DfqsEukuWkekm50"
+  }
+}

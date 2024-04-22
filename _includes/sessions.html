@@ -1,0 +1,15 @@
+<div class="sessions-wrapper" data-size="fullscreen" >
+  <h1>Sessions</h1>
+
+  <article class="sessions-links" >
+    {% for item in site.pages reversed %}
+      {% if item.url contains 'html' and item.url contains 'sessions' %}
+      <section>
+        <h2 >{{ item.name | replace: ".md", "" }}</h2>
+        <div class="session-link" >
+          <p><a href="{{ site.baseurl }}{{ item.url }}" >{{ item.title }}</a></p>
+        </div>
+      </section>
+      {% endif %}
+    {% endfor %}
+  </article>

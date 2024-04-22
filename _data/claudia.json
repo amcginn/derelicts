@@ -1,0 +1,2599 @@
+{
+  "folder": "HinKXjE99bASaHfy",
+  "name": "Claudia",
+  "type": "character",
+  "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Claudia%20Main%20Image.jpg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "dex": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "con": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "concentrationBonus": "",
+          "bonus": ""
+        }
+      },
+      "int": {
+        "value": 14,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": true,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "wis": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "cha": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      }
+    },
+    "schemaVersion": {
+      "version": 0.016,
+      "lastMigration": {
+        "version": {
+          "schema": 0.015,
+          "foundry": "11.315",
+          "system": "0.17.33"
+        }
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "cul": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "eng": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "his": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ins": {
+        "ability": "int",
+        "proficient": 1,
+        "specialties": [
+          "detectingLies",
+          "readingEmotions",
+          "sensingMotives"
+        ],
+        "expertiseDice": 0,
+        "minRoll": 10,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "proficient": 1,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      }
+    },
+    "spellResources": {
+      "slots": {
+        "1": {
+          "current": 2,
+          "max": 2
+        },
+        "2": {
+          "current": 0,
+          "max": 0
+        },
+        "3": {
+          "current": 0,
+          "max": 0
+        },
+        "4": {
+          "current": 0,
+          "max": 0
+        },
+        "5": {
+          "current": 0,
+          "max": 0
+        },
+        "6": {
+          "current": 0,
+          "max": 0
+        },
+        "7": {
+          "current": 0,
+          "max": 0
+        },
+        "8": {
+          "current": 0,
+          "max": 0
+        },
+        "9": {
+          "current": 0,
+          "max": 0
+        }
+      },
+      "points": {
+        "current": 0,
+        "max": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "baseFormula": "10",
+        "value": 0
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "hp": {
+        "value": 10,
+        "baseMax": 10,
+        "temp": 0,
+        "bonus": null
+      },
+      "hitDice": {
+        "d6": {
+          "current": 0,
+          "total": 0
+        },
+        "d8": {
+          "current": 0,
+          "total": 0
+        },
+        "d10": {
+          "current": 0,
+          "total": 0
+        },
+        "d12": {
+          "current": 0,
+          "total": 0
+        },
+        "d4": {
+          "current": 0,
+          "total": 0
+        }
+      },
+      "initiative": {
+        "ability": "dex",
+        "bonus": "",
+        "expertiseDice": 0
+      },
+      "movement": {
+        "burrow": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "climb": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "fly": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "swim": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "walk": {
+          "distance": 30,
+          "unit": "feet"
+        },
+        "traits": {
+          "hover": false
+        }
+      },
+      "senses": {
+        "blindsight": {
+          "distance": 0,
+          "unit": "feet",
+          "otherwiseBlind": false
+        },
+        "darkvision": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "tremorsense": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "truesight": {
+          "distance": 0,
+          "unit": "feet"
+        }
+      },
+      "inspiration": false,
+      "fatigue": 0,
+      "strife": 0,
+      "spellcasting": "int",
+      "attunement": {
+        "current": 0,
+        "max": 3
+      },
+      "exertion": {
+        "current": 0,
+        "max": 1,
+        "recoverOnRest": true
+      }
+    },
+    "bonuses": {
+      "maneuverDC": "",
+      "meleeSpellAttack": "",
+      "meleeWeaponAttack": "",
+      "rangedSpellAttack": "",
+      "rangedWeaponAttack": "",
+      "spellDC": "",
+      "abilities": {},
+      "damage": {},
+      "healing": {},
+      "attacks": {},
+      "initiative": {},
+      "movement": {},
+      "senses": {},
+      "skills": {}
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "details": {
+      "bio": "",
+      "creatureTypes": [],
+      "isSwarm": false,
+      "age": "",
+      "appearance": "",
+      "background": "",
+      "classes": "",
+      "culture": "",
+      "destiny": "",
+      "eyeColor": "",
+      "gender": "",
+      "hairColor": "",
+      "heritage": "",
+      "height": "",
+      "level": 3,
+      "notes": "",
+      "prestige": 1,
+      "skinColor": "",
+      "weight": "",
+      "xp": 0,
+      "archetype": ""
+    },
+    "proficiencies": {
+      "armor": [],
+      "languages": [],
+      "tools": [],
+      "weapons": [],
+      "traditions": []
+    },
+    "resources": {
+      "primary": {
+        "label": "",
+        "value": 0,
+        "max": "0",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "secondary": {
+        "label": "",
+        "value": 0,
+        "max": "0",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "tertiary": {
+        "label": "",
+        "value": 0,
+        "max": "0",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "quaternary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      }
+    },
+    "source": {
+      "name": "",
+      "link": "",
+      "publisher": ""
+    },
+    "traits": {
+      "size": "med",
+      "conditionImmunities": [],
+      "damageImmunities": [],
+      "damageResistances": [],
+      "damageVulnerabilities": [],
+      "alignment": []
+    },
+    "supply": 0,
+    "spellBooks": {
+      "CSKHlrikeUWE8q6s": {
+        "_id": "CSKHlrikeUWE8q6s",
+        "name": "New Spell Book",
+        "img": "icons/svg/book.svg",
+        "ability": "default",
+        "disableSpellConsumers": false,
+        "showSpellPoints": false,
+        "showSpellSlots": true
+      }
+    },
+    "grants": {}
+  },
+  "prototypeToken": {
+    "name": "Claudia",
+    "displayName": 30,
+    "actorLink": true,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Claudia%20Main.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.2,
+      "angle": 360,
+      "bright": 0,
+      "color": "#99eeff",
+      "coloration": 4,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "ghost",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 60,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "token-z": {
+        "zIndex": 0
+      },
+      "mountup": {
+        "isamount": false,
+        "lockrider": false,
+        "iconhud": "0"
+      },
+      "wall-height": {
+        "tokenHeight": 6
+      },
+      "tagger": {},
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "core": {
+        "occlusionRadius": null
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "PilotedbyDefaultFlag": false
+      },
+      "LocknKey": {
+        "LPFormulaFlag": "",
+        "LPFormulaOverrideFlag": false,
+        "LBFormulaFlag": "",
+        "LBFormulaOverrideFlag": false,
+        "PickPocketFormulaFlag": "",
+        "PickPocketFormulaOverrideFlag": false,
+        "PickPocketDCFlag": 15,
+        "MATTTriggerTileFlag": "",
+        "MATTTriggerConditionsFlag": {
+          "LockuseKey": "never",
+          "LockusePasskey": "never",
+          "LockusePick": "never",
+          "LockuseBreak": "never",
+          "LockuseFree": "never",
+          "UsePickPocket": "never"
+        }
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Binding Stone",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Claudia can pass beyond the construct for a short time just as she could with the tower, but within a minute of leaving the construct the binding stone cementing her to this plane of existence summons her back.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">If the stone is destroyed she will be instantly thrown into the astral plane from whence she came and Nep Nik will walk the world without her influence.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">At any moment Nep NIk could destroy the binding stone that binds Claudia to this plane of existence.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">She is well aware of this, and leaves her fate in his hands to prove her faith and trust in him.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "IizzGolNDiACAEon",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Binding%20Stones.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.12.5",
+        "coreVersion": "11.302",
+        "createdTime": 1687745843408,
+        "modifiedTime": 1687746093205,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Hands of the Creator",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "p2otC6tKdffPC1Cb": {
+            "name": "Execute",
+            "consumers": {
+              "mIRvRmD7mtl42rTg": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Claudia can use gold from Nep Nik&rsquo;s reserves/from the battlefield to mend him as a bonus action.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Note: If he wants to remain as unarmored, she can use the gold to heal him and keep him there as long as a bonus action is available.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">However, if he is reduced to 0HP, he will fall into disrepair and the Binding Stone pulls Claudia inside to protect her.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">Someone else will have to use gold and fire to repair him.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Alternatively, she can use this to pull gold from him to change up his build, lowering his HP to drop him from Heavy to Medium or Medium to Unarmored.</p>\n</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "cuttingOmen",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "0vnLO7EhR8hQuH08",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Hans%20of%20the%20Creator.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 1,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.2",
+        "coreVersion": "11.309",
+        "createdTime": 1687822520981,
+        "modifiedTime": 1695825399871,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Stand Naked Before the Judge",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Those who are near a Kazrem Azryel often describe the feeling of being seen entirely, inside and out.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Their natural perceptiveness gives them a keen advantage over their surroundings and a deeper insight into those they can see.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Although Claudia has given up much of her Kazrem Azryel power, she remains adept at picking out lies.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Whenever you make an Intelligence (Insight) check to determine whether a creature is lying or hiding something, treat a roll of 9 or lower on the d20 as an automatic roll of 10.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Claudia is proficient in the Perception and Insight skills, but uses Nep Nik&rsquo;s Intelligence modifier in place of Wisdom.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "xwGygUBOZF9its5H",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Stand%20Before%20Her%20Naked.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.12.5",
+        "coreVersion": "11.302",
+        "createdTime": 1687745843408,
+        "modifiedTime": 1687823591811,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Stroll Through Walls",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "p2otC6tKdffPC1Cb": {
+            "name": "Stroll Through Walls",
+            "consumers": {
+              "mIRvRmD7mtl42rTg": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              },
+              "MjtvYPIHoip1gUxB": {
+                "type": "itemUses",
+                "default": true,
+                "quantity": 1,
+                "label": "Use Consumption"
+              }
+            },
+            "descriptionOutputs": [
+              "item"
+            ],
+            "prompts": {
+              "Ef5xIbGRmJJzbpC2": {
+                "type": "generic",
+                "default": true
+              }
+            },
+            "uses": {
+              "per": "longRest"
+            },
+            "description": "<p>Stroll Through Walls.</p>"
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Walls do not obstruct her ability to feel what is beyond them and, if she wishes, Claudia can step out of the construct and through a wall to get a better look at what she believes may be on the other side.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">She may choose to remain invisible to the naked eye or show herself in her Banshee form.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">During this she cannot use other abilities or aid Nep Nik.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">This can only happen once per long rest.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "1",
+          "per": "longRest",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "cuttingOmen",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "TnafSlATLzKh5WCZ",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Stroll%20through%20Walls.png",
+      "effects": [
+        {
+          "icon": "https://assets.forge-vtt.com/bazaar/core/icons/svg/aura.svg",
+          "origin": "Actor.D5M4M1OB2CPvZvZT.Item.TnafSlATLzKh5WCZ",
+          "flags": {
+            "a5e": {
+              "sort": 0,
+              "transferType": "onUse"
+            }
+          },
+          "transfer": false,
+          "name": "New Effect",
+          "_id": "DtljND248S5GFY8D",
+          "changes": [
+            {
+              "key": "",
+              "mode": 6,
+              "value": "",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "folder": "F0w6gegSvq2XQCSR",
+      "sort": 4,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.D5M4M1OB2CPvZvZT.Item.0vnLO7EhR8hQuH08"
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.16.4",
+        "coreVersion": "11.313",
+        "createdTime": 1687822520981,
+        "modifiedTime": 1698369554507,
+        "lastModifiedBy": "J2KEp1xxELdfnUTO"
+      }
+    },
+    {
+      "name": "Aid, Spells, and Cantrips",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 1,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Claudia has the Aid Cantrip and can use it once per short/long rest.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Casting Time: Free action</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">A tendril of her energy snaps out from Nep Nik at an hour of need and aids a teammate within 30 feet by adding 1d4 to their saving throw.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">She may choose a Cantrip at this time from the Cleric Spell List.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">The Banshee table shows how many spells and spell slots she has from the Cleric Spell list.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Spells and Cantrips are found Here: <a href=\"http://dnd5e.wikidot.com/spells:cleric\">Cleric Spell List - DND 5th Edition</a></p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Claudia immediately knows three 1st-level cleric spells of your choice, two of which must be chosen from the divination and necromancy spells on the cleric spell list.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Each spell learned from here on through 7th-level must come from the Divination and Necromancy spells</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">You can replace these spells whenever you gain a level, but the assortment of spells must stay the same.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">The spells you learn at 8th, 14th, and 20th levels can come from any Cleric&rsquo;s school of magic.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">To cast one of these spells, you must expend a slot of the spell's level or higher.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You regain all expended spell slots when you finish a long rest.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<h4 dir=\"ltr\" role=\"presentation\"><strong>SPELLCASTING ABILITY</strong></h4>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Nep Nik&rsquo;s Intelligence is your spellcasting ability for your cleric spells.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You use Nep Nik&rsquo;s Intelligence whenever a spell refers to your spellcasting ability.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">In addition, you use Nep Nik&rsquo;s Intelligence modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Spell save DC = 8+ your proficiency bonus + Nep Nik&rsquo;s Intelligence modifier</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Spell attack modifier your proficiency bonus + your Intelligence modifier</p>\n</li>\n</ul>\n</ul>\n</ul>\n<p dir=\"ltr\" role=\"presentation\">&nbsp;</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "background",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "QAqaVmwsipr96CTw",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Aid%2C%20Spells%2C%20and%20Cantrip.png",
+      "effects": [],
+      "folder": "F0w6gegSvq2XQCSR",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.D5M4M1OB2CPvZvZT.Item.xwGygUBOZF9its5H"
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.12.5",
+        "coreVersion": "11.302",
+        "createdTime": 1687745843408,
+        "modifiedTime": 1687825165789,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Living Nightmares",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "p2otC6tKdffPC1Cb": {
+            "name": "Living Nightmares",
+            "consumers": {
+              "mLnCoRSrWtnco1CC": {
+                "type": "itemUses",
+                "default": true,
+                "quantity": 1,
+                "label": "Living Nightmares Consumption"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "prompts": {
+              "ZzesCHPWj7u5XUwr": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "int",
+                "saveDC": {
+                  "type": "int"
+                },
+                "label": "Living Nightmares",
+                "onSave": "They are not terrified"
+              }
+            },
+            "uses": {
+              "per": "",
+              "value": 0,
+              "max": ""
+            },
+            "ranges": {
+              "TY79wuiUx68wKoGc": {
+                "range": "fiveFeet"
+              }
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            },
+            "rolls": {},
+            "activation": {
+              "type": "bonusAction",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            }
+          }
+        },
+        "description": "<ul>\n<li style=\"list-style-type: none;\">\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Starting at 2nd Level, Claudia may use a bonus action to reach out a spiritual tendril and touch a creature adjacent to the construct, casting Living Nightmares on that creature.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">They see the thing they are most terrified of appearing before them and must react unless they roll an Intelligence Contest to save.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">The DM chooses how they react.</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">If successful, she cannot use this ability again on the same creature.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">You can only use this ability an equal amount to your Intelligence proficiency bonus between each short or long rest.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 2,
+          "max": "2",
+          "per": "shortRest",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "cuttingOmen",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "KQBqsbTFJpLx3nde",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Nightmare.png",
+      "effects": [
+        {
+          "icon": "https://assets.forge-vtt.com/bazaar/core/icons/svg/aura.svg",
+          "origin": "Actor.D5M4M1OB2CPvZvZT.Item.KQBqsbTFJpLx3nde",
+          "flags": {
+            "a5e": {
+              "sort": 0,
+              "transferType": "onUse"
+            }
+          },
+          "transfer": false,
+          "name": "New Effect",
+          "_id": "DtljND248S5GFY8D",
+          "changes": [
+            {
+              "key": "",
+              "mode": 6,
+              "value": "",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "folder": "F0w6gegSvq2XQCSR",
+      "sort": 3,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Actor.D5M4M1OB2CPvZvZT.Item.0vnLO7EhR8hQuH08"
+        },
+        "autoanimations": {
+          "id": "d75ec568-bd11-4db1-8f1b-ad8655316d8d",
+          "label": "Living Nightmares",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "menu": "ontoken",
+          "primary": {
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "spiritguardians",
+              "variant": "01",
+              "color": "black",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "file": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Creatures/FA_Tokens/Creatures/Elemental/NN%20Living%20Nightmare%20HIt.wav",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "persistent": true,
+              "playbackRate": 1,
+              "playOn": "target",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": true,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "spiritguardians",
+              "variant": "noring",
+              "color": "black",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75,
+              "file": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Creatures/FA_Tokens/Creatures/Elemental/NN%20Living%20Nightmare%20Cast.wav"
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "spiritguardians",
+              "variant": "01",
+              "color": "black",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "file": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Creatures/FA_Tokens/Creatures/Elemental/NN%20Living%20Nightmare%20HIt.wav",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": true,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": true,
+          "fromAmmo": false,
+          "version": 5
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.2",
+        "coreVersion": "11.309",
+        "createdTime": 1687822520981,
+        "modifiedTime": 1695849706750,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Grappled Terror",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "p2otC6tKdffPC1Cb": {
+            "name": "Grappled Terror",
+            "consumers": {
+              "9uyc8BT6OnoJ2XUZ": {
+                "type": "itemUses",
+                "default": true,
+                "quantity": 1,
+                "label": "Grappled Terror Use Consumption"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "prompts": {
+              "qmLIKd8GUC6pDBW8": {
+                "type": "savingThrow",
+                "default": false,
+                "ability": "int",
+                "saveDC": {
+                  "type": "int"
+                },
+                "onSave": "Break Free",
+                "label": "Target Save Roll"
+              }
+            },
+            "uses": {
+              "per": "longRest"
+            },
+            "activation": {
+              "type": "reaction",
+              "cost": 1,
+              "reactionTrigger": "When Nep Nik (or a companion) grapples a creature within 5 feet."
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "GtymNnU9cGI4y1ab": {
+                "range": "touch"
+              }
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            },
+            "rolls": {
+              "5szGuNJS46Yvxrc9": {
+                "type": "damage",
+                "default": true,
+                "damageType": "psychic",
+                "formula": "1d4",
+                "label": "Nightmare Damage"
+              },
+              "N33puVHINaZpjhid": {
+                "type": "abilityCheck",
+                "default": true,
+                "ability": "int",
+                "label": "Claudia Contest Roll"
+              },
+              "y9sX1U7yByQrdX2i": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeSpellAttack",
+                "proficient": true,
+                "ability": "spellcasting",
+                "label": "Grappled Terror Roll"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">When Nep Nik (or a companion) grapples a creature within 5 feet, Claudia may envelop them for a moment, surrounding them in nightmares, Blinding, Deafening, or Restraining them for a turn (your choice).</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">She may remain behind and stay attached to the creature as long as she isn&rsquo;t shaken loose.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">The creature must roll an intelligence contest save to free themselves.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Claudia cannot use any of her abilities until she lets go or is shaken free.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">The terror cripples them, making them unable to make a noise until the Grappled Terror ends.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">They take 1d4 psychic damage per turn</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "1",
+          "per": "round",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "cuttingOmen",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Grappled%20Terror.jpg",
+      "effects": [
+        {
+          "icon": "https://assets.forge-vtt.com/bazaar/core/icons/svg/aura.svg",
+          "origin": "Actor.D5M4M1OB2CPvZvZT.Item.FvbAPqdIyLIYTtmQ",
+          "flags": {
+            "a5e": {
+              "sort": 0,
+              "transferType": "onUse"
+            }
+          },
+          "transfer": false,
+          "name": "New Effect",
+          "_id": "DtljND248S5GFY8D",
+          "changes": [
+            {
+              "key": "",
+              "mode": 6,
+              "value": "",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "folder": "F0w6gegSvq2XQCSR",
+      "flags": {
+        "core": {},
+        "autoanimations": {
+          "id": "2b30f913-6a8c-4eb1-a0e9-1d4345e0fe7a",
+          "label": "Grappled Terror",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "menu": "ontoken",
+          "primary": {
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "blacktentacles",
+              "variant": "01",
+              "color": "darkpurple",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "file": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Creatures/FA_Tokens/Creatures/Elemental/NN%20Grappled%20by%20Terror.wav",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": false,
+              "opacity": 1,
+              "persistent": false,
+              "playbackRate": 1,
+              "playOn": "target",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": true,
+          "fromAmmo": false,
+          "version": 5
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.2",
+        "coreVersion": "11.309",
+        "createdTime": 1687822520981,
+        "modifiedTime": 1695850020314,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      },
+      "_id": "FvbAPqdIyLIYTtmQ",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      }
+    },
+    {
+      "name": "Jury",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "p2otC6tKdffPC1Cb": {
+            "name": "Jury",
+            "consumers": {
+              "HQZOHbhSIZB7HJ9U": {
+                "type": "itemUses",
+                "default": true,
+                "quantity": 1,
+                "label": "Use Consumption"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "prompts": {
+              "Ef5xIbGRmJJzbpC2": {
+                "type": "generic",
+                "default": true
+              }
+            },
+            "uses": {
+              "per": "",
+              "value": 0,
+              "max": ""
+            },
+            "activation": {
+              "type": "bonusAction",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Claudia can use Nep Nik&rsquo;s bonus action to open spiritual eyes that glow and hover in the air around the Construct.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">The eyes have an ethereal quality and can be sustained without concentration for 1 minute.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">For the duration, creatures within 30 feet of you can&rsquo;t gain advantage on attack rolls against you as a result of being invisible or unseen.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">Creatures that are invisible or unseen are revealed to Nep Nik</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You can only use this ability an equal amount to your Intelligence proficiency bonus between each short or long rest.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 2,
+          "max": "2",
+          "per": "shortRest",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "cuttingOmen",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Jury.jpg",
+      "effects": [
+        {
+          "icon": "https://assets.forge-vtt.com/bazaar/core/icons/svg/aura.svg",
+          "origin": "Actor.D5M4M1OB2CPvZvZT.Item.ldOBQOAnZd7ROmop",
+          "flags": {
+            "a5e": {
+              "sort": 0,
+              "transferType": "onUse"
+            }
+          },
+          "transfer": false,
+          "name": "New Effect",
+          "_id": "DtljND248S5GFY8D",
+          "changes": [
+            {
+              "key": "",
+              "mode": 6,
+              "value": "",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "folder": "F0w6gegSvq2XQCSR",
+      "flags": {
+        "core": {},
+        "autoanimations": {
+          "id": "705a2965-abf0-4573-9f0f-0f4042f65271",
+          "label": "Jury",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "menu": "ontoken",
+          "primary": {
+            "video": {
+              "dbSection": "static",
+              "menuType": "eyes",
+              "animation": "many",
+              "variant": "02",
+              "color": "bluegreen",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": false,
+              "opacity": 1,
+              "persistent": true,
+              "playbackRate": 1,
+              "playOn": "source",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": false,
+          "fromAmmo": false,
+          "version": 5
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.2",
+        "coreVersion": "11.309",
+        "createdTime": 1687822520981,
+        "modifiedTime": 1695849684539,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      },
+      "_id": "ldOBQOAnZd7ROmop",
+      "sort": 2,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      }
+    },
+    {
+      "name": "Gravity Well",
+      "type": "spell",
+      "system": {
+        "actions": {
+          "rfstYOwe0CfKvYmR": {
+            "name": "Gravity Well",
+            "consumers": {
+              "kD7pTd0xSYtOz2hu": {
+                "mode": "variable",
+                "spellLevel": 1,
+                "points": 2,
+                "type": "spell"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "action",
+              "cost": 1
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "OvigfZEG5nOfY36J": {
+                "range": "medium"
+              }
+            },
+            "target": {
+              "type": "creatureObject",
+              "quantity": 1
+            },
+            "prompts": {
+              "fLAwCIOUGkt6r38b": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "dex",
+                "saveDC": {
+                  "type": "spellcasting"
+                },
+                "onSave": "They take half damage and are only pulled 10 feet"
+              }
+            },
+            "rolls": {
+              "7ysCzFoDlBAkxF40": {
+                "type": "damage",
+                "default": true,
+                "label": "Gravity Well Damage",
+                "formula": "2d8",
+                "damageType": "force",
+                "scaling": {
+                  "mode": "spellLevel",
+                  "formula": "1d8"
+                }
+              }
+            }
+          }
+        },
+        "description": "<p><strong>(cleric, druid, ranger, sorcerer,&nbsp;warlock, wizard)</strong></p>\n<ul>\n<li>You fire a projectile of condensed gravitational force toward a creature you can see within range.\n<ul>\n<li>Make a&nbsp;ranged spell attack against the target.</li>\n<li>On a hit, the&nbsp;target takes 2d8 force damage and is pulled 20 feet in a<br>straight line toward you.\n<ul>\n<li>If they're successful with their dexterity save they take half the damage and are only pulled 10 feet</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong>Cast at Higher Levels:</strong></p>\n<ul>\n<li>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Source:</strong> Steinhardt's Guild Spells</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "classes": [],
+        "components": {
+          "vocalized": true,
+          "seen": true,
+          "material": false
+        },
+        "concentration": false,
+        "level": 1,
+        "materials": "",
+        "materialsConsumed": false,
+        "prepared": 0,
+        "prerequisite": "",
+        "rare": false,
+        "ritual": false,
+        "schools": {
+          "primary": "evocation",
+          "secondary": [
+            "displacement"
+          ]
+        },
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        },
+        "spellBook": "CSKHlrikeUWE8q6s"
+      },
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.6",
+        "coreVersion": "11.307",
+        "createdTime": 1691585968085,
+        "modifiedTime": 1691796646387,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      },
+      "_id": "ZiAMXgeMkjdGP04f",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      }
+    },
+    {
+      "name": "Inflict Wounds",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/wounds/blood-spurt-spray-red.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.a5e.a5e-spells.5qkmd21kyg7vedcz"
+        }
+      },
+      "system": {
+        "actions": {
+          "tguh3oUt5NBqh1MO": {
+            "name": "Inflict Wounds",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "instantaneous",
+              "value": ""
+            },
+            "ranges": {
+              "hyG6OrBWeh3o4SJS": {
+                "range": "touch"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": 1,
+              "type": "creature"
+            },
+            "rolls": {
+              "4E5sEN6beQGgI1My": {
+                "bonus": "",
+                "critThreshold": 20,
+                "type": "attack",
+                "attackType": "meleeSpellAttack",
+                "ability": "spellcasting"
+              },
+              "syGSSty0rnLhTFl6": {
+                "canCrit": true,
+                "damageType": "necrotic",
+                "formula": "3d10",
+                "name": "",
+                "type": "damage",
+                "scaling": {
+                  "mode": "spellLevel",
+                  "formula": "1d10"
+                }
+              }
+            },
+            "consumers": {
+              "d0vvMqUA0ad8VwX3": {
+                "mode": "variable",
+                "spellLevel": 1,
+                "points": 2,
+                "type": "spell"
+              }
+            }
+          }
+        },
+        "description": "<p><strong>(Cleric)</strong></p>\n<p>You impart fell energies that suck away the target's life force, making a melee spell attack that deals 3d10 necrotic damage.</p>\n<p><strong><em>Cast at Higher Levels.</em></strong> The damage increases by 1d10 for each slot level above 1st.</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "classes": [],
+        "components": {
+          "vocalized": true,
+          "seen": true,
+          "material": false
+        },
+        "concentration": false,
+        "level": 1,
+        "materials": "",
+        "materialsConsumed": false,
+        "prepared": 0,
+        "prerequisite": "",
+        "rare": false,
+        "ritual": false,
+        "schools": {
+          "primary": "necromancy",
+          "secondary": [
+            "attack",
+            "divine",
+            "necrotic"
+          ]
+        },
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        },
+        "spellBook": "CSKHlrikeUWE8q6s"
+      },
+      "_id": "ioDc8DdpSsvZmMQF",
+      "folder": null,
+      "sort": 7500000,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.6",
+        "coreVersion": "11.307",
+        "createdTime": 1691796664407,
+        "modifiedTime": 1691796784863,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Detect Magic",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.a5e.a5e-spells.kaye34nheyrit487"
+        }
+      },
+      "system": {
+        "actions": {
+          "2Vcsudkl3nqor34U": {
+            "name": "Detect Magic",
+            "activation": {
+              "cost": 1,
+              "type": "action",
+              "reactionTrigger": ""
+            },
+            "duration": {
+              "unit": "minute",
+              "value": "10"
+            },
+            "ranges": {
+              "nGx2plWAcoII9obA": {
+                "range": "self"
+              }
+            },
+            "area": {
+              "shape": "",
+              "size": "",
+              "placeTemplate": false
+            },
+            "target": {
+              "quantity": "",
+              "type": "self"
+            },
+            "consumers": {
+              "VFEmR1Zt87l27buJ": {
+                "mode": "variable",
+                "spellLevel": 1,
+                "points": 2,
+                "type": "spell"
+              }
+            }
+          }
+        },
+        "description": "<p><strong>(Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard)</strong></p>\n<p>Until the spell ends, you automatically sense the presence of magic within range, and you can use an action to study the aura of a magic effect to learn its schools of magic (if any).</p>\n<p>The spell penetrates most barriers but is blocked by 3 feet of wood or dirt, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead.</p>\n<p><strong><em>Cast at Higher Levels:</em></strong></p>\n<ul>\n<li>When using a 2nd-level spell slot or higher, the spell no longer requires your concentration.</li>\n<li>When using a 3rd-level spell slot, the duration increases to 1 hour.</li>\n<li>When using a 4th-level spell slot or higher, the duration increases to 8 hours.</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "",
+            "threshold": 0
+          }
+        },
+        "classes": [],
+        "components": {
+          "vocalized": true,
+          "seen": true,
+          "material": false
+        },
+        "concentration": true,
+        "level": 1,
+        "materials": "",
+        "materialsConsumed": false,
+        "prepared": 0,
+        "prerequisite": "",
+        "rare": false,
+        "ritual": true,
+        "schools": {
+          "primary": "divination",
+          "secondary": [
+            "arcane",
+            "divine",
+            "nature",
+            "senses"
+          ]
+        },
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        },
+        "spellBook": "CSKHlrikeUWE8q6s"
+      },
+      "_id": "lIe9cCDctvyT64Kc",
+      "folder": null,
+      "sort": 23300000,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.6",
+        "coreVersion": "11.307",
+        "createdTime": 1691796940439,
+        "modifiedTime": 1691797144253,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "icon": "icons/magic/light/explosion-star-glow-silhouette.webp",
+      "origin": "Actor.D5M4M1OB2CPvZvZT",
+      "flags": {
+        "a5e": {
+          "sort": 0
+        }
+      },
+      "name": "Show Yourself",
+      "_id": "eVjakgCk6RyPONXG",
+      "changes": [
+        {
+          "key": "@token.light.dim",
+          "value": "30",
+          "mode": 6,
+          "priority": 60
+        },
+        {
+          "key": "@token.light.bright",
+          "value": "15",
+          "mode": 6,
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": 61800,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": 0,
+        "startTurn": 0
+      },
+      "description": "<p>No description available.</p>",
+      "transfer": false,
+      "statuses": []
+    }
+  ],
+  "flags": {
+    "introduce-me": {
+      "introduction-colors": {
+        "background": "#1deded",
+        "text": "#121212",
+        "clip": true,
+        "template": null
+      },
+      "flavor": "Banshee of Elden Keep - Last of the Kazrem Azryel",
+      "introduction-duration": "3"
+    },
+    "mountup": {
+      "isamount": false,
+      "lockrider": false,
+      "iconhud": "0"
+    },
+    "a5e": {
+      "currentTab": "maneuvers",
+      "sheetIsLocked": false,
+      "trackInventoryWeight": false,
+      "showXP": false,
+      "sortMode": {},
+      "filters": {}
+    },
+    "warpgate": {
+      "control": {
+        "user": "3DfqsEukuWkekm50"
+      }
+    },
+    "sequencer": {
+      "effects": []
+    },
+    "exportSource": {
+      "world": "gebkasarty",
+      "system": "a5e",
+      "coreVersion": "11.315",
+      "systemVersion": "0.17.33"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.17.33",
+    "coreVersion": "11.315",
+    "createdTime": 1687822520981,
+    "modifiedTime": 1713364221328,
+    "lastModifiedBy": "3DfqsEukuWkekm50"
+  }
+}

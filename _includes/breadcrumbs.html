@@ -1,0 +1,7 @@
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ul>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    {% if page.session %}<li><a href="{{ '/sessions/' | relative_url }}">Sessions</a></li>{% endif %}
+    {% if page.character %}<li><a href="{{ '/characters/' | relative_url }}">Characters</a></li>{% endif %}
+  </ul>
+</nav>

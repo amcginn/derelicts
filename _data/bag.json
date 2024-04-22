@@ -1,0 +1,2919 @@
+{
+  "name": "???????????",
+  "type": "character",
+  "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Matthias%20Image.jpg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "dex": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "con": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "concentrationBonus": "",
+          "bonus": ""
+        }
+      },
+      "int": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "wis": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      },
+      "cha": {
+        "value": 0,
+        "check": {
+          "expertiseDice": 0,
+          "bonus": ""
+        },
+        "save": {
+          "proficient": false,
+          "expertiseDice": 0,
+          "bonus": ""
+        }
+      }
+    },
+    "schemaVersion": {
+      "version": 0.016,
+      "lastMigration": {
+        "version": {
+          "schema": 0.015,
+          "foundry": "11.315",
+          "system": "0.17.33"
+        }
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "cul": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "eng": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "his": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "proficient": 0,
+        "specialties": [],
+        "expertiseDice": 0,
+        "minRoll": 1,
+        "bonuses": {
+          "check": "",
+          "passive": 0
+        }
+      }
+    },
+    "spellResources": {
+      "slots": {
+        "1": {
+          "current": 0,
+          "max": 0
+        },
+        "2": {
+          "current": 0,
+          "max": 0
+        },
+        "3": {
+          "current": 0,
+          "max": 0
+        },
+        "4": {
+          "current": 0,
+          "max": 0
+        },
+        "5": {
+          "current": 0,
+          "max": 0
+        },
+        "6": {
+          "current": 0,
+          "max": 0
+        },
+        "7": {
+          "current": 0,
+          "max": 0
+        },
+        "8": {
+          "current": 0,
+          "max": 0
+        },
+        "9": {
+          "current": 0,
+          "max": 0
+        }
+      },
+      "points": {
+        "current": 0,
+        "max": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "baseFormula": "6",
+        "value": 0
+      },
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "hp": {
+        "value": 9,
+        "baseMax": 1000,
+        "temp": 0,
+        "bonus": null
+      },
+      "hitDice": {
+        "d6": {
+          "current": 0,
+          "total": 0
+        },
+        "d8": {
+          "current": 0,
+          "total": 0
+        },
+        "d10": {
+          "current": 0,
+          "total": 0
+        },
+        "d12": {
+          "current": 0,
+          "total": 0
+        },
+        "d4": {
+          "current": 0,
+          "total": 0
+        }
+      },
+      "initiative": {
+        "ability": "dex",
+        "bonus": "",
+        "expertiseDice": 0
+      },
+      "movement": {
+        "burrow": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "climb": {
+          "distance": 5,
+          "unit": "feet"
+        },
+        "fly": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "swim": {
+          "distance": 5,
+          "unit": "feet"
+        },
+        "walk": {
+          "distance": 5,
+          "unit": "feet"
+        },
+        "traits": {
+          "hover": false
+        }
+      },
+      "senses": {
+        "blindsight": {
+          "distance": 0,
+          "unit": "feet",
+          "otherwiseBlind": false
+        },
+        "darkvision": {
+          "distance": 30,
+          "unit": "feet"
+        },
+        "tremorsense": {
+          "distance": 0,
+          "unit": "feet"
+        },
+        "truesight": {
+          "distance": 0,
+          "unit": "feet"
+        }
+      },
+      "inspiration": false,
+      "fatigue": 0,
+      "strife": 0,
+      "spellcasting": "int",
+      "attunement": {
+        "current": 0,
+        "max": 3
+      },
+      "exertion": {
+        "current": 0,
+        "max": 0,
+        "recoverOnRest": true
+      }
+    },
+    "bonuses": {
+      "maneuverDC": "",
+      "meleeSpellAttack": "",
+      "meleeWeaponAttack": "",
+      "rangedSpellAttack": "",
+      "rangedWeaponAttack": "",
+      "spellDC": "",
+      "abilities": {},
+      "damage": {},
+      "healing": {},
+      "attacks": {},
+      "initiative": {},
+      "movement": {},
+      "senses": {},
+      "skills": {}
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "details": {
+      "bio": "",
+      "creatureTypes": [],
+      "isSwarm": false,
+      "age": "",
+      "appearance": "",
+      "background": "",
+      "classes": "",
+      "culture": "",
+      "destiny": "",
+      "eyeColor": "",
+      "gender": "",
+      "hairColor": "",
+      "heritage": "",
+      "height": "",
+      "level": 3,
+      "notes": "",
+      "prestige": 1,
+      "skinColor": "",
+      "weight": "",
+      "xp": 0,
+      "archetype": ""
+    },
+    "proficiencies": {
+      "armor": [],
+      "languages": [],
+      "tools": [],
+      "weapons": [],
+      "traditions": []
+    },
+    "resources": {
+      "primary": {
+        "label": "Rune Hunger",
+        "value": 0,
+        "max": "1000",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "secondary": {
+        "label": "",
+        "value": 0,
+        "max": "0",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "tertiary": {
+        "label": "",
+        "value": 0,
+        "max": "0",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      },
+      "quaternary": {
+        "label": "",
+        "value": 0,
+        "max": "",
+        "per": "",
+        "hideMax": false,
+        "recharge": {
+          "formula": "",
+          "threshold": 6
+        }
+      }
+    },
+    "source": {
+      "name": "",
+      "link": "",
+      "publisher": ""
+    },
+    "traits": {
+      "size": "med",
+      "conditionImmunities": [],
+      "damageImmunities": [
+        "acid"
+      ],
+      "damageResistances": [],
+      "damageVulnerabilities": [],
+      "alignment": []
+    },
+    "supply": 0,
+    "spellBooks": {
+      "fngOA6X8e3mLEJNi": {
+        "_id": "fngOA6X8e3mLEJNi",
+        "name": "New Spell Book",
+        "img": "icons/svg/book.svg",
+        "ability": "default",
+        "disableSpellConsumers": false,
+        "showSpellPoints": false,
+        "showSpellSlots": true
+      }
+    },
+    "grants": {}
+  },
+  "prototypeToken": {
+    "name": "????",
+    "displayName": 30,
+    "actorLink": true,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Matthias%20Bedroll.png",
+      "scaleX": 0.6,
+      "scaleY": 0.6,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": null
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 30,
+      "angle": 185,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "token-z": {
+        "zIndex": 0
+      },
+      "mountup": {
+        "isamount": false,
+        "lockrider": false,
+        "iconhud": "0"
+      },
+      "tagger": {},
+      "wall-height": {
+        "tokenHeight": 2.5
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "core": {
+        "occlusionRadius": null
+      },
+      "LocknKey": {
+        "LPFormulaFlag": "",
+        "LPFormulaOverrideFlag": false,
+        "LBFormulaFlag": "",
+        "LBFormulaOverrideFlag": false,
+        "PickPocketFormulaFlag": "",
+        "PickPocketFormulaOverrideFlag": false,
+        "PickPocketDCFlag": 15,
+        "MATTTriggerTileFlag": "",
+        "MATTTriggerConditionsFlag": {
+          "LockuseKey": "never",
+          "LockusePasskey": "never",
+          "LockusePick": "never",
+          "LockuseBreak": "never",
+          "LockuseFree": "never",
+          "UsePickPocket": "never"
+        }
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "UseRidingHeightFlag": true,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "PilotedbyDefaultFlag": false
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "RUNE LORD",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">At 1st level, as a reaction, you may carve a bloody <strong>Rune</strong> into a creature as though painting on a canvas.</p>\n</li>\n<li dir=\"ltr\"><strong>???</strong> is a master rune calligrapher, using a <strong>Rune Pool</strong> to carve <strong>Rune</strong> Designs into the flesh of others within reach of the <strong>Backpack Straps</strong> making them <strong>Rune Bearers.</strong></li>\n<li dir=\"ltr\" role=\"presentation\"><strong id=\"docs-internal-guid-ad42a622-7fff-b116-96c6-de8db62e967b\"></strong>The reach of this is dependent on your <strong>Strap</strong> length.</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">The <strong>Runes</strong> you know can be found here:</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><a href=\"https://docs.google.com/document/d/10fCtGY-UISC36JKVQaN7ga0d0ZSHei-_E2SaJImgtRw/edit?usp=sharing\">??? - Rune Lord</a></p>\n</li>\n</ul>\n</li>\n<li>These <strong>Runes</strong> bind, hinder, ward, or empower the target they&rsquo;re applied to.</li>\n<li>The&nbsp;<strong style=\"font-size: 10.5pt;\">Rune Pool</strong><span style=\"font-size: 10.5pt;\"> cost, time, and effect of each&nbsp;</span><strong style=\"font-size: 10.5pt;\">Rune&nbsp;</strong><span style=\"font-size: 10.5pt;\">is plainly stated in the document.</span>\n<ul>\n<li>You can't apply more than one <strong>Rune</strong> at a time on a target.</li>\n<li dir=\"ltr\">You roll your <strong>Rune Hunger Die</strong> against the creature you use this on, siphoning some energy back in return.\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">They roll for each <strong>Rune Pool</strong> cost of 10, rounded up.\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">As per usual, this amount cannot be reduced or blocked by any means.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Alternatively, you can carve <strong>Runes</strong> into objects and it&rsquo;s considered a <strong>Rune Aura Trap</strong> when stated and the effect lasts 1 hour.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You do not Roll your <strong>Rune Hunger Die</strong> against the object, and therefore receive nothing in return.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Aura Trap</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">The <strong>Rune&rsquo;s Aura</strong> fills a 5-foot cube and no more than one <strong>Rune</strong> can be placed in the space.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">The first time a creature occupies the aura, the <strong>Rune</strong> feeds on their life force which then triggers the trap and the <strong>Rune</strong> is destroyed in the process.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">The creature must make a Dexterity saving throw or suffer the effects of the <strong>Rune.</strong></p>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">A creature can choose to auto fail the save.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">If a creature feels something is off and goes to detect a hidden <strong>Rune,</strong> they must succeed on a Wisdom (Perception) check against your Mimic level + your Proficiency + your <strong>Rune Hunger Die.</strong></p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "destiny",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "Am52uJnFprWz3Gtx",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260408981,
+        "modifiedTime": 1693268568019,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - BEACON",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 10</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Indefinite, but <strong>Rune Hunger Die</strong> are rolled at the end of their turns until used</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> The <strong>Rune Bearer</strong> gains advantage on their next Aid roll.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Alternatively, as a reaction, the <strong>Rune Bearer</strong> may also shout encouragement to another creature within 30 feet of them to give the other creature advantage on an ability check.</p>\n</li>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "suniu7DLrNIz5hbZ",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.1",
+        "coreVersion": "11.309",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1695521462873,
+        "lastModifiedBy": "mLvTcWuxPQQUqru2"
+      }
+    },
+    {
+      "name": "Insatiable Rune - Hunger Die",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "J8Cbwn36o4jrY867": {
+            "name": "Rune Hunger Die",
+            "consumers": {
+              "FSt5UB1oYkH1Y9Ez": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "special"
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creature",
+              "quantity": 1
+            },
+            "ranges": {
+              "JDYLzDzwG9K3tNeR": {
+                "range": "fiveFeet"
+              }
+            },
+            "rolls": {
+              "TvhuXBtT9eEYanzu": {
+                "type": "damage",
+                "default": true,
+                "label": "Rune Hunger Die",
+                "formula": "1d4",
+                "damageType": "necrotic",
+                "canCrit": false
+              }
+            },
+            "description": "<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Each Round, if there are creatures within 5 feet of you, you must feed on at least one of them for unblockable damage dealt by your&nbsp;<strong>Rune Hunger Die</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You may also do this if anyone enters or leaves your immediate 5 foot feeding perimeter.</p>\n</li>\n</ul>",
+            "area": {
+              "shape": "circle",
+              "quantity": 1,
+              "placeTemplate": false,
+              "radius": 5
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">??? ??? ? ????? ? ????????? ? ????? <strong>??? ??????? ??????? </strong>???????? ??? ? ?? ? ? ??????? ???? <strong>????? ?????</strong>&nbsp;an unquenchable hunger for the life force of others.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You may choose every target within 5 feet of you to use this on, but never less than 1.</p>\n</li>\n</ul>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Each Round, if there are creatures within 5 feet of you, you must feed on at least one of them for unblockable Necrotic damage dealt by your&nbsp;<strong>Rune Hunger Die</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You may also do this if anyone enters or leaves your immediate 5 foot feeding perimeter.</p>\n</li>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "Rw2CmgVVEJdLdJFr",
+      "img": "icons/creatures/webs/web-thin-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "id": "bea777f5-8d07-4ad3-b1d0-41165177066c",
+          "label": "Insatiable Rune - Hunger Die",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "menu": "range",
+          "primary": {
+            "video": {
+              "dbSection": "range",
+              "menuType": "weapon",
+              "animation": "lasershot",
+              "variant": "01",
+              "color": "purple",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "contrast": 0.32,
+              "delay": 0,
+              "elevation": 1000,
+              "isReturning": false,
+              "isWait": false,
+              "onlyX": false,
+              "opacity": 1,
+              "playbackRate": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "tint": true,
+              "tintColor": "#b80ff5",
+              "zIndex": 1,
+              "saturation": 0.26,
+              "reverse": true
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "lightning",
+              "animation": "strike",
+              "variant": "01",
+              "color": "purple",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": true,
+            "video": {
+              "dbSection": "static",
+              "menuType": "magicsign",
+              "animation": "necromancy",
+              "variant": "runecomplete",
+              "color": "purple",
+              "enableCustom": true,
+              "customPath": "jb2a.magic_signs.rune.necromancy.complete.purple"
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": true,
+            "video": {
+              "dbSection": "static",
+              "menuType": "energy",
+              "animation": "strands",
+              "variant": "01",
+              "color": "purple",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 4,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": true,
+          "fromAmmo": false,
+          "version": 5
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.1",
+        "coreVersion": "11.309",
+        "createdTime": 1693260976576,
+        "modifiedTime": 1695521039462,
+        "lastModifiedBy": "mLvTcWuxPQQUqru2"
+      }
+    },
+    {
+      "name": "RL - POWDER KEG",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 15</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until they&rsquo;re hit with fire.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> The <strong>Rune Bearer</strong> becomes incendiary and bursts when struck with fire.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Each creature, including the <strong>Rune Bearer,</strong> and objects within 10 feet of them takes damage equal to your <strong>Rune Hunger</strong> Die in Fire damage.</p>\n</li>\n</ul>\n<p dir=\"ltr\" role=\"presentation\">&nbsp;</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "K3nZ4FORyqKSbDfe",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693263053165,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - CHAINS",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 10</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> until any within the chain rolls to save</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> The <strong>Rune Bearer</strong> is grappled by spiritual chains that emerge from the ground.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">The <strong>Rune Bearer</strong> can make a Strength saving throw at the beginning of each of its turns to end the condition.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check against your Mimic Level + your Proficiency <strong>+ Rune Hunger Die</strong> to escape.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Your usual advantage applies.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">As a reaction, you may use the spiritual chains to carve the <strong>Rune</strong> into another creature within 5 feet of the first.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 5</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Note:</strong> You do not roll your <strong>Rune Hunger Die</strong> against that creature.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">This can continue from the new <strong>Rune Bearer</strong> as an additional reaction and so on until any of the Rune Bearers breaks free.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">When one Rune Bearer breaks free, they all do, so beware.</p>\n</li>\n</ul>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "vdDAKUj9bOWHPAPU",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693268785503,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - CONDUIT",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 15</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until they&rsquo;re hit by electrical damage.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> The target becomes a conduit for electrical damage.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">When they take Lightning damage, they take half the damage and become ground 0 for the ability.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">This essentially means, if the creature who cast the lightning ability in the first place has a reach of 30, that creature then chooses a new target within 30 feet of the <strong>Conduit Rune.</strong></p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "PfA58Wlk4aT9YZsk",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693268840373,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - DREAD",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 15</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until they&rsquo;re hit by electrical damage.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> The target becomes a conduit for electrical damage.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">When they take Lightning damage, they take half the damage and become ground 0 for the ability.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">This essentially means, if the creature who cast the lightning ability in the first place has a reach of 30, that creature then chooses a new target within 30 feet of the <strong>Conduit Rune.</strong></p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "Vdo0iGv2uCODVkt6",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693268850521,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - OBSCURE",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 10</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until they&rsquo;re revealed by any means.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> You make the <strong>Rune Bearer</strong> more difficult to see.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Until their next turn, the target has advantage on Dexterity (Stealth) checks.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Wisdom (Perception) made to perceive the target has disadvantage when relying on sight.</p>\n</li>\n</ul>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "ZwboiDpldxCLtJkE",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693269090991,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - REPEL THE DARK",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 20</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until the end of their next turn</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> The <strong>Rune Bearer</strong> gains protection from aberrations, fiends, and undead.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Creatures of those types have disadvantage on attack rolls against the <strong>Rune Bearer.</strong></p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Those creatures cannot come within 10 feet of the <strong>Rune Bearer.</strong></p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Applies if the <strong>Rune Bearer</strong> is the ground or an object as well.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">The <strong>Rune Bearer</strong> can&rsquo;t be charmed, frightened, or possessed by these creatures.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">If the <strong>Rune Bearer</strong> is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">Can be used on the ground, and ends at the end of the next round.</p>\n</li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "FEOI6mr6vcxMI5FA",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693269315036,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - FRICTION",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 10</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until the end of their next turn</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> If the <strong>Rune Bearer</strong> moves further than 5 feet on their turn, you may roll your <strong>Rune Hunger Die</strong> against them.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "3wYQmmi6Nmd7O138",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693269487755,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - ELEMENTS",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 20</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until the end of their next turn</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> The <strong>Rune Bearer</strong> gains the benefits of the protection from elemental spells.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">They have advantage on saving throws.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">They take half damage on a failure.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">They take no damage on a success.</p>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "O8jyCJliXoFLkkHl",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693269528196,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - GUARD",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 10</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until the end of their next turn</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> Roll your <strong>Rune Hunger Die</strong> and give a spiritual shield that completely absorbs the damage from whatever attempts to harm them next.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Note:</strong> If an attack does multiple strikes, only the damage from the first is absorbed.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong id=\"docs-internal-guid-7541bb81-7fff-4b4b-3e3b-bb624c27601b\">Example: </strong>Only one magic missile out of a cluster would be absorbed.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "5qvfNSWqhCIEyBQH",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693269744230,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "RL - GUIDE",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "91bDmK7xDTK4MLAC": {
+            "name": "Execute",
+            "consumers": {
+              "QjTTmoJVrqASyq1e": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Rune Pool:</strong> 10</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Lasts:</strong> Until the end of their next turn</p>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Effect:</strong> Roll your <strong>Rune Hunger Die</strong> and give a spiritual shield that completely absorbs the damage from whatever attempts to harm them next.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong>Note:</strong> If an attack does multiple strikes, only the damage from the first is absorbed.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\"><strong id=\"docs-internal-guid-7541bb81-7fff-4b4b-3e3b-bb624c27601b\">Example: </strong>Only one magic missile out of a cluster would be absorbed.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 1,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "IXvBaxGMdk2aAvu8",
+      "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.14.11",
+        "coreVersion": "11.308",
+        "createdTime": 1693260505320,
+        "modifiedTime": 1693269754703,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Ambush",
+      "type": "maneuver",
+      "system": {
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">If a creature picks you up, you may immediately start your turn and cause a Surprise Round for you and your party.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">Your first action is a free action and does not count against your reactions.</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "GpUaIqA6CFdMngIG",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Ambush.jpg",
+      "effects": [
+        {
+          "icon": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Ambush.jpg",
+          "origin": "Actor.Zhey6eeVKvfm8rxz.Item.GpUaIqA6CFdMngIG",
+          "flags": {
+            "a5e": {
+              "sort": 0,
+              "transferType": "onUse"
+            }
+          },
+          "transfer": false,
+          "name": "New Effect",
+          "_id": "htMVv1li1OLG8Jr5",
+          "changes": [
+            {
+              "key": "",
+              "value": "",
+              "mode": null,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>No description available.</p>",
+          "statuses": []
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.1",
+        "coreVersion": "11.309",
+        "createdTime": 1695592519287,
+        "modifiedTime": 1695593925349,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Amorphous Form",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Your form is unusual, and comes with a few Advantages/Disadvantages.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<h1 dir=\"ltr\" role=\"presentation\"><strong>Advantages:</strong></h1>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<h2 dir=\"ltr\" role=\"presentation\"><strong>Toss me Around</strong></h2>\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Immune to falling damage.</p>\n</li>\n<li>You are immune to the Prone condition.</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<h2 dir=\"ltr\" role=\"presentation\"><strong>Stomach Acid</strong></h2>\n<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Immune to acid damage, due to your stomach section literally being full of acid.</p>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<h2 dir=\"ltr\" role=\"presentation\"><strong>Itty Bitty Limited Space</strong></h2>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You can fit yourself through gaps 6 inches in height, and 1 foot wide.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You can pull yourself through a cylinder with a 10 inch circumference.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<h2 dir=\"ltr\" role=\"presentation\"><strong>Darkvision</strong></h2>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">You can&rsquo;t discern color in darkness, but everything is a shade of leather tan instead of the usual Darkvision gray.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<h2 dir=\"ltr\" role=\"presentation\"><strong>False Appearance</strong></h2>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">While motionless in object form, you appear indistinguishable from an ordinary Traveler&rsquo;s Pack.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You must spend one minute motionless before this ability takes effect.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">You must maintain concentration during that time, as if you were casting a spell.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">They must not have seen you as a mimic to fall for this.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li dir=\"ltr\" aria-level=\"2\">\n<h1 dir=\"ltr\" role=\"presentation\"><strong>Disadvantages:</strong></h1>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<h2><strong>What I'ma Do With That?</strong></h2>\n<ul>\n<li>You have no hands to grip weapons, wear shields, or use items which require manipulation (spellcasting foci, wands, tools, etc.)</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You are unable to wear armor or use shields.</p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "class",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "AE0HKKPeDLpMx136",
+      "img": "icons/skills/trades/textiles-stitching-leather-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.2",
+        "coreVersion": "11.309",
+        "createdTime": 1695593993128,
+        "modifiedTime": 1695648819397,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Multi Stomachs",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">When opened, there are two chambers inside:</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<h2 dir=\"ltr\" role=\"presentation\"><strong>Stomach</strong></h2>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Your larger pocket is filled with stomach acid and digests anything and everything put into it.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">AKA: If someone tries to reach in there to steal from the character wearing ????, they&rsquo;re going to lose the hand.</p>\n</li>\n</ul>\n</ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<h2 dir=\"ltr\" role=\"presentation\"><strong>Greater Bag of Holding</strong></h2>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">The pocket itself only appears to be a few inches deep, but is a portal to a void roughly the size of a house where Matthias dwells.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"5\">\n<p dir=\"ltr\" role=\"presentation\">???? sits inside magically manipulating items ???? believes might be helpful.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"6\">\n<p dir=\"ltr\" role=\"presentation\">When ???? being cheeky, ???? might simply toss up items that are clearly unhelpful to screw with those wearing ????.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"7\">\n<p dir=\"ltr\" role=\"presentation\">???? spent an eternity trapped as this bag, of course ???? going to mess around to entertain herself on occasion.</p>\n</li>\n</ul>\n</ul>\n</ul>\n</ul>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "class",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "vC79iLm4Xq2OH5zV",
+      "img": "icons/magic/acid/projectile-glowing-bubbles.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.1",
+        "coreVersion": "11.309",
+        "createdTime": 1695594604901,
+        "modifiedTime": 1695594852436,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Inert",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "qOroTRZkwv62KjEW": {
+            "name": "Execute",
+            "consumers": {
+              "ZiR1GsXDamQJwKfX": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">All that time alone in the cave taught you how to fall into a state of inertness, shutting down your <strong>Insatiable Rune</strong> by dropping your Rune Pool to 0.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You do this as a free action and may use up any reactions you currently have remaining before you activate it.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">This ends your ability to aid those you&rsquo;re attached to in any way, including your <strong>Aura</strong>.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Essentially you become a regular <strong>Traveler&rsquo;s Pack</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">They may still retrieve items from you as they would any other pack.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You unconsciously absorb information from around you, rousing when a team member uses their action or reaction to place a hand to your&nbsp;<strong>Insatiable Rune</strong>.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"4\">\n<p dir=\"ltr\" role=\"presentation\">Your <strong>Rune Hunger Die</strong> roll against them, even if they&rsquo;ve already been rolled this round.</p>\n</li>\n</ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">During this time, only magic can detect that you&rsquo;re a <strong>Mimic</strong>.</p>\n</li>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">This also triggers if you take damage that reduces your Rune Pool to 0.</p>\n</li>\n</ul>\n</ul>\n<p>&nbsp;</p>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "Y7PyPQl46iYuFvF9",
+      "img": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Inert.jpg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.1",
+        "coreVersion": "11.309",
+        "createdTime": 1695594985058,
+        "modifiedTime": 1695595375874,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Rune Pool",
+      "type": "feature",
+      "system": {
+        "ac": {
+          "baseFormula": "",
+          "formula": "",
+          "grantsDisadvantage": false,
+          "maxDex": 0,
+          "minStr": 0,
+          "mode": 2,
+          "requiresNoShield": false,
+          "requiresUnarmored": false
+        },
+        "actions": {},
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">The <strong>Mimic Rune </strong>only hosts one creature as its primary captive, and therefore the life force absorbed from others builds up as a separate force.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You gather energy equal to the life force absorbed by <strong>Insatiable Rune</strong> into your <strong>Rune Pool.</strong></p>\n</li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "featureType": "class",
+        "grants": {},
+        "prerequisite": "",
+        "requiresBloodied": false,
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "S3PZ0Lu4uR65wpAO",
+      "img": "icons/magic/death/skull-weapon-staff-glow-pink.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.1",
+        "coreVersion": "11.309",
+        "createdTime": 1695595406731,
+        "modifiedTime": 1695595494438,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Adhesive",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "TuFx6f6emyeJPMHX": {
+            "name": "Adhesive",
+            "consumers": {
+              "0DmFJuczzk5zTIui": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "activation": {
+              "type": "reaction",
+              "cost": 1,
+              "reactionTrigger": "Something your size or larger is within reach"
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "target": {
+              "type": "creatureObject",
+              "quantity": 1
+            },
+            "ranges": {
+              "DchlJ1Xa0sk7zVN0": {
+                "range": "fiveFeet"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">As a reaction, you may adhere to a creature or object within 5 feet of you as long as the thing you&rsquo;re adhering to is larger than you.</p>\n</li>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "kTFvAQPnPXlbMWd3",
+      "img": "icons/creatures/slimes/slime-giant-face-eyes.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.1",
+        "coreVersion": "11.309",
+        "createdTime": 1695595520764,
+        "modifiedTime": 1695595742889,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "K5G7ilnCbTx2e5YC": {
+            "name": "Bite",
+            "consumers": {
+              "5LMp8yKDWZr4aWkj": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "rolls": {
+              "yOjhFy7InCvQ9phX": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "none",
+                "label": "Bite Roll"
+              },
+              "xEVwWxSCyLYxtadM": {
+                "type": "damage",
+                "default": true,
+                "label": "Bite Acid Damage"
+              },
+              "LIPGHKE0HYjptRuJ": {
+                "type": "damage",
+                "default": true
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">Those who find themselves attached to you might feel your razor sharp, needle teeth penetrating their flesh, taking 1d4 piercing damage and 1d4 acid damage.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You reroll <strong>Rune Hunger Die</strong> against them, even if they&rsquo;ve already been rolled.</p>\n</li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "TXhzZIhDhqLXwNsf",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "id": "fcf4174f-ac8f-4a54-a3f9-ab26b3cb7d31",
+          "label": "Bite",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "meleeSwitch": {
+            "video": {
+              "dbSection": "range",
+              "menuType": "weapon",
+              "animation": "arrow",
+              "variant": "regular",
+              "color": "regular"
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "detect": "automatic",
+              "range": 2,
+              "returning": false,
+              "switchType": "on"
+            }
+          },
+          "menu": "melee",
+          "primary": {
+            "video": {
+              "dbSection": "melee",
+              "menuType": "creature",
+              "animation": "bite",
+              "variant": "01",
+              "color": "red",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75,
+              "file": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/Mth%20-%20Bite%201.wav"
+            },
+            "options": {
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "isWait": false,
+              "opacity": 1,
+              "playbackRate": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 3,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": true,
+          "fromAmmo": false,
+          "version": 5
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.2",
+        "coreVersion": "11.309",
+        "createdTime": 1695595763775,
+        "modifiedTime": 1695648576764,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    },
+    {
+      "name": "Razer Straps",
+      "type": "maneuver",
+      "system": {
+        "actions": {
+          "o57d1P8vqgX1Hzyq": {
+            "name": "Razer Straps",
+            "consumers": {
+              "uzyxxsMSmyH5TzJv": {
+                "resource": "exertion",
+                "quantity": 1,
+                "type": "resource"
+              }
+            },
+            "descriptionOutputs": [
+              "action"
+            ],
+            "activation": {
+              "type": "reaction",
+              "cost": 1,
+              "reactionTrigger": "You're a Mimic! Swing Baby, Swing!"
+            },
+            "duration": {
+              "unit": "instantaneous"
+            },
+            "ranges": {
+              "XOMxOWqobTp4iYNP": {
+                "range": "fiveFeet"
+              }
+            },
+            "target": {
+              "type": "creatureObject",
+              "quantity": 1
+            },
+            "rolls": {
+              "6dxJohcj22J8TLge": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "none",
+                "label": "Razer Strap Attack Roll"
+              },
+              "QPNMS13ZVh54I5z1": {
+                "type": "attack",
+                "default": true,
+                "attackType": "meleeWeaponAttack",
+                "proficient": true,
+                "ability": "none",
+                "label": "Razer Strap Attack Roll Damage"
+              },
+              "dC7aHsEyHejGWgJV": {
+                "type": "damage",
+                "default": true,
+                "label": "Razer Strap Damage Roll",
+                "formula": "2d4",
+                "damageType": "slashing"
+              }
+            },
+            "prompts": {
+              "XgJhmAWG221BLz26": {
+                "type": "savingThrow",
+                "default": true,
+                "ability": "dex",
+                "saveDC": {
+                  "type": "maneuver",
+                  "bonus": "1d4 + @prof"
+                },
+                "onSave": "Take half damage",
+                "label": "Razer Strap Saving Throw"
+              }
+            }
+          }
+        },
+        "description": "<ul>\n<li dir=\"ltr\" aria-level=\"2\">\n<p dir=\"ltr\" role=\"presentation\">You may attack those within your <strong>Razer Straps</strong> reach for 2d4 slashing damage.</p>\n</li>\n<ul>\n<li dir=\"ltr\" aria-level=\"3\">\n<p dir=\"ltr\" role=\"presentation\">You reroll <strong>Rune Hunger Die</strong> against them, even if they&rsquo;ve already been rolled.</p>\n</li>\n</ul>\n</ul>",
+        "favorite": false,
+        "secretDescription": "",
+        "source": "[object Object]",
+        "uses": {
+          "value": 0,
+          "max": "",
+          "per": "",
+          "recharge": {
+            "formula": "1d6",
+            "threshold": 6
+          }
+        },
+        "concentration": false,
+        "degree": 0,
+        "exertionCost": 0,
+        "isStance": false,
+        "prerequisite": "",
+        "tradition": "",
+        "schemaVersion": {
+          "version": 0.016,
+          "lastMigration": {
+            "version": {
+              "schema": 0.015,
+              "foundry": "11.315",
+              "system": "0.17.33"
+            }
+          }
+        }
+      },
+      "_id": "dojT48isukWiaFbj",
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "3DfqsEukuWkekm50": 3
+      },
+      "flags": {
+        "autoanimations": {
+          "id": "09ed9c8e-b9eb-441b-b862-657d06e43424",
+          "label": "Razer Straps",
+          "levels3d": {
+            "type": "explosion",
+            "data": {
+              "color01": "#FFFFFF",
+              "color02": "#FFFFFF",
+              "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+            },
+            "sound": {
+              "enable": false
+            },
+            "secondary": {
+              "enable": false,
+              "data": {
+                "color01": "#FFFFFF",
+                "color02": "#FFFFFF",
+                "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+              }
+            }
+          },
+          "macro": {
+            "enable": false,
+            "playWhen": "0"
+          },
+          "meleeSwitch": {
+            "video": {
+              "dbSection": "range",
+              "menuType": "weapon",
+              "animation": "arrow",
+              "variant": "regular",
+              "color": "regular"
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "detect": "automatic",
+              "range": 2,
+              "returning": false,
+              "switchType": "on"
+            }
+          },
+          "menu": "melee",
+          "primary": {
+            "video": {
+              "dbSection": "melee",
+              "menuType": "weapon",
+              "animation": "unarmedstrike",
+              "variant": "magical",
+              "color": "darkred",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": true,
+              "delay": 0,
+              "file": "https://assets.forge-vtt.com/5f2b699b9eec4462b39d0fe9/MW%20Bleed%20Hit%202.wav",
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "isWait": false,
+              "opacity": 1,
+              "playbackRate": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "secondary": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": true,
+              "isWait": false,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1.5,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "soundOnly": {
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            }
+          },
+          "source": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "isWait": true,
+              "opacity": 1,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "zIndex": 1
+            }
+          },
+          "target": {
+            "enable": false,
+            "video": {
+              "dbSection": "static",
+              "menuType": "spell",
+              "animation": "curewounds",
+              "variant": "01",
+              "color": "blue",
+              "enableCustom": false,
+              "customPath": ""
+            },
+            "sound": {
+              "enable": false,
+              "delay": 0,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "startTime": 0,
+              "volume": 0.75
+            },
+            "options": {
+              "addTokenWidth": false,
+              "anchor": "0.5",
+              "contrast": 0,
+              "delay": 0,
+              "elevation": 1000,
+              "fadeIn": 250,
+              "fadeOut": 500,
+              "isMasked": false,
+              "isRadius": false,
+              "opacity": 1,
+              "persistent": false,
+              "repeat": 1,
+              "repeatDelay": 250,
+              "saturate": 0,
+              "size": 1,
+              "tint": false,
+              "tintColor": "#FFFFFF",
+              "unbindAlpha": false,
+              "unbindVisibility": false,
+              "zIndex": 1
+            }
+          },
+          "isEnabled": true,
+          "isCustomized": true,
+          "fromAmmo": false,
+          "version": 5
+        }
+      },
+      "_stats": {
+        "systemId": "a5e",
+        "systemVersion": "0.15.2",
+        "coreVersion": "11.309",
+        "createdTime": 1695647371640,
+        "modifiedTime": 1695648596929,
+        "lastModifiedBy": "3DfqsEukuWkekm50"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": "6lk35wzN3iW1JeO5",
+  "flags": {
+    "core": {
+      "sheetClass": "a5e.ActorSheet5eCharacter"
+    },
+    "ffs": {
+      "freeform": {
+        "config": {
+          "scale": 1,
+          "filter": ""
+        }
+      }
+    },
+    "mountup": {
+      "isamount": false,
+      "lockrider": false,
+      "iconhud": "0"
+    },
+    "introduce-me": {
+      "flavor": "????????????????????????????????????????????",
+      "introduction-duration": "2",
+      "introduction-colors": {
+        "background": "#1d2849",
+        "text": "#d6cabd",
+        "clip": true,
+        "template": null
+      }
+    },
+    "a5e": {
+      "currentTab": "effects",
+      "sheetIsLocked": false,
+      "trackInventoryWeight": false,
+      "showXP": false,
+      "sortMode": {},
+      "filters": {}
+    },
+    "exportSource": {
+      "world": "gebkasarty",
+      "system": "a5e",
+      "coreVersion": "11.315",
+      "systemVersion": "0.17.33"
+    }
+  },
+  "_stats": {
+    "systemId": "a5e",
+    "systemVersion": "0.17.33",
+    "coreVersion": "11.315",
+    "createdTime": 1695592519287,
+    "modifiedTime": 1713364252750,
+    "lastModifiedBy": "3DfqsEukuWkekm50"
+  }
+}

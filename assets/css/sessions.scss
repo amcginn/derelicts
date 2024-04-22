@@ -1,0 +1,121 @@
+---
+---
+
+#main_content > ul, #main_content > ul li {
+  list-style: none;
+}
+
+.inner {
+    padding: 0 1rem;
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 60rem;
+}
+
+.icon {
+  float: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: mediumblue;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 4px;
+  width: 2.5em;
+  height: 2.5em;
+  align-self: center;
+  box-shadow: rgba(0, 0, 205, .5) -1px 1px 1px, 
+              rgba(0, 0, 205, .5) -1px -1px 1px,
+              rgba(0, 0, 205, .5) 1px 1px 1px,
+              rgba(0, 0, 205, .5) 1px -1px 1px;
+}
+
+.icon-minotaur { background-image: url("{{ '/assets/img/minotaur.png' | relative_url }}");} /* Mogli */
+.icon-squirrel { background-image: url("{{ '/assets/img/squirrel.png' | relative_url }}");} /* Nepnik */
+.icon-barn-owl { background-image: url("{{ '/assets/img/barn-owl.png' | relative_url }}");} /* Myra */
+.icon-shark-jaws { background-image: url("{{ '/assets/img/shark-jaws.png' | relative_url }}");} /* Hákarl */
+.icon-dragon-orb { background-image: url("{{ '/assets/img/dragon-orb.png' | relative_url }}");} /* Gróa */
+.icon-bear-head { background-image: url("{{ '/assets/img/bear-head.png' | relative_url }}");} /* Merrek */
+.icon-knapsack { background-image: url("{{ '/assets/img/knapsack.png' | relative_url }}");} /* bag */
+.icon-fenrir { background-image: url("{{ '/assets/img/fenrir.png' | relative_url }}");} /* Fenrir */
+.icon-white-blades { background-image: url("{{ '/assets/img/white-blades.png' | relative_url }}");} /* white blades */
+
+bag, fenrir, fiioria, groa, hakarl, merrek, mogli, myra, nepnik {
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(63, 63, 63);
+}
+
+fiioria {
+}
+
+bag::before {
+  background-color: var(--color-bag);
+}
+
+fenrir::before {
+  background-image: url("/derelicts-quickref/assets/img/fenrir.png");
+  background-size: cover;
+  border-radius: 0 !important;
+  height: 1.14em !important;
+  width: 1.14em !important;
+}
+
+fiioria::before {
+  background-color: var(--color-fiioria);
+}
+
+groa::before {
+  animation: spin 2s linear infinite 0s;
+  height: 1em !important;
+  width: 1em !important;
+  background: 
+    linear-gradient(217deg, rgba(255, 0, 0, 70%), rgba(255, 0, 0, 0%) 70.71%),
+    linear-gradient(127deg, rgba(0, 206, 220, 75%), rgba(0, 206, 220, 0%) 70.71%),
+    linear-gradient(336deg, rgba(112, 128, 224, 100%), rgba(123, 128, 224, 0%) 70.71%);
+}
+
+hakarl::before {
+  background-color: var(--color-hakarl);
+}
+
+merrek::before {
+  background-color: var(--color-merrek);
+}
+
+mogli::before {
+  background-color: var(--color-groa);
+}
+
+myra::before {
+  background-color: var(--color-groa);
+}
+
+nepnik::before {
+  background-color: var(--color-groa);
+}
+
+bag::before, fenrir::before, fiioria::before, groa::before, hakarl::before, merrek::before, mogli::before, myra::before, nepnik::before {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  content: ' ';
+  display: inline-block;
+  margin-right: .4ex;
+}
+
+location {
+  color: rgb(63, 63, 63);
+  font-weight: 600;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
