@@ -59,6 +59,10 @@
   background-color: lemonchiffon;
 }
 
+.character .level > span {
+  cursor: default;
+}
+
 .character .sub-title {
   display: flex;
   flex-direction: column;
