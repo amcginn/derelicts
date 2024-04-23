@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="photo">
-        <img src="{{ character.img }}">
+        <img src="{% if character.img contains 'https://' %}{{ character.img }}{% else %}https://guardians-gebkasarty.forge-vtt.com{{ character.img }}{% endif %}">
       </div>
     </section>
     <section class="attributes">
@@ -89,7 +89,16 @@
 <!--           {{ classes }}<br>
           order: {{ item.sort | times: 2 }} -->
           <div class="title {{ classes }}">
-            <img src="{{ item.img }}" style="width: 48px; height: 48px;">
+            {% if item.img contains 'https://' -%}
+            <img src="{{ item.img }}">
+            {% else -%}
+              {% assign firstChar = item.img | slice: 0 -%}
+              {% if firstChar contains '/' -%}
+            <img src="https://guardians-gebkasarty.forge-vtt.com{{ item.img }}">
+              {% else -%}
+            <img src="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}">
+              {% endif -%}
+            {% endif -%}
             <div style="margin-left: 1rem;">
               <span>{{ item.name }}</span><br>
               <span>{{ item.type }}</span>
