@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="shield-reflect.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   width="20"
+   height="20"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="24.224384"
+     inkscape:cx="9.7009691"
+     inkscape:cy="11.393479"
+     inkscape:window-width="1392"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 0.01612097,0.288575 0,1.4661241 11.298719,8.0116149 8.8157403,8.8540033 11.252143,9.6728706 5.2084703,15.688496 4.3957794,14.875844 2.2187401,19.711425 7.4265792,17.872256 6.6867143,17.070733 13.110298,10.647063 13.636181,12.46914 14.608003,9.5717844 17.005191,8.8711342 14.574159,8.2158656 13.604123,4.8393682 13.005832,6.8808845 1.6426973,0.30748315 0.01620837,0.28864298 Z M 14.873154,2.9314325 c -0.191606,8.449e-4 -0.382154,0.00486 -0.57143,0.012722 -0.138524,0.00583 -0.276115,0.013499 -0.412823,0.023113 l 1.321793,4.6013412 4.401014,1.1862214 C 19.874121,7.1016446 19.988239,5.3594247 20,3.6759977 18.500391,3.2223674 16.754704,2.9447663 15.065023,2.9317821 c -0.064,-5.05e-4 -0.128036,-6.312e-4 -0.191908,-4.176e-4 z m -1.55949,0.088859 C 11.960581,3.1748008 10.732989,3.5343275 9.8024113,4.1145171 L 12.530273,5.6926237 13.313616,3.020292 Z m 6.267589,5.9214734 -4.355166,1.2728471 -1.646631,4.908757 -0.857276,-2.970317 -1.652554,1.652418 c 0.795783,1.495793 1.949899,2.634564 3.64496,3.282433 2.007973,-0.754336 3.323114,-2.656055 4.14571,-5.143336 0.309746,-0.936463 0.54585,-1.9503264 0.720831,-3.0028021 z"
+     fill="#ffffff"
+     fill-opacity="1"
+     id="path1"
+     style="fill:#000000;stroke-width:0.0422971"
+     inkscape:export-filename="shield-reflect.png"
+     inkscape:export-xdpi="93.229683"
+     inkscape:export-ydpi="93.229683" />
+</svg>
