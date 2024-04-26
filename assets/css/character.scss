@@ -402,11 +402,13 @@ img {
   height: 100%;
   margin-left: auto;
 }
+
 details .description-toggle::after {
   content: '►';
   transition: rotate .25s;
   display: inline-block;
 }
+
 details[open] .description-toggle::after {
   display: inline-block;
   rotate: 90deg;
@@ -418,6 +420,9 @@ details[open] .description-toggle::after {
 
 .item summary::marker {
   content: none;
+}
+.item summary::-webkit-details-marker {
+  display: none
 }
 
 .item .title {
