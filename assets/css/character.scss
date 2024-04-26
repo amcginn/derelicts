@@ -431,7 +431,7 @@ img {
 
 .item-filters:has(.objects.filtered):has(.features.filtered):has(.maneuvers.filtered):has(.spells.filtered) + .items .item-placeholder {
   display: flex;
-  width: 640px;
+  width: min(640px, 100%);
 }
 
 .item {
