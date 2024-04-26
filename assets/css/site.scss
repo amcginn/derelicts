@@ -26,16 +26,15 @@ footer {
 }
 
 #top-link-container {
-  width: 32px;
-  height: 32px;
+  
   background-color: ivory;
   border: 1px solid darkgrey;
   border-radius: 8px;
   position: fixed;
   bottom: 32px;
-  right: 30%;
+  right: 10%;
   box-sizing: border-box;
-  padding: 4px;
+  padding: 6px;
   cursor: pointer;
   display: none;
 }
@@ -44,8 +43,9 @@ footer {
   background-image: url("{{ '/assets/img/top-arrow.png' | relative_url }}");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
 }
 
 .toc ul, .toc li {
@@ -64,14 +64,14 @@ p {
   max-width: 40em;
 }
 
-.icon-minotaur { background-image: url(../img/minotaur.png);}
-.icon-squirrel { background-image: url(../img/squirrel.png);}
-.icon-barn-owl { background-image: url(../img/barn-owl.png);}
-.icon-shark-jaws { background-image: url(../img/shark-jaws.png);}
-.icon-dragon-orb { background-image: url(../img/dragon-orb.png);}
-.icon-bear-head { background-image: url(../img/bear-head.png);}
-.icon-knapsack { background-image: url(../img/knapsack.png);}
-.icon-vampire-time { background-image: url(../img/vampire-time.png);}
+.icon-minotaur { background-image: url({{ '/assets/img/minotaur.png' | relative_url }});}
+.icon-squirrel { background-image: url({{ '/assets/img/squirrel.png' | relative_url }});}
+.icon-barn-owl { background-image: url({{ '/assets/img/barn-owl.png' | relative_url }});}
+.icon-shark-jaws { background-image: url({{ '/assets/img/shark-jaws.png' | relative_url }});}
+.icon-dragon-orb { background-image: url({{ '/assets/img/dragon-orb.png' | relative_url }});}
+.icon-bear-head { background-image: url({{ '/assets/img/bear-head.png' | relative_url }});}
+.icon-knapsack { background-image: url({{ '/assets/img/knapsack.png' | relative_url }});}
+.icon-vampire-time { background-image: url({{ '/assets/img/vampire-time.png' | relative_url }});}
 
 :root {
   --color-bag: #7980ff;

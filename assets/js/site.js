@@ -3,8 +3,8 @@ $(window).on('load', function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
   });
 
-  if ($('body > #container').height() > $(window).height() * 2) {
-    $('#top-link-container').css('display', 'block')
+  if (window.scrollY > window.innerHeight * 2) {
+    document.getElementById('top-link-container').style.display = 'flex';
   }
 });
 
@@ -25,4 +25,16 @@ function createPlayerLinks() {
 
 window.addEventListener('load', () => {
   createPlayerLinks();
+});
+
+setInterval(() => {
+  if (window.scrollY > window.innerHeight) {
+    document.getElementById('top-link-container').style.display = 'flex';
+  } else {
+    document.getElementById('top-link-container').style.display = 'none';
+  }
+}, 500);
+
+window.addEventListener('load', () => {
+
 });

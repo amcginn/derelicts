@@ -79,34 +79,41 @@
       <button>placeholder</button>
     </div>
     <div class="items">
-      <ul style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 640px;">
+      <ul>
+        {% assign order = 100 -%}
         {% for item in items -%}
         {% assign classes = ' type-' | append: item.type -%}
         {% if item.system.featureType -%}
           {% assign classes = classes | append: ' featuretype-'| append: item.system.featureType -%}
         {% endif -%}
-        <li class="item" style="order: {{ item.sort | times: 2 }};">
-<!--           {{ classes }}<br>
-          order: {{ item.sort | times: 2 }} -->
-          <div class="title {{ classes }}">
-            {% if item.img contains 'https://' -%}
-            <img src="{{ item.img }}">
-            {% else -%}
-              {% assign firstChar = item.img | slice: 0 -%}
-              {% if firstChar contains '/' -%}
-            <img src="https://guardians-gebkasarty.forge-vtt.com{{ item.img }}">
+        <li class="item" style="order: {% if item.sort > 0 %}{{ item.sort }}{% else %}{{ order }}{% assign order = order | plus: 1 %}{% endif %};" item-id="desc-{{ item._id }}">
+          <details>
+            <summary>
+              <div class="title {{ classes }}">
+              {% if item.img contains 'https://' -%}
+              <source srcset="{{ item.img }}">
+              <img src="{{ item.img }}">
               {% else -%}
-            <img src="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}">
+                {% assign firstChar = item.img | slice: 0 -%}
+                {% if firstChar contains '/' -%}
+              <source srcset="https://guardians-gebkasarty.forge-vtt.com{{ item.img }}">
+              <img src="https://guardians-gebkasarty.forge-vtt.com{{ item.img }}">
+                {% else -%}
+              <source srcset="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}">
+              <img src="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}">
+                {% endif -%}
               {% endif -%}
-            {% endif -%}
-            <div style="margin-left: 1rem;">
-              <span>{{ item.name }}</span><br>
-              <span>{{ item.type }}</span>
+              <div class="item-title">
+                <span>{{ item.name }}</span>
+              </div>
+              <div class="description-toggle"></div>
             </div>
-          </div>
+          </summary>
           <div class="description">
+            <span>{{ item.type }}</span>
             {{ item.system.description }}
           </div>
+          </details>
         </li>
         {% endfor -%}
       </ul>
