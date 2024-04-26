@@ -76,30 +76,31 @@
   </div>
   <div class="column">
     <div class="item-filters">
-      <button>placeholder</button>
+      <button class="objects">Inventory</button>
+      <button class="features">Features</button>
+      <button class="maneuvers">Maneuvers</button>
+      <button class="spells">Spells</button>
     </div>
     <div class="items">
       <ul>
+        <li class="item item-placeholder">No results</li>
         {% assign order = 100 -%}
         {% for item in items -%}
         {% assign classes = ' type-' | append: item.type -%}
         {% if item.system.featureType -%}
           {% assign classes = classes | append: ' featuretype-'| append: item.system.featureType -%}
         {% endif -%}
-        <li class="item" style="order: {% if item.sort > 0 %}{{ item.sort }}{% else %}{{ order }}{% assign order = order | plus: 1 %}{% endif %};" item-id="desc-{{ item._id }}">
+        <li class="item {{ classes }}" style="order: {% if item.sort > 0 %}{{ item.sort }}{% else %}{{ order }}{% assign order = order | plus: 1 %}{% endif %};">
           <details>
             <summary>
-              <div class="title {{ classes }}">
+              <div class="title">
               {% if item.img contains 'https://' -%}
-              <source srcset="{{ item.img }}">
               <img src="{{ item.img }}">
               {% else -%}
                 {% assign firstChar = item.img | slice: 0 -%}
                 {% if firstChar contains '/' -%}
-              <source srcset="https://guardians-gebkasarty.forge-vtt.com{{ item.img }}">
               <img src="https://guardians-gebkasarty.forge-vtt.com{{ item.img }}">
                 {% else -%}
-              <source srcset="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}">
               <img src="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}">
                 {% endif -%}
               {% endif -%}

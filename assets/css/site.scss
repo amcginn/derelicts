@@ -16,6 +16,7 @@ body {
 
 #container {
   background-image: none;
+  display: flex;
 }
 
 footer {
@@ -62,6 +63,10 @@ blockquote {
 
 p {
   max-width: 40em;
+}
+
+.hidden {
+  display: none;
 }
 
 .icon-minotaur { background-image: url({{ '/assets/img/minotaur.png' | relative_url }});}
