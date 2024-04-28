@@ -424,7 +424,7 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 640px;
-  width: 640px;
+  width: min(100%, 640px);
 }
 
 .items > ul > li::after {
