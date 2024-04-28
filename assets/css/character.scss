@@ -394,6 +394,7 @@ fieldset.item-filters {
   padding: .5rem 1rem;
   margin: .25rem .5rem;
   width: fit-content;
+  cursor: pointer;
 }
 
 .item-filters input[type="checkbox"]:checked + label {
