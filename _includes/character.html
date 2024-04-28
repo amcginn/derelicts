@@ -117,14 +117,16 @@
               <img src="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}">
                 {% endif -%}
               {% endif -%}
-              <div class="item-title">
+              <div>
+                <div class="item-title">
                 <span>{{ item.name }}</span>
               </div>
               <div class="description-toggle"></div>
+              </div>
             </div>
           </summary>
           <div class="description">
-            <span>{{ item.type }}</span>
+            <!-- <span>{{ item.type }}</span> -->
             {{ item.system.description }}
           </div>
           </details>

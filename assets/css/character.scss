@@ -481,23 +481,6 @@ details {
   display: none;
 }
 
-.description-toggle {
-  width: 2rem;
-  height: 100%;
-  margin-left: auto;
-}
-
-details .description-toggle::after {
-  content: '►';
-  transition: rotate .25s;
-  display: inline-block;
-}
-
-details[open] .description-toggle::after {
-  display: inline-block;
-  rotate: 90deg;
-}
-
 .item summary {
   cursor: pointer;
 }
@@ -528,6 +511,33 @@ details[open] .description-toggle::after {
   border-radius: 50%;
   aspect-ratio: 1;
   margin-right: 1rem;
+}
+
+.item div:has(> .item-title) {
+  display: flex;
+  width: calc(100% - 50px - 1rem);
+}
+
+.description-toggle {
+  width: 2rem;
+  height: 100%;
+  margin-left: auto;
+}
+
+details .description-toggle::after {
+  content: '►';
+  transition: rotate .25s;
+  display: inline-block;
+}
+
+details[open] .description-toggle::after {
+  display: inline-block;
+  rotate: 90deg;
+}
+
+.item-title {
+  max-width: calc(100% - 2.5rem);
+  width: fit-content;
 }
 
 .item .description {
