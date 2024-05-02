@@ -47,7 +47,7 @@ ul, ul > li {
   min-width: min-content;
 }
 
-.character.container section {
+section.character.container section {
   max-width: 420px;
 }
 
@@ -81,11 +81,11 @@ ul, ul > li {
   margin: .5rem;
 }
 
-.character .info {
+section.character .info {
   width: fit-content;
 }
 
-.character .title {
+section.character .title {
   display: flex;
   padding-right: 1rem;
 }
@@ -98,7 +98,7 @@ ul, ul > li {
   padding: 0 1rem;
 }
 
-.character .name {
+section.character .name {
   font-size: 34px;
   font-weight: 900;
   line-height: 1.2;
@@ -106,7 +106,7 @@ ul, ul > li {
   padding-right: .5rem;
 }
 
-.character .level {
+section.character .level {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -122,11 +122,11 @@ ul, ul > li {
   background-color: lemonchiffon;
 }
 
-.character .level > span {
+section.character .level > span {
   cursor: default;
 }
 
-.character .sub-title {
+section.character .sub-title {
   display: flex;
   flex-direction: column;
   justify-items: right;
@@ -137,11 +137,11 @@ ul, ul > li {
   align-content: space-between;
 }
 
-.character .player {
+section.character .player {
   margin-left: auto;
 }
 
-.character .hp {
+section.character .hp {
   font-size: large;
   font-weight: bold;
 }
@@ -160,7 +160,7 @@ ul, ul > li {
   color: green;
 }
 
-.character .photo {
+section.character .photo {
   max-width: 400px;
   margin: .5rem .25rem;
 }
@@ -370,7 +370,7 @@ img {
 
 /* items */
 
-fieldset > legend {
+fieldset.item-filters > legend {
   font-style: italic;
   font-weight: bold;
   font-size: large;
@@ -409,7 +409,7 @@ fieldset.item-filters {
   color: royalblue;
 }
 
-input[type="checkbox"] {
+.item-filters input[type="checkbox"] {
   display: none;
 }
 
@@ -472,7 +472,7 @@ input[type="checkbox"] {
   width: min(640px, 100%);
 }
 
-details {
+.item details {
   width: min(640px, 100%);
 }
 

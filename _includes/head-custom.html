@@ -11,6 +11,10 @@
 {% if page.home %}
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/home.css' | relative_url }}">
 {% endif %}
+{% if page.turnTracker %}
+<link rel="stylesheet" type="text/css" href="{{ '/assets/css/turn-tracker.css' | relative_url }}">
+<script type="text/javascript" src="{{ '/assets/js/turn-tracker.js' | relative_url }}"></script>
+{% endif %}
 
 <script type="text/javascript" src="{{ '/assets/js/jquery/jquery.min.js' | relative_url }}"></script>
 <script type="text/javascript" src="{{ '/assets/js/site.js' | relative_url }}"></script>

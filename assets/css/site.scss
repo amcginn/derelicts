@@ -69,6 +69,72 @@ p {
   display: none;
 }
 
+.tracker-container {
+  min-width: 200px;
+  width: 200px;
+  position: fixed;
+  left: min(80px, 10%);
+  bottom: 0;
+  background-color: #e8e7de;
+  border: #191813 solid 1px;
+  padding: .25em;
+}
+
+.tracker-title {
+  cursor: pointer;
+  padding: .25em .5em
+}
+
+.tracker-title::before {
+  content: '►';
+  transition: rotate .25s;
+  display: inline-block;
+}
+
+details[open] .tracker-title::before {
+  display: inline-block;
+  rotate: 90deg;
+}
+
+.tracker-container summary::marker {
+  content: none;
+}
+
+.tracker-container summary::-webkit-details-marker {
+  display: none
+}
+
+details[open] .tracker-characters {
+  height: 35vh;
+}
+
+.tracker-characters {
+  overflow: scroll;
+}
+
+.tracker-characters .character {
+  display: flex;
+  margin: .25rem;
+  padding: .25rem .5rem;
+  flex-wrap: wrap;
+}
+
+.tracker-characters .character .name {
+  width: 100%;
+}
+
+.tracker-characters .character .actions {
+  display: flex;
+}
+
+.tracker-characters .character .actions .action {
+  margin: 0 .25em;
+}
+
+.tracker-characters .character .actions input {
+  margin-left: 0;
+}
+
 .icon-minotaur { background-image: url({{ '/assets/img/minotaur.png' | relative_url }});}
 .icon-squirrel { background-image: url({{ '/assets/img/squirrel.png' | relative_url }});}
 .icon-barn-owl { background-image: url({{ '/assets/img/barn-owl.png' | relative_url }});}

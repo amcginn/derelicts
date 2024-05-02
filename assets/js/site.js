@@ -23,8 +23,27 @@ function createPlayerLinks() {
   });
 }
 
+function initTurnTracker() {
+  let defaultCharacters = localStorage.getItem('default-characters');
+  if (defaultCharacters) {
+    let charactersEl = document.querySelector('.tracker-characters');
+    let newdiv = document.createElement('span');
+    newdiv.innerText = defaultCharacters;
+
+    // charactersEl.append(newdiv);
+
+  }
+
+  let turnTrackerEnabled = localStorage.getItem('turn-tracker-enabled');
+  if (turnTrackerEnabled == 'true') {
+    let trackerContainer = document.querySelector('details.tracker-container');
+    trackerContainer.classList.remove('hidden');
+  }
+}
+
 window.addEventListener('load', () => {
   createPlayerLinks();
+  initTurnTracker();
 });
 
 setInterval(() => {
@@ -34,7 +53,3 @@ setInterval(() => {
     document.getElementById('top-link-container').style.display = 'none';
   }
 }, 500);
-
-window.addEventListener('load', () => {
-
-});
