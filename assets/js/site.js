@@ -24,25 +24,21 @@ function createPlayerLinks() {
 }
 
 function initTurnTracker() {
-  let defaultCharacters = localStorage.getItem('default-characters');
-  if (defaultCharacters) {
-    let actionInputs = document.querySelectorAll('.action > input[type="checkbox"]');
+  let actionInputs = document.querySelectorAll('.action > input[type="checkbox"]');
 
-    actionInputs.forEach(function(actionInput) {
-      actionInput.checked = localStorage.getItem(actionInput.id) === "true";
-      
-      actionInput.addEventListener('change', () => {
-        localStorage.setItem(actionInput.id, actionInput.checked);
-      });
-
-      actionInput.addEventListener('click', (event) => {
-        event.stopPropagation();
-      });
+  actionInputs.forEach(function(actionInput) {
+    actionInput.checked = localStorage.getItem(actionInput.id) === "true";
+    
+    actionInput.addEventListener('change', () => {
+      localStorage.setItem(actionInput.id, actionInput.checked);
     });
 
-    // let charactersEl = document.querySelector('.tracker-characters');
+    actionInput.addEventListener('click', (event) => {
+      event.stopPropagation();
+    });
+  });
 
-  }
+  // let charactersEl = document.querySelector('.tracker-characters');
 
   let resetButton = document.querySelector('.tracker-container .buttons button.reset');
   resetButton.addEventListener('click', (event) => {
