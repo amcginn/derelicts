@@ -1,0 +1,19 @@
+button.reset {
+  padding: .5rem 1rem;
+  margin: .25rem .5rem;
+  width: fit-content;
+  cursor: pointer;
+  background-color: white;
+  border: dodgerblue solid 1px;
+  color: royalblue;
+}
+
+button.reset:active {
+  background-color: dodgerblue;
+  border-color: cornflowerblue;
+  color: white;
+}
+
+.core label {
+  display: none;
+}
