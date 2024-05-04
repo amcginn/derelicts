@@ -1,48 +1,51 @@
-const INIT_STATE = 
-  {
-    "Elrick": {
-      "action": 1,
-      "bonus": 1,
-      "free": 1,
-      "reaction": 1
-    },
-    "Gróa": {
-      "action": 1,
-      "bonus": 1,
-      "free": 1,
-      "reaction": 1
-    },
-    "Hákarl": {
-      "action": 1,
-      "bonus": 1,
-      "free": 1,
-      "reaction": 1
-    },
-    "Merrek": {
-      "action": 1,
-      "bonus": 1,
-      "free": 1,
-      "reaction": 1
-    },
-    "Mogli": {
-      "action": 1,
-      "bonus": 1,
-      "free": 1,
-      "reaction": 1
-    },
-    "Myra": {
-      "action": 1,
-      "bonus": 1,
-      "free": 1,
-      "reaction": 1
-    },
-    "Nepnik": {
-      "action": 1,
-      "bonus": 1,
-      "free": 1,
-      "reaction": 1
+function createCharListItem(name) {
+  if (name == null || name == '') {
+      return;
     }
-  };
+
+    let nameId = ''
+    if (name.includes('&')) {
+      nameId = name;
+      name = name.split('&')[0];
+    } else {
+      nameId = encodeURIComponent(name) + '&' + self.crypto.randomUUID();
+    }
+
+    let nameSpan = document.createElement('span');
+    nameSpan.classList.add('character-name');
+    nameSpan.innerText = name;
+    nameSpan.setAttribute('uuid', nameId);
+
+    let deleteBtn = document.createElement('button');
+    deleteBtn.classList.add('delete-character');
+    deleteBtn.innerText = '-';
+    deleteBtn.setAttribute('uuid', nameId);
+
+    let characterItem = document.createElement('li');
+    characterItem.classList.add('character-item');
+    characterItem.append(nameSpan, deleteBtn);
+
+    deleteBtn.addEventListener('click', () => {
+      characterItem.remove();
+      let deleteId = deleteBtn.getAttribute('uuid')
+      localStorage.removeItem(deleteId);
+
+      let characterList = localStorage.getItem('custom-characters');
+      let characters = characterList ? characterList.split(',') : [];
+
+      const index = characters.indexOf(deleteId);
+      if (index > -1) {
+        characters.splice(index, 1);
+      }
+
+      localStorage.setItem('custom-characters', characters.join());
+    });
+
+    let charList = document.querySelector('ul.character-list');
+    charList.append(characterItem);
+
+    return nameId;
+}
 
 function initForm() {
   let trackerCheckbox = document.getElementById('enable-tracker');
@@ -65,13 +68,38 @@ function initForm() {
     }
   });
 
-  // let resetBtn = document.querySelector('button.reset-turn');
+  let existingCharacters = localStorage.getItem('custom-characters');
+  if (existingCharacters) {
+    let charListEl = document.querySelector('ul.character-list');
+    let characters = existingCharacters.split(',');
+    characters.forEach((character) => {
+      createCharListItem(character);
+    });
+  }
 
-  // let revertBtn = document.querySelector('button.revert-all');
-  // revertBtn.addEventListener('click', () => {
-  //   localStorage.clear();
-  //   localStorage.setItem('defaultCharacters', JSON.stringify(INIT_STATE));
-  // });
+
+  let addBtn = document.querySelector('button.add-character');
+
+  addBtn.addEventListener('click', () => {
+    let nameInput = document.getElementById('add-character');
+    let uuid = self.crypto.randomUUID();
+
+    let name = nameInput.value.trim();
+
+    if (name == '') {
+      return;
+    }
+
+    let nameId = createCharListItem(name);
+
+    let characterList = localStorage.getItem('custom-characters');
+
+    let characters = characterList ? characterList.split(',') : [];
+    characters.push(nameId);
+    localStorage.setItem('custom-characters', characters.join());
+
+    nameInput.value = '';
+  });
 }
 
 window.addEventListener('load', initForm);

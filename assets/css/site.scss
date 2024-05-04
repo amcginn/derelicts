@@ -27,7 +27,6 @@ footer {
 }
 
 #top-link-container {
-  
   background-color: ivory;
   border: 1px solid darkgrey;
   border-radius: 8px;
@@ -78,6 +77,8 @@ p {
   background-color: #e8e7de;
   border: #191813 solid 1px;
   padding: .25em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .tracker-title {
@@ -108,8 +109,20 @@ details[open] .tracker-characters {
   height: 35vh;
 }
 
+.tracker-container button.reset {
+  margin: .25em .5em;
+  padding: .5em;
+  margin-bottom: .75rem;
+  display: flex;
+  flex-wrap: wrap;
+  border: #ccc solid 1px;
+}
+
 .tracker-characters {
   overflow: scroll;
+  border-top: #ccc solid 1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .tracker-characters .character {

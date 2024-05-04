@@ -1,13 +1,3 @@
-$(window).on('load', function() {
-  $('#top-link-container').on('click', function() {
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  });
-
-  if (window.scrollY > window.innerHeight * 2) {
-    document.getElementById('top-link-container').style.display = 'flex';
-  }
-});
-
 function createPlayerLinks() {
   let players = document.querySelectorAll('bag, fenrir, fiioria, groa, hakarl, merrek, mogli, myra, nepnik');
 
@@ -76,6 +66,15 @@ function initTurnTracker() {
 window.addEventListener('load', () => {
   createPlayerLinks();
   initTurnTracker();
+
+  let topLink = document.getElementById('top-link-container');
+  topLink.addEventListener('click', () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  });
+
+  if (window.scrollY > window.innerHeight * 2) {
+    document.getElementById('top-link-container').style.display = 'flex';
+  }
 });
 
 window.addEventListener('storage', () => {
