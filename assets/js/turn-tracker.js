@@ -1,14 +1,52 @@
+function addCharacterToModal(characterKey) {
+  let encodedName = characterKey.split('_')[0].slice(1);
+  let characterName = decodeURIComponent(encodedName);
+
+  let actions = document.createElement('div');
+  actions.className = 'actions';
+
+  Object.entries(actionTypes).forEach(([abbr, type]) => {
+    // action
+    let actionCheckbox = document.createElement('input');
+    actionCheckbox.type = 'checkbox';
+    actionCheckbox.id = characterKey + '_' + type;
+    syncActionValues(actionCheckbox);
+
+    let actionLabel = document.createElement('label');
+    actionLabel.htmlFor = characterKey + '_' + type;
+    actionLabel.innerText = abbr;
+
+    let actionDiv = document.createElement('div');
+    actionDiv.className = 'action';
+    actionDiv.title = type.slice(0, 1).toUpperCase() + type.slice(1);
+    actionDiv.append(actionLabel, actionCheckbox);
+
+    actions.append(actionDiv);
+  });
+
+  let character = document.createElement('div');
+  character.className = 'character';
+  let nameSpan = document.createElement('span');
+  nameSpan.className = 'name';
+  nameSpan.innerText = characterName;
+
+  character.append(nameSpan, actions);
+
+  let characterList = document.querySelector('.tracker-characters');
+  characterList.append(character);
+}
+
 function createCharListItem(name) {
   if (name == null || name == '') {
       return;
     }
 
     let nameId = ''
-    if (name.includes('&')) {
+    if (name.includes('_')) {
       nameId = name;
-      name = name.split('&')[0];
+      name = decodeURIComponent(name.split('_')[0]).slice(1);
     } else {
-      nameId = encodeURIComponent(name) + '&' + self.crypto.randomUUID();
+      nameId = 'x' + encodeURIComponent(name) + '_' + self.crypto.randomUUID().replaceAll('-', '');
     }
 
     let nameSpan = document.createElement('span');
@@ -30,7 +68,7 @@ function createCharListItem(name) {
       let deleteId = deleteBtn.getAttribute('uuid')
       localStorage.removeItem(deleteId);
 
-      let characterList = localStorage.getItem('custom-characters');
+      let characterList = localStorage.getItem('additional-characters');
       let characters = characterList ? characterList.split(',') : [];
 
       const index = characters.indexOf(deleteId);
@@ -38,7 +76,11 @@ function createCharListItem(name) {
         characters.splice(index, 1);
       }
 
-      localStorage.setItem('custom-characters', characters.join());
+      // currently leaves action storage items
+      localStorage.setItem('additional-characters', characters.join());
+
+      let characterModuleEl = document.querySelector('.character:has(input[id^="' + nameId + '"])');
+      characterModuleEl.remove();
     });
 
     let charList = document.querySelector('ul.character-list');
@@ -47,7 +89,27 @@ function createCharListItem(name) {
     return nameId;
 }
 
+function addEventAction() {
+  let nameInput = document.getElementById('add-character');
+  let name = nameInput.value.trim();
+
+  if (name == '') {
+    return;
+  }
+
+  let nameId = createCharListItem(name);
+  let characterList = localStorage.getItem('additional-characters');
+
+  let characters = characterList ? characterList.split(',') : [];
+  characters.push(nameId);
+  localStorage.setItem('additional-characters', characters.join());
+
+  addCharacterToModal(nameId);
+
+  nameInput.value = '';
+}
 function initForm() {
+  // enable tracker
   let trackerCheckbox = document.getElementById('enable-tracker');
   trackerCheckbox.checked = localStorage.getItem('turn-tracker-enabled') == 'true';
   
@@ -68,38 +130,31 @@ function initForm() {
     }
   });
 
-  let existingCharacters = localStorage.getItem('custom-characters');
-  if (existingCharacters) {
+  // show additional characters
+  let additionalCharacters = localStorage.getItem('additional-characters');
+  if (additionalCharacters) {
     let charListEl = document.querySelector('ul.character-list');
-    let characters = existingCharacters.split(',');
+    let characters = additionalCharacters.split(',');
     characters.forEach((character) => {
       createCharListItem(character);
     });
   }
 
-
+  // init add character button
   let addBtn = document.querySelector('button.add-character');
 
   addBtn.addEventListener('click', () => {
-    let nameInput = document.getElementById('add-character');
-    let uuid = self.crypto.randomUUID();
-
-    let name = nameInput.value.trim();
-
-    if (name == '') {
-      return;
-    }
-
-    let nameId = createCharListItem(name);
-
-    let characterList = localStorage.getItem('custom-characters');
-
-    let characters = characterList ? characterList.split(',') : [];
-    characters.push(nameId);
-    localStorage.setItem('custom-characters', characters.join());
-
-    nameInput.value = '';
+    addEventAction();
   });
+
+  document.getElementById('add-character').addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    addEventAction();
+  } else if (event.key === '_') {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+  }
+});
 }
 
 window.addEventListener('load', initForm);

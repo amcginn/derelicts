@@ -13,23 +13,76 @@ function createPlayerLinks() {
   });
 }
 
+function syncActionValues(actionInput) {
+  actionInput.checked = localStorage.getItem(actionInput.id) === "true";
+  
+  actionInput.addEventListener('change', () => {
+    localStorage.setItem(actionInput.id, actionInput.checked);
+  });
+
+  actionInput.addEventListener('click', (event) => {
+    event.stopPropagation();
+  });
+}
+
+const actionTypes = { 'A': 'action', 'B': 'bonus', 'F': 'free', 'R': 'reaction' };
+
+function addCharactersToTracker() {
+  let additionalCharacters = localStorage.getItem('additional-characters');
+  if (additionalCharacters) {
+    let characters = additionalCharacters.split(',');
+
+    let characterList = document.querySelector('.tracker-characters');
+
+    characters.forEach((characterKey) => {
+      let encodedName = characterKey.split('_')[0].slice(1);
+      let characterName = decodeURIComponent(encodedName);
+
+      let actions = document.createElement('div');
+      actions.className = 'actions';
+
+      Object.entries(actionTypes).forEach(([abbr, type]) => {
+        // action
+        let actionCheckbox = document.createElement('input');
+        actionCheckbox.type = 'checkbox';
+        actionCheckbox.id = characterKey + '_' + type;
+        syncActionValues(actionCheckbox);
+
+        let actionLabel = document.createElement('label');
+        actionLabel.htmlFor = characterKey + '_' + type;
+        actionLabel.innerText = abbr;
+
+        let actionDiv = document.createElement('div');
+        actionDiv.className = 'action';
+        actionDiv.title = type.slice(0, 1).toUpperCase() + type.slice(1);
+        actionDiv.append(actionLabel, actionCheckbox);
+
+        actions.append(actionDiv);
+      });
+
+      let character = document.createElement('div');
+      character.className = 'character';
+      let nameSpan = document.createElement('span');
+      nameSpan.className = 'name';
+      nameSpan.innerText = characterName;
+
+      character.append(nameSpan, actions);
+      characterList.append(character);
+    });
+  }
+}
+
 function initTurnTracker() {
   let actionInputs = document.querySelectorAll('.action > input[type="checkbox"]');
 
   actionInputs.forEach(function(actionInput) {
-    actionInput.checked = localStorage.getItem(actionInput.id) === "true";
-    
-    actionInput.addEventListener('change', () => {
-      localStorage.setItem(actionInput.id, actionInput.checked);
-    });
-
-    actionInput.addEventListener('click', (event) => {
-      event.stopPropagation();
-    });
+    syncActionValues(actionInput);
   });
 
-  // let charactersEl = document.querySelector('.tracker-characters');
+  // additional characters
+  addCharactersToTracker()
 
+  // reset
   let resetButton = document.querySelector('.tracker-container .buttons button.reset');
   resetButton.addEventListener('click', (event) => {
     let actionInputs = document.querySelectorAll('.action > input[type="checkbox"]');
@@ -43,7 +96,7 @@ function initTurnTracker() {
     event.stopPropagation();
   });
 
-
+  // open/close
   let trackerDetails = document.querySelector('details.tracker-container');
   let trackerDetailsSummary = document.querySelector('details.tracker-container > summary');
   trackerDetailsSummary.addEventListener('click', () => {
@@ -63,10 +116,7 @@ function initTurnTracker() {
   }
 }
 
-window.addEventListener('load', () => {
-  createPlayerLinks();
-  initTurnTracker();
-
+function addTopLinkAnchor() {
   let topLink = document.getElementById('top-link-container');
   topLink.addEventListener('click', () => {
     window.scrollTo({top: 0, behavior: 'smooth'});
@@ -75,6 +125,12 @@ window.addEventListener('load', () => {
   if (window.scrollY > window.innerHeight * 2) {
     document.getElementById('top-link-container').style.display = 'flex';
   }
+}
+
+window.addEventListener('load', () => {
+  createPlayerLinks();
+  initTurnTracker();
+  addTopLinkAnchor();
 });
 
 window.addEventListener('storage', () => {
@@ -99,4 +155,4 @@ setInterval(() => {
   } else {
     document.getElementById('top-link-container').style.display = 'none';
   }
-}, 500);
+}, 1000);
