@@ -10,6 +10,9 @@ article.tracker > header {
   flex-wrap: wrap;
   padding: .5rem;
   width: 100%;
+  border-bottom: #ccc solid 1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 button.add-character, button.delete-character {
@@ -58,6 +61,8 @@ button.delete-character {
 .custom-char-container {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
+  margin: 1rem 0;
 }
 
 .custom-char-container ul, .custom-char-container li {
