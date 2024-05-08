@@ -19,6 +19,10 @@ body {
   display: flex;
 }
 
+input[type="text"] {
+  font-size: 1.1em;
+}
+
 footer {
   font-size: small;
   font-variant: small-caps;
