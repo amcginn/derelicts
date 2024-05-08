@@ -56,7 +56,7 @@ bag::before {
 }
 
 fenrir::before {
-  background-image: url("/derelicts-quickref/assets/img/fenrir.png");
+  background-image: url("{{ '/assets/img/fenrir.png' | relative_url }}");
   background-size: cover;
   border-radius: 0 !important;
   height: 1.14em !important;
