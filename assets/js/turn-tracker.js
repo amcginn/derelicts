@@ -36,6 +36,7 @@ function addCharacterToModal(characterKey) {
   characterList.append(character);
 }
 
+const actions = [ 'action', 'bonus', 'free', 'reaction' ];
 function createCharListItem(name) {
   if (name == null || name == '') {
       return;
@@ -76,8 +77,10 @@ function createCharListItem(name) {
         characters.splice(index, 1);
       }
 
-      // currently leaves action storage items
       localStorage.setItem('additional-characters', characters.join());
+      actions.forEach((action) => {
+        localStorage.removeItem(deleteId + '_' + action);
+      });
 
       let characterModuleEl = document.querySelector('.character:has(input[id^="' + nameId + '"])');
       characterModuleEl.remove();
@@ -85,6 +88,15 @@ function createCharListItem(name) {
 
     let charList = document.querySelector('ul.character-list');
     charList.append(characterItem);
+
+    // default actions to checked
+    actions.forEach((action) => {
+      let actionId = nameId + '_' + action;
+      let x = localStorage.getItem(actionId);
+      if (x === null) {
+        localStorage.setItem(actionId, 'true');
+      }
+    });
 
     return nameId;
 }
@@ -108,6 +120,7 @@ function addEventAction() {
 
   nameInput.value = '';
 }
+
 function initForm() {
   // enable tracker
   let trackerCheckbox = document.getElementById('enable-tracker');
