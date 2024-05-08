@@ -26,6 +26,8 @@ function addCharacterToModal(characterKey) {
 
   let character = document.createElement('div');
   character.className = 'character';
+  character.setAttribute('data-character-key', characterKey);
+  
   let nameSpan = document.createElement('span');
   nameSpan.className = 'name';
   nameSpan.innerText = characterName;
