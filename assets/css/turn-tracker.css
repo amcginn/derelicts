@@ -47,6 +47,7 @@ button.delete-character {
 .character-control {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .character-control > * {
