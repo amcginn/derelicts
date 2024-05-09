@@ -33,8 +33,26 @@ function addCharactersToTracker() {
     let characters = additionalCharacters.split(',');
 
     let characterList = document.querySelector('.tracker-characters');
+    let characterEls = characterList.querySelectorAll('div > .character');
 
-    characters.forEach((characterKey) => {
+    let existingCharEls = [];
+    characterEls.forEach((characterEl) => {
+      existingCharEls.push(characterEl.dataset.characterKey);
+    });
+
+    console.log(characters);
+    console.log(existingCharEls);
+    console.log();
+
+    let intersectCharKeys = characters.filter(char => existingCharEls.includes(char));
+    let newCharKeys = characters.filter(char => !existingCharEls.includes(char));
+    let removedCharKeys = existingCharEls.filter(char => !characters.includes(char));
+
+    console.log(intersectCharKeys);
+    console.log(newCharKeys);
+    console.log(removedCharKeys);
+
+    newCharKeys.forEach((characterKey) => {
       let encodedName = characterKey.split('_')[0].slice(1);
       let characterName = decodeURIComponent(encodedName);
 
@@ -62,12 +80,19 @@ function addCharactersToTracker() {
 
       let character = document.createElement('div');
       character.className = 'character';
+      character.setAttribute('data-character-key', characterKey);
       let nameSpan = document.createElement('span');
       nameSpan.className = 'name';
       nameSpan.innerText = characterName;
 
       character.append(nameSpan, actions);
       characterList.append(character);
+    });
+
+    intersectCharKeys.forEach((characterKey) => {
+      actionTypes.forEach((action) => {
+        localStorage.getItem(characterKey + '_' + action);
+      });
     });
   }
 }
@@ -134,6 +159,7 @@ window.addEventListener('load', () => {
 });
 
 window.addEventListener('storage', () => {
+  // enable/disable 
   let trackerEnabled = window.localStorage.getItem('turn-tracker-enabled');
 
   let trackerCheckbox = document.getElementById('enable-tracker');
@@ -146,6 +172,50 @@ window.addEventListener('storage', () => {
   } else {
     if (trackerCheckbox) { trackerCheckbox.checked = false; }
     tracker.classList.add('hidden');
+  }
+
+  // update additional character list
+  let additionalCharacters = localStorage.getItem('additional-characters');
+  if (additionalCharacters) {
+    let characters = additionalCharacters.split(',');
+    
+    addCharactersToTracker();
+
+    characters.forEach((characterKey) => {
+      let encodedName = characterKey.split('_')[0].slice(1);
+      let characterName = decodeURIComponent(encodedName);
+
+      let actions = document.createElement('div');
+      actions.className = 'actions';
+
+      Object.entries(actionTypes).forEach(([abbr, type]) => {
+        // action
+        let actionCheckbox = document.createElement('input');
+        actionCheckbox.type = 'checkbox';
+        actionCheckbox.id = characterKey + '_' + type;
+        syncActionValues(actionCheckbox);
+
+        let actionLabel = document.createElement('label');
+        actionLabel.htmlFor = characterKey + '_' + type;
+        actionLabel.innerText = abbr;
+
+        let actionDiv = document.createElement('div');
+        actionDiv.className = 'action';
+        actionDiv.title = type.slice(0, 1).toUpperCase() + type.slice(1);
+        actionDiv.append(actionLabel, actionCheckbox);
+
+        actions.append(actionDiv);
+      });
+
+      let character = document.createElement('div');
+      character.className = 'character';
+      let nameSpan = document.createElement('span');
+      nameSpan.className = 'name';
+      nameSpan.innerText = characterName;
+
+      character.append(nameSpan, actions);
+      characterList.append(character);
+    });
   }
 });
 
