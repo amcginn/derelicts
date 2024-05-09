@@ -113,13 +113,35 @@ details[open] .tracker-characters {
   height: 35vh;
 }
 
+.tracker-container .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .tracker-container button.reset {
-  margin: .25em .5em;
-  padding: .5em;
-  margin-bottom: .75rem;
+  margin: .25rem .5rem;
+  padding: .5rem;
   display: flex;
   flex-wrap: wrap;
   border: #ccc solid 1px;
+}
+
+.tracker-container a:has(.settings) {
+  aspect-ratio: 1;
+  height: fit-content;
+  margin: .5rem;
+}
+
+.tracker-container .settings {
+  height: 30px;
+  margin: 2px;
+  aspect-ratio: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-sizing: border-box;
 }
 
 .tracker-characters {
@@ -157,6 +179,7 @@ details[open] .tracker-characters {
 .icon-bear-head { background-image: url({{ '/assets/img/bear-head.png' | relative_url }});}
 .icon-knapsack { background-image: url({{ '/assets/img/knapsack.png' | relative_url }});}
 .icon-vampire-time { background-image: url({{ '/assets/img/vampire-time.png' | relative_url }});}
+.icon-cog { background-image: url({{ '/assets/img/cog.png' | relative_url }});}
 
 :root {
   --color-bag: #7980ff;
