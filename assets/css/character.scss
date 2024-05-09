@@ -383,9 +383,11 @@ fieldset.item-filters {
   display: flex;
   flex-wrap: wrap;
   border: #ccc solid 1px;
+  max-width: 640px;
+  box-sizing: border-box;
 }
 
-.item-filters > div {
+.item-filters > div, .item-filters .activation > div {
   height: fit-content;
   display: flex;
 }
@@ -395,12 +397,14 @@ fieldset.item-filters {
   margin: .25rem .5rem;
   width: fit-content;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .item-filters input[type="checkbox"]:checked + label {
   background-color: dodgerblue;
   border: cornflowerblue solid 1px;
   color: white;
+  text-shadow: 0 1px 0 darkblue;
 }
 
 .item-filters input[type="checkbox"]:not(:checked) + label {
@@ -411,6 +415,29 @@ fieldset.item-filters {
 
 .item-filters input[type="checkbox"] {
   display: none;
+}
+
+fieldset.item-filters .activation {
+  margin: .5rem;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+fieldset.item-filters .activation input[type="checkbox"] + label {
+  padding: .25rem .5rem;
+  margin: .125rem .25rem;
+}
+
+fieldset.item-filters .activation input[type="checkbox"]:checked + label {
+  background-color: steelblue;
+}
+
+fieldset.item-filters .activation input[type="checkbox"]:not(:checked) + label {
+  color: royalblue;
+  text-shadow: 0 1px 0 lightsteelblue;
 }
 
 .items {

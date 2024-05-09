@@ -52,4 +52,20 @@ function initFilters() {
   });
 }
 
-// window.addEventListener('load', initFilters);
+function populateActivations() {
+  let itemEls = document.querySelectorAll('.character .items li.item');
+  let jsonDataEl = document.querySelector('meta[name="json-data"]');
+  let siteHome = document.querySelector('meta[name="site-home"]').content;
+  if (!jsonDataEl) { return; }
+
+  let dataPath = siteHome + '/data/' + jsonDataEl.content + '.json';
+
+  itemEls.forEach((itemEl) => {
+    let itemId = itemEl.dataset.id;
+    if (itemId) {
+
+    }
+  });
+}
+
+window.addEventListener('load', populateActivations);
