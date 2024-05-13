@@ -490,14 +490,32 @@ fieldset.item-filters .activation input[type="checkbox"]:not(:checked) + label {
   width: max(640px, 100%);
 }
 
-.item-filters:has(#objects:checked) + .items .type-object,
-.item-filters:has(#features:checked) + .items .type-feature,
-.item-filters:has(#maneuvers:checked) + .items .type-maneuver,
-.item-filters:has(#spells:checked) + .items .type-spell
+.item-filters:has(#objects:checked):has(#activate-action:checked) + .items .activation-action.type-object,
+.item-filters:has(#objects:checked):has(#activate-bonus:checked) + .items .activation-bonusAction.type-object,
+.item-filters:has(#objects:checked):has(#activate-reaction:checked) + .items .activation-reaction.type-object,
+.item-filters:has(#objects:checked):has(#activate-special:checked) + .items .activation-special.type-object,
+.item-filters:has(#objects:checked):has(#activate-none:checked) + .items .activation-none.type-object,
+.item-filters:has(#features:checked):has(#activate-action:checked) + .items .activation-action.type-feature,
+.item-filters:has(#features:checked):has(#activate-bonus:checked) + .items .activation-bonusAction.type-feature,
+.item-filters:has(#features:checked):has(#activate-reaction:checked) + .items .activation-reaction.type-feature,
+.item-filters:has(#features:checked):has(#activate-special:checked) + .items .activation-special.type-feature,
+.item-filters:has(#features:checked):has(#activate-none:checked) + .items .activation-none.type-feature,
+.item-filters:has(#maneuvers:checked):has(#activate-action:checked) + .items .activation-action.type-maneuver,
+.item-filters:has(#maneuvers:checked):has(#activate-bonus:checked) + .items .activation-bonusAction.type-maneuver,
+.item-filters:has(#maneuvers:checked):has(#activate-reaction:checked) + .items .activation-reaction.type-maneuver,
+.item-filters:has(#maneuvers:checked):has(#activate-special:checked) + .items .activation-special.type-maneuver,
+.item-filters:has(#maneuvers:checked):has(#activate-none:checked) + .items .activation-none.type-maneuver,
+.item-filters:has(#spells:checked):has(#activate-action:checked) + .items .activation-action.type-spell,
+.item-filters:has(#spells:checked):has(#activate-bonus:checked) + .items .activation-bonusAction.type-spell,
+.item-filters:has(#spells:checked):has(#activate-reaction:checked) + .items .activation-reaction.type-spell,
+.item-filters:has(#spells:checked):has(#activate-special:checked) + .items .activation-special.type-spell,
+.item-filters:has(#spells:checked):has(#activate-none:checked) + .items .activation-none
 {
   display: inline-block;
   width: min(640px, 100%);
 }
+
+
 
 .item details {
   width: min(640px, 100%);

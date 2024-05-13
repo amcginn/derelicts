@@ -40,17 +40,17 @@ function addCharactersToTracker() {
       existingCharEls.push(characterEl.dataset.characterKey);
     });
 
-    console.log(characters);
-    console.log(existingCharEls);
-    console.log();
+    // console.log(characters);
+    // console.log(existingCharEls);
+    // console.log();
 
     let intersectCharKeys = characters.filter(char => existingCharEls.includes(char));
     let newCharKeys = characters.filter(char => !existingCharEls.includes(char));
     let removedCharKeys = existingCharEls.filter(char => !characters.includes(char));
 
-    console.log(intersectCharKeys);
-    console.log(newCharKeys);
-    console.log(removedCharKeys);
+    // console.log(intersectCharKeys);
+    // console.log(newCharKeys);
+    // console.log(removedCharKeys);
 
     newCharKeys.forEach((characterKey) => {
       let encodedName = characterKey.split('_')[0].slice(1);

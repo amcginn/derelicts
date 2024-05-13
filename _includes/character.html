@@ -15,8 +15,8 @@
           <span class="hp {% if attributes.hp.value >= attributes.hp.baseMax %}over-health{% endif %}">{{ attributes.hp.value }}/{{ attributes.hp.baseMax }}</span>
         </div>
       </div>
-      <div class="photo">
-        <img src="{% if character.img contains 'https://' %}{{ character.img }}{% else %}https://guardians-gebkasarty.forge-vtt.com{{ character.img }}{% endif %}">
+      <div class="photo" data-token-img="{{ character.prototypeToken.texture.src }}">
+        <img src="{% if character.img contains 'https://' %}{{ character.img }}{% else %}https://guardians-gebkasarty.forge-vtt.com{{ character.img }}{% endif %}" alt="Character headshot">
       </div>
     </section>
     <section class="attributes">
@@ -78,26 +78,26 @@
     <fieldset class="item-filters">
       <legend>Item Filters</legend>
       <div>
-        <input type="checkbox" id="objects" name="items" value="objects" checked />
+        <input type="checkbox" id="objects" checked />
         <label for="objects">Inventory</label>
       </div>
       <div>
-        <input type="checkbox" id="features" name="items" value="features" checked />
+        <input type="checkbox" id="features" checked />
         <label for="features">Features</label>
       </div>
       <div>
-        <input type="checkbox" id="maneuvers" name="items" value="maneuvers" checked />
+        <input type="checkbox" id="maneuvers" checked />
         <label for="maneuvers">Maneuvers</label>
       </div>
       <div>
-        <input type="checkbox" id="spells" name="items" value="spells" checked />
+        <input type="checkbox" id="spells" checked />
         <label for="spells">Spells</label>
       </div>
       <div class="activation">
         <span>Cost</span>
         <div>
           <input type="checkbox" id="activate-action" checked />
-          <label for="activate-action">Spells</label>
+          <label for="activate-action">Action</label>
         </div>
         <div>
           <input type="checkbox" id="activate-bonus" checked />

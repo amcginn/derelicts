@@ -6,12 +6,21 @@
     <meta name="site-home" content="{{ site.baseurl }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {%- if page.json_data -%}
+    {%- assign data_import = '/data/' | append: page.json_data -%}
+    {%- assign data_import = data_import | append: '.json' -%}
+    {%- assign data_import = data_import | relative_url -%}
+    <script type="text/json" src="{{ data_import }}"></script>
     <meta name="json-data" content="{{ page.json_data }}">
+    <script>
+      let charLoc = "{{ data_import }}";
+    </script>
     {%- endif -%}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/character.css' | relative_url }}">
     <script type="text/javascript" src="{{ '/assets/js/character.js' | relative_url }}"></script>
+
+
 
 {% seo %}
     {% include head-custom.html %}

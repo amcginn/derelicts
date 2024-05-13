@@ -1,71 +1,40 @@
-function initFilters() {
-  // objects
-  let objectsFilter = document.querySelector('.item-filters input.objects');
 
-  objectsFilter.addEventListener('click', () => {
-    let objectItems = document.querySelectorAll('.item.type-object');
-
-    objectItems.forEach((item) => {
-      item.classList.toggle('hidden')
-    });
-
-    objectsFilter.classList.toggle('filtered');
-  });
-
-  // features
-  let featuresFilter = document.querySelector('.item-filters input.features');
-
-  featuresFilter.addEventListener('click', () => {
-    let featureItems = document.querySelectorAll('.item.type-feature');
-
-    featureItems.forEach((item) => {
-      item.classList.toggle('hidden')
-    });
-
-    featuresFilter.classList.toggle('filtered');
-  });
-
-  // maneuvers
-  let maneuversFilter = document.querySelector('.item-filters input.maneuvers');
-
-  maneuversFilter.addEventListener('click', () => {
-    let maneuverItems = document.querySelectorAll('.item.type-maneuver');
-
-    maneuverItems.forEach((item) => {
-      item.classList.toggle('hidden')
-    });
-
-    maneuversFilter.classList.toggle('filtered');
-  });
-
-  // spells
-  let spellsFilter = document.querySelector('.item-filters input.spells');
-
-  spellsFilter.addEventListener('click', () => {
-    let spellItems = document.querySelectorAll('.item.type-spell');
-
-    spellItems.forEach((item) => {
-      item.classList.toggle('hidden')
-    });
-
-    spellsFilter.classList.toggle('filtered');
-  });
-}
 
 function populateActivations() {
-  let itemEls = document.querySelectorAll('.character .items li.item');
-  let jsonDataEl = document.querySelector('meta[name="json-data"]');
-  let siteHome = document.querySelector('meta[name="site-home"]').content;
-  if (!jsonDataEl) { return; }
+  if (!charLoc) { return; }
 
-  let dataPath = siteHome + '/data/' + jsonDataEl.content + '.json';
+  fetch(charLoc)
+      .then((rawData) =>
+        rawData.json()
+      )
+    .then((charData) => {
+      let itemEls = document.querySelectorAll('.character .items li.item:not(.item-placeholder)');
 
-  itemEls.forEach((itemEl) => {
-    let itemId = itemEl.dataset.id;
-    if (itemId) {
+      itemEls.forEach((itemEl) => {
+        let itemId = itemEl.dataset.id;
+        let classAdded = false;
+        let itemData = charData.items.filter((item) => item._id === itemId)[0];
+        // console.log(itemData);
 
-    }
-  });
+        let actionsData = Object.values(itemData.system.actions);
+        if (actionsData && actionsData.length > 0) {
+          let activationTypes = [];
+          Object.values(actionsData).forEach((action) => {
+            if (action.activation && action.activation.type) {
+              activationTypes.push(action.activation.type);
+            }
+          });
+
+          new Set(activationTypes).forEach((type) => {
+            itemEl.classList.add('activation-' + type);
+            classAdded = true;
+          });
+        }
+        if (!classAdded) {
+          itemEl.classList.add('activation-none');
+        }
+      });
+    });
 }
 
 window.addEventListener('load', populateActivations);
