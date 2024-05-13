@@ -3,6 +3,7 @@ layout: character
 title: Yákovná - Hákarl
 player: Stephen
 character: true
+json_data: hakarlyakovna
 ---
 
 <div class="character-links">

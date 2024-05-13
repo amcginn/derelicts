@@ -3,6 +3,7 @@ layout: character
 title: Claudia Kazrem Azryel - Nepnik
 player: David
 character: true
+json_data: claudiakazrem
 ---
 
 <div class="character-links subcharacter">

@@ -3,6 +3,7 @@ layout: character
 title: Mogli
 player: Jacob
 character: true
+json_data: mogli
 ---
 
 <div class="character-links">

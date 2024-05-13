@@ -3,6 +3,7 @@ layout: character
 title: Myra
 player: Jordan
 character: true
+json_data: myra
 ---
 
 <div class="character-links">

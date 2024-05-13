@@ -3,6 +3,7 @@ layout: character
 title: Nepnik
 player: David
 character: true
+json_data: nepnik
 ---
 
 <div class="character-links">

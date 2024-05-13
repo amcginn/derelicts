@@ -3,6 +3,7 @@ layout: character
 title: Corrosis - Mogli
 player: Jacob
 character: true
+json_data: corrosis
 ---
 
 <div class="character-links subcharacter">

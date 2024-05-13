@@ -3,6 +3,7 @@ layout: character
 title: Wereowl - Myra
 player: Jordan
 character: true
+json_data: myraowl
 ---
 
 <div class="character-links subcharacter">

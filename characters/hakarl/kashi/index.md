@@ -3,6 +3,7 @@ layout: character
 title: Káshi - Hákarl
 player: Stephen
 character: true
+json_data: hakarlkashi
 ---
 
 <div class="character-links subcharacter">

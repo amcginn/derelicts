@@ -3,6 +3,7 @@ layout: character
 title: Fenrir
 player: Jordan
 character: true
+json_data: fenrir
 ---
 
 <div class="character-links subcharacter">

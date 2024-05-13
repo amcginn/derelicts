@@ -3,6 +3,7 @@ layout: character
 title: Merrek
 player: Jordan
 character: true
+json_data: merrek
 ---
 
 <div class="character-links">
