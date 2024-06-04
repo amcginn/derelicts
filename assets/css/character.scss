@@ -444,6 +444,7 @@ fieldset.item-filters .activation input[type="checkbox"]:not(:checked) + label {
   background-color: #e0dfd6;
   border: #ccc solid 1px;
   padding: .5rem;
+  min-height: calc(50px + 1rem);
 }
 
 .items > ul {
@@ -452,6 +453,8 @@ fieldset.item-filters .activation input[type="checkbox"]:not(:checked) + label {
   justify-content: center;
   max-width: 640px;
   width: min(100%, 640px);
+  position: relative;
+  background-color: inherit;
 }
 
 .items > ul > li::after {
@@ -471,23 +474,21 @@ fieldset.item-filters .activation input[type="checkbox"]:not(:checked) + label {
                 rgba(204, 204, 204, 0.25) 100%);
 }
 
-.item-placeholder {
+.items .item-placeholder {
   height: calc(50px + 1rem);
-  display: none;
+  display: flex;
   border: #ccc 1px solid;
   align-items: center;
   justify-content: center;
   width: max(640px, 100%);
+  position: absolute;
+  top: 0;
+  z-index: 0;
 }
 
 .item-placeholder::after {
   display: none !important;
   content: none !important; 
-}
-
-.item-filters:not(:has(#objects:checked)):not(:has(#features:checked)):not(:has(#maneuvers:checked)):not(:has(#spells:checked)) + .items .item-placeholder {
-  display: flex;
-  width: max(640px, 100%);
 }
 
 .item-filters:has(#objects:checked):has(#activate-action:checked) + .items .activation-action.type-object,
@@ -509,13 +510,11 @@ fieldset.item-filters .activation input[type="checkbox"]:not(:checked) + label {
 .item-filters:has(#spells:checked):has(#activate-bonus:checked) + .items .activation-bonusAction.type-spell,
 .item-filters:has(#spells:checked):has(#activate-reaction:checked) + .items .activation-reaction.type-spell,
 .item-filters:has(#spells:checked):has(#activate-special:checked) + .items .activation-special.type-spell,
-.item-filters:has(#spells:checked):has(#activate-none:checked) + .items .activation-none
+.item-filters:has(#spells:checked):has(#activate-none:checked) + .items .activation-none.type-spell
 {
   display: inline-block;
   width: min(640px, 100%);
 }
-
-
 
 .item details {
   width: min(640px, 100%);
@@ -524,6 +523,9 @@ fieldset.item-filters .activation input[type="checkbox"]:not(:checked) + label {
 .item {
   width: 100%;
   display: none;
+  z-index: 1;
+  background-color: inherit;
+  position: relative;
 }
 
 .item summary {

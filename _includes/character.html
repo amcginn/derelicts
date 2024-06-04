@@ -1,7 +1,7 @@
-{% assign attributes = character.system.attributes -%}
-{% assign details = character.system.details -%}
-{% assign traits = character.system.traits -%}
-{% assign items = character.items -%}
+{%- assign attributes = character.system.attributes -%}
+{%- assign details = character.system.details -%}
+{%- assign traits = character.system.traits -%}
+{%- assign items = character.items -%}
 <section class="character container">
   <div class="column">
     <section class="info">
@@ -12,58 +12,58 @@
         </div>
         <div class="sub-title">
           <span class="player">{{ page.player }}</span>
-          <span class="hp {% if attributes.hp.value >= attributes.hp.baseMax %}over-health{% endif %}">{{ attributes.hp.value }}/{{ attributes.hp.baseMax }}</span>
+          <span class="hp {%- if attributes.hp.value >= attributes.hp.baseMax -%}over-health{%- endif -%}">{{ attributes.hp.value }}/{{ attributes.hp.baseMax }}</span>
         </div>
       </div>
       <div class="photo" data-token-img="{{ character.prototypeToken.texture.src }}">
-        <img src="{% if character.img contains 'https://' %}{{ character.img }}{% else %}https://guardians-gebkasarty.forge-vtt.com{{ character.img }}{% endif %}" alt="Character headshot">
+        <img src="{%- if character.img contains 'https://' -%}{{ character.img }}{%- else -%}https://guardians-gebkasarty.forge-vtt.com{{ character.img }}{%- endif -%}" alt="Character headshot">
       </div>
     </section>
     <section class="attributes">
       <section class="resistances">
         <section class="condition-immunities-group">
           <span>Condition Immunities</span>
-          {% if traits.conditionImmunities.size > 0 %}
+          {%- if traits.conditionImmunities.size > 0 -%}
           <div class="condition-immunities">
-            {% for immunity in traits.conditionImmunities %}
+            {%- for immunity in traits.conditionImmunities -%}
             <span class="condition-immunity {{ immunity | downcase }}">{{ immunity | capitalize }}</span>
-            {% endfor %}
+            {%- endfor -%}
           </div>
-          {% else %}
+          {%- else -%}
           <div class="resistances-none">
             <span><i>None</i></span>
           </div>
-          {% endif %}
+          {%- endif -%}
         </section>
         <div class="hr"></div>
         <section class="damage-immunities-group">
           <span>Damage Immunities</span>
-          {% if traits.damageImmunities.size > 0 %}
+          {%- if traits.damageImmunities.size > 0 -%}
           <div class="damage-immunities">
-            {% for immunity in traits.damageImmunities %}
+            {%- for immunity in traits.damageImmunities -%}
             <span class="damage-immunity {{ immunity | downcase }}">{{ immunity | capitalize }}</span>
-            {% endfor %}
+            {%- endfor -%}
           </div>
-          {% else %}
+          {%- else -%}
           <div class="resistances-none">
             <span><i>None</i></span>
           </div>
-          {% endif %}
+          {%- endif -%}
         </section>
         <div class="hr"></div>
         <section class="damage-resistances-group">
           <span>Damage Resistances</span>
-          {% if traits.damageResistances.size > 0 %}
+          {%- if traits.damageResistances.size > 0 -%}
           <div class="damage-resistances">
-            {% for resistance in traits.damageResistances %}
+            {%- for resistance in traits.damageResistances -%}
             <span class="damage-resistance {{ resistance | downcase }}">{{ resistance | capitalize }}</span>
-            {% endfor %}
+            {%- endfor -%}
           </div>
-          {% else %}
+          {%- else -%}
           <div class="resistances-none">
             <span><i>None</i></span>
           </div>
-          {% endif %}
+          {%- endif -%}
         </section>
       </section>
       <div class="movements"></div>
@@ -121,32 +121,33 @@
       <ul>
         <li class="item item-placeholder">No results</li>
         {%- assign order = 100 -%}
+
         {%- for item in items -%}
         {%- assign classes = ' type-' | append: item.type -%}
-        {%- if item.system.featureType -%}
+        {%- assign itemSystem = item.system -%}
+        {%- if itemSystem.featureType -%}
           {%- assign classes = classes | append: ' featuretype-'| append: item.system.featureType -%}
         {%- endif -%}
-        <li class="item {{ classes }}" style="order: {% if item.sort > 0 %}{{ item.sort }}{% else %}{{ order }}{% assign order = order | plus: 1 %}{% endif %};" data-id="{{ item._id }}">
+
+        <li class="item {{ classes }} " style="order: {%- if item.sort > 0 -%}{{ item.sort }}{%- else -%}{{ order }}{%- assign order = order | plus: 1 -%}{%- endif -%};" data-id="{{ item._id }}">
           <details>
-            <summary>
-              <div class="title">
-              {% if item.img contains 'https://' -%}
-              <img src="{{ item.img }}">
-              {% else -%}
-                {% assign firstChar = item.img | slice: 0 -%}
-                {% if firstChar contains '/' -%}
-              <img src="https://guardians-gebkasarty.forge-vtt.com{{ item.img }}">
-                {% else -%}
-              <img src="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}">
-                {% endif -%}
-              {% endif -%}
+            <summary class="title">
+              {%- if item.img contains 'https://' -%}
+              <img src="{{ item.img }}" alt="item photo">
+              {%- else -%}
+                {%- assign firstChar = item.img | slice: 0 -%}
+                {%- if firstChar contains '/' -%}
+              <img src="https://guardians-gebkasarty.forge-vtt.com{{ item.img }}" alt="item photo">
+                {%- else -%}
+              <img src="https://guardians-gebkasarty.forge-vtt.com/{{ item.img }}" alt="item photo">
+                {%- endif -%}
+              {%- endif -%}
               <div>
                 <div class="item-title">
                 <span>{{ item.name }}</span>
               </div>
               <div class="description-toggle"></div>
               </div>
-            </div>
           </summary>
           <div class="description">
             <!-- <span>{{ item.type }}</span> -->
@@ -154,13 +155,13 @@
           </div>
           </details>
         </li>
-        {% endfor -%}
+        {%- endfor -%} {%- comment -%}item in items{%- endcomment -%}
       </ul>
     </div>
   </div>
-  {% if details.bio != "" %}
+  {%- if details.bio != "" -%}
   <div class="column">
     {{ details.bio }}
   </div>
-  {% endif %}
+  {%- endif -%}
 </section>

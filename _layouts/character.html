@@ -9,7 +9,6 @@
     {%- assign data_import = '/data/' | append: page.json_data -%}
     {%- assign data_import = data_import | append: '.json' -%}
     {%- assign data_import = data_import | relative_url -%}
-    <script type="text/json" src="{{ data_import }}"></script>
     <meta name="json-data" content="{{ page.json_data }}">
     <script>
       let charLoc = "{{ data_import }}";
@@ -50,5 +49,4 @@
     {% include top-link.html %}
     {% include tracker-module.html %}
   </body>
-  <script type="text/javascript" src="{{ '/assets/js/character-img-lazy.js' | relative_url }}"></script>
 </html>

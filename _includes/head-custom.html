@@ -1,21 +1,23 @@
 <!-- start custom head snippets -->
-
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
 <link rel="apple-touch-icon" href="{{ '/favicon.png' | relative_url }}">
 
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/site.css' | relative_url }}">
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/breadcrumbs.css' | relative_url }}">
-{% if page.session %}
+{%- if page.session -%}
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/sessions.css' | relative_url }}">
 <script type="text/javascript" src="{{ '/assets/js/toc.js' | relative_url }}"></script>
-{% endif %}
-{% if page.home %}
+{%- endif -%}
+{%- if page.home -%}
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/home.css' | relative_url }}">
-{% endif %}
-{% if page.turnTracker %}
+{%- endif -%}
+{%- if page.turnTracker -%}
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/turn-tracker.css' | relative_url }}">
 <script type="text/javascript" src="{{ '/assets/js/turn-tracker.js' | relative_url }}"></script>
-{% endif %}
+{%- endif -%}
+{%- if page.character -%}
+<script type="text/javascript" src="{{ '/assets/js/character-img-lazy.js' | relative_url }}" defer></script>
+{%- endif -%}
 
 <script type="text/javascript" src="{{ '/assets/js/site.js' | relative_url }}"></script>
 
